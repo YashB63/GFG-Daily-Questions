@@ -43,3 +43,23 @@ Day 2:
     and then maybe strictly decreasing, find the maximum element in the array.
     
     Note: If the array is increasing then just print the last element will be the maximum value.
+
+Day 3:
+
+  Q1: How many X's:
+
+    Given two integers L, R, and digit X. Find the number of occurrences of X 
+    in all the numbers in the range (L, R) excluding L and R.
+
+  Q2: Check if two arrays are equal or not:
+
+    Given two arrays A and B of equal size N, the task is to find if given arrays 
+    are equal or not. 
+    
+    Two arrays are said to be equal if both of them contain same set of elements, 
+    arrangements (or permutation) of elements may be different though.
+
+  Q3: Binary Search
+  
+    Given a sorted array of size N and an integer K, find the position(0-based indexing) 
+    at which K is present in the array using binary search.
