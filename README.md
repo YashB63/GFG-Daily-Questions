@@ -63,3 +63,55 @@ Day 3:
   
     Given a sorted array of size N and an integer K, find the position(0-based indexing) 
     at which K is present in the array using binary search.
+
+Day 4:
+
+  Q1 : Palindromic Array:
+
+    Given a Integer array A[] of n elements. 
+    Your task is to complete the function PalinArray. 
+    Which will return 1 if all the elements of the Array are palindrome otherwise it will           return 0.
+
+  Q2: Print Alternate Elements of an Array:
+
+    You are given an array A of size N. You need to print elements 
+    of A in alternate order (starting from index 0).
+
+  Q3: Print the Pattern | Set-1:
+
+    You are given a number N. 
+    You need to print the pattern for the given value of N.
+    
+    For N = 2 the pattern will be 
+    2 2 1 1
+    2 1
+    
+    For N = 3 the pattern will be 
+    3 3 3 2 2 2 1 1 1
+    3 3 2 2 1 1
+    3 2 1
+    
+    Note: Instead of printing a new line print a "$" without quotes. 
+    After printing the total output, end of the line is expected.
+
+Day 5:
+
+  Q1: Sum of Series:
+
+    Write a program to find the sum of the given series 1+2+3+ . . . . . .(N terms) 
+
+  Q2: Transform to Prime:
+
+    Given an array of n integers. 
+    Find the minimum non-negative number to be inserted in array, 
+    so that sum of all elements of array becomes prime.
+
+  Q3: Value equal to Index:
+
+    Given an array Arr of N positive integers. 
+    Your task is to find the elements whose value is equal to 
+    that of its index value ( Consider 1-based indexing ).
+    
+    Note: There can be more than one element in the array which have the same value as its   index. 
+    You need to include every such element's index. 
+    Follows 1-based indexing of the array.
