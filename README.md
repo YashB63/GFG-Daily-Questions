@@ -115,3 +115,23 @@ Day 5:
     Note: There can be more than one element in the array which have the same value as its   index. 
     You need to include every such element's index. 
     Follows 1-based indexing of the array.
+
+Day 6:
+
+  Q1: Smith Number:
+
+    Given a number n, the task is to find out whether this number is a Smith number or not. 
+    A Smith number is a composite number whose sum of digits is equal to the sum of digits of      its prime factors.
+
+  Q2: Find duplicattes in an Array:
+
+    Given an array a of size N which contains elements from 0 to N-1, 
+    you need to find all the elements occurring more than once in the given array. 
+    Return the answer in ascending order. 
+    If no such element is found, return list containing [-1].
+
+  Q3: Leaders in an Array:
+
+    Given an array A of positive integers. Your task is to find the leaders in the array. 
+    An element of array is leader if it is greater than or equal to all the elements to its        right side. 
+    The rightmost element is always a leader.
