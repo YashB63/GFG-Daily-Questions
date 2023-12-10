@@ -135,3 +135,25 @@ Day 6:
     Given an array A of positive integers. Your task is to find the leaders in the array. 
     An element of array is leader if it is greater than or equal to all the elements to its        right side. 
     The rightmost element is always a leader.
+
+Day 7:
+
+  Q1: Subarray with 0 sum:
+
+    Given an array of integers. Find if there is a subarray (of size at-least one) with 0 sum. 
+    You just need to return true/false depending upon whether there is a subarray present with     0-sum or not. 
+    Printing will be taken care by the driver code.
+
+  Q2: Equilibrium Point:
+
+      Given an array A of n positive numbers. 
+      The task is to find the first equilibrium point in an array. 
+      Equilibrium point in an array is an index (or position) such that 
+      the sum of all elements before that index is same as sum of elements after it.
+    
+      Note: Return equilibrium point in 1-based indexing. Return -1 if no such point exists.
+
+  Q3: Print 1 to N without Loop:
+
+      Print numbers from 1 to N without the help of loops.
+  
