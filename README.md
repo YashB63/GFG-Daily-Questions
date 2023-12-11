@@ -156,4 +156,21 @@ Day 7:
   Q3: Print 1 to N without Loop:
 
       Print numbers from 1 to N without the help of loops.
-  
+
+Day 8:
+
+  Q1: Max sum subarray of size K:
+
+    Given an array of integers Arr of size N and a number K. 
+    Return the maximum sum of a subarray of size K.
+    
+  Q2: Count pairs with given sum:
+
+    Given an array of N integers, and an integer K, 
+    find the number of pairs of elements in the array whose sum is equal to K.
+
+  Q3: Rotate array:
+
+    Given an unsorted array arr[] of size N. 
+    Rotate the array to the left (counter-clockwise direction) by D steps, 
+    where D is a positive integer. 
