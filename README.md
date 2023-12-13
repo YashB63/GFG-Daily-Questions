@@ -206,3 +206,20 @@ Day 9:
     find the transition point, i.e., the first index where 1 was observed, 
     and before that, only 0 was observed.
 
+Day 10: 
+
+  Q1: Consecutive 1's not allowed:
+
+    Given a positive integer N, count all possible distinct binary strings of 
+    length N such that there are no consecutive 1’s. 
+    Output your answer modulo 109 + 7.
+
+  Q2: Longest common prefix in an array:
+
+    Given an array of N strings, 
+    find the longest common prefix among all strings present in the array.
+
+  Q3: Key Pair:
+
+    Given an array Arr of N positive integers and another number X. 
+    Determine whether or not there exist two elements in Arr whose sum is exactly X.
