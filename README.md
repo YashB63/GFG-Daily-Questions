@@ -223,3 +223,29 @@ Day 10:
 
     Given an array Arr of N positive integers and another number X. 
     Determine whether or not there exist two elements in Arr whose sum is exactly X.
+
+Day 11:
+
+  Q1: Painting the Fence:
+
+    Given a fence with n posts and k colors, 
+    find out the number of ways of painting the fence so that not more than two 
+    consecutive posts have the same colors. 
+
+    Since the answer can be large return it modulo 10^9 + 7.
+
+
+  Q2: Minimum distance between two numbers:
+
+    You are given an array a, of n elements. 
+    Find the minimum index based distance between two distinct elements of the array, 
+    x and y. Return -1, if either x or y does not exist in the array.
+
+  Q3: First repeating element:
+
+    Given an array arr[] of size n, find the first repeating element. 
+    The element should occur more than once and the index of its first occurrence should be        the smallest.
+    
+    Note:- The position you return should be according to 1-based indexing. 
+
+  
