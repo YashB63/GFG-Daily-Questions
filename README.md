@@ -248,4 +248,26 @@ Day 11:
     
     Note:- The position you return should be according to 1-based indexing. 
 
+
+Day 12:
+
+  Q1: Reach the Nth point:
+
+    There are N points on the road, 
+    you can step ahead by 1 or 2 . If you start from a point 0, 
+    and can only move from point i to point i+1 after taking a step of length one, 
+    find the number of ways you can reach at point N. 
+
+  Q2: Check if array is sorted:
+
+    Given an array arr[] of size N, check if it is sorted in non-decreasing order or not.
+
+  Q3: Intersection of two arrays:
+
+    Given two arrays a[] and b[] respectively of size n and m, 
+    the task is to print the count of elements in the intersection 
+    (or common elements) of the two arrays.
+    
+    For this question, the intersection of two arrays can be defined 
+    as the set containing distinct common elements between the two arrays. 
   
