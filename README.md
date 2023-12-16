@@ -264,10 +264,22 @@ Day 12:
 
   Q3: Intersection of two arrays:
 
-    Given two arrays a[] and b[] respectively of size n and m, 
-    the task is to print the count of elements in the intersection 
-    (or common elements) of the two arrays.
+Day 13:
+
+  Q1: String's Count:
+
+    Given a length n, count the number of strings of length n 
+    that can be made using a, b and c with at-most one b and two c allowed.
+
+  Q2: Move all zeroes to end of array:
+
+    Given an array arr[] of n positive integers. 
+    Push all the zeros of the given array to the right end of the array while 
+    maintaining the order of non-zero elements. Do the mentioned change in the array in-place.
+
+  Q3: Rotation:
+
+    Given an ascending sorted rotated array Arr of 
+    distinct integers of size N. The array is right rotated K times. 
+    Find the value of K.
     
-    For this question, the intersection of two arrays can be defined 
-    as the set containing distinct common elements between the two arrays. 
-  
