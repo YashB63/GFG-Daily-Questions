@@ -283,3 +283,25 @@ Day 13:
     distinct integers of size N. The array is right rotated K times. 
     Find the value of K.
     
+Day 14:
+
+  Q1: Max sum without adjacents:
+
+    Given an array Arr of size N containing positive integers. 
+    Find the maximum sum of a any possible subsequence such that 
+    no two numbers in the subsequence should be adjacent in Arr.
+
+  Q2: Minimize the sum of product:
+
+    You are given two arrays, A and B, of equal size N. 
+    The task is to find the minimum value of 
+    A[0] * B[0] + A[1] * B[1] + .... + A[N-1] * B[N-1], 
+    where shuffling of elements of arrays A and B is allowed.
+
+  Q3: Maximum size of consecutives:
+
+    Given a sorted array arr of n distinct elements and an integer k. 
+    The array elements denote positions of points on 1-D number line, 
+    find the maximum size of subset of points that can have consecutive values 
+    of points which can be formed by placing another k points on the number line.
+
