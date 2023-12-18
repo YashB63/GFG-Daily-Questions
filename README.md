@@ -305,3 +305,33 @@ Day 14:
     find the maximum size of subset of points that can have consecutive values 
     of points which can be formed by placing another k points on the number line.
 
+Day 15:
+
+  Q1: Game of XOR:
+
+    Given an array A of size N. 
+    The value of an array is denoted by the bit-wise 
+    XOR of all elements it contains. Find the bit-wise XOR 
+    of the values of all subarrays of A.
+
+  Q2: Product array puzzle:
+
+    Given an array nums[] of size n, 
+    construct a Product Array P (of same size n) such that 
+    P[i] is equal to the product of all the elements of nums except nums[i].
+
+  Q3: Remove duplicates from sorted array:
+
+    Given a sorted array A[] of size N, 
+    delete all the duplicated elements from A[]. 
+    Modify the array such that if there are X distinct elements in it 
+    then the first X positions of the array should be filled with them in 
+    increasing order and return the number of distinct elements in the array.
+    
+    Note:
+    1. Don't use set or HashMap to solve the problem.
+    2. You must return the number of distinct elements(X) in the array, 
+    the driver code will print all the elements of the modified array from 
+    index 0 to X-1 as output of your code.
+
+    
