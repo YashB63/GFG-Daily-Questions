@@ -334,4 +334,30 @@ Day 15:
     the driver code will print all the elements of the modified array from 
     index 0 to X-1 as output of your code.
 
+
+Day 16:
+
+  Q1: Rightmost different bit:
+
+    Given two numbers M and N. 
+    The task is to find the position of the rightmost different bit 
+    in the binary representation of numbers. 
+    If both M and N are the same then return -1 in this case.
+
+  Q2: Union of two sorted arrays:
+
+    Union of two arrays can be defined as the common 
+    and distinct elements in the two arrays.
+    Given two sorted arrays of size n and m respectively, 
+    find their union.
+
+  Q3: Alternative positive and negative numbers:
+
+    Given an unsorted array Arr of N positive and negative numbers. 
+    Your task is to create an array of alternate positive and 
+    negative numbers without changing the relative order of positive and negative numbers.
     
+    Note: Array should start with a positive number and 0 (zero) should be considered a       
+    positive element.
+ 
+  
