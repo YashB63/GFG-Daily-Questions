@@ -361,3 +361,40 @@ Day 16:
     positive element.
  
   
+Day 17:
+
+  Q1: Modified game of nim:
+
+    You are given an array A of n elements. 
+    There are two players player 1 and player 2.
+    
+    A player can choose any of element from an array and remove it. 
+    If the bitwise XOR of all remaining elements equals 0 
+    after removal of the selected element, then that player loses. 
+    Find out the winner if player 1 starts the game and they both play their best.
+
+  Q2: Implement two stacks in an array:
+
+    Your task is to implement  2 stacks in one array efficiently. 
+    You need to implement 4 methods.
+    
+    push1 : pushes element into first stack.
+    
+    push2 : pushes element into second stack.
+    
+    pop1 : pops element from first stack and returns the popped element. 
+    If first stack is empty, it should return -1.
+    
+    pop2 : pops element from second stack and returns the popped element. 
+    If second stack is empty, it should return -1.
+
+  Q3: Find all pairs with a given sum: 
+
+    Given two unsorted arrays A of size N and B of 
+    size M of distinct elements, 
+    the task is to find all pairs from both arrays 
+    whose sum is equal to X.
+    
+    Note: All pairs should be printed in increasing order of u. 
+    For eg. for two pairs (u1,v1) and (u2,v2), if u1 < u2 then
+    (u1,v1) should be printed first else second.
