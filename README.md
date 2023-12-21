@@ -398,3 +398,47 @@ Day 17:
     Note: All pairs should be printed in increasing order of u. 
     For eg. for two pairs (u1,v1) and (u2,v2), if u1 < u2 then
     (u1,v1) should be printed first else second.
+
+
+Day 18:
+
+  Q1: Candy:
+
+    There are N children standing in a line. 
+    Each child is assigned a rating value 
+    given in the integer array ratings.
+    
+    You are giving candies to these children 
+    subjected to the following requirements:
+    
+    Each child must have atleast one candy.
+    
+    Children with a higher rating than its neighbors 
+    get more candies than their neighbors.
+    
+    Return the minimum number of candies 
+    you need to have to distribute.
+
+  Q2: Pascal Triangle:
+
+    Given a positive integer N, return the Nth row of pascal's triangle.
+    
+    Pascal's triangle is a triangular array of the binomial coefficients 
+    formed by summing up the elements of previous row.
+    
+    The elements can be large so return it modulo 109 + 7.
+
+
+  Q3: Save Ironman:
+    
+    Jarvis is weak in computing palindromes for Alphanumeric characters.
+    
+    While Ironman is busy fighting Thanos, he needs to activate 
+    sonic punch but Jarvis is stuck in computing palindromes.
+    
+    You are given a string S containing alphanumeric characters. 
+    Find out whether the string is a palindrome or not.
+    
+    If you are unable to solve it then 
+    it may result in the death of Iron Man.
+  
