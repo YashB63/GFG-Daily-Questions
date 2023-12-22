@@ -441,4 +441,35 @@ Day 18:
     
     If you are unable to solve it then 
     it may result in the death of Iron Man.
+
+
+Day 19:
+
+  Q1: Maximum meetings in one room:
+
+    There is one meeting room in a firm. 
+    There are N meetings in the form of (S[i], F[i]) where S[i] 
+    is the start time of meeting i and F[i] is the finish time of meeting i. 
+    
+    The task is to find the maximum number of meetings 
+    that can be accommodated in the meeting room. 
+    
+    You can accommodate a meeting if the start time of the meeting is 
+    strictly greater than the finish time of the previous meeting.
+     
+    Print all meeting numbers.
+    
+    Note: If two meetings can be chosen for the same slot 
+    then choose meeting with smaller index in the given array.
+
+  Q2: Palindrome String:
+
+    Given a string S, check if it is palindrome or not.
+
+  Q3: Kadane's Algorithm:
+
+    Given an array Arr[] of N integers. 
+    Find the contiguous sub-array(containing at least one number) 
+    which has the maximum sum and return its sum.
+
   
