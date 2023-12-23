@@ -473,3 +473,30 @@ Day 19:
     which has the maximum sum and return its sum.
 
   
+Day 20:
+
+  Q1: Count more than n/k occurences:
+
+    Given an array arr of size N and an element k. 
+    The task is to find the count of elements in the array 
+    that appear more than n/k times.
+
+  Q2: Median of two sorted arrays of different sizes:
+
+    Given two sorted arrays array1 and array2 of size 
+    m and n respectively. Find the median of the two sorted arrays.
+
+  Q3: Three way partitioning:
+
+    Given an array of size n and a range [a, b]. 
+    The task is to partition the array around the range 
+    such that array is divided into three parts.
+    
+    1) All elements smaller than a come first.
+    2) All elements in range a to b come next.
+    3) All elements greater than b appear in the end.
+    The individual elements of three sets can appear in any order. 
+    
+    You are required to return the modified array.
+    
+    Note: The generated output is 1 if you modify the given array successfully.
