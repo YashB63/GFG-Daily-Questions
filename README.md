@@ -500,3 +500,36 @@ Day 20:
     You are required to return the modified array.
     
     Note: The generated output is 1 if you modify the given array successfully.
+
+
+Day 21:
+
+  Q1: Buy Maximum Stocks if i stocks can be bought on i-th day:
+
+    In a stock market, there is a product with its infinite stocks. 
+    The stock prices are given for N days, where price[i] denotes 
+    the price of the stock on the ith day.
+    There is a rule that a customer can buy at most i stock on the ith day.
+    
+    If the customer has an amount of k amount of money initially. 
+    The task is to find out the maximum number of stocks a customer can buy. 
+
+  Q2: Anagram:
+
+    Given two strings a and b consisting of lowercase characters. 
+    The task is to check whether two given strings are an anagram of each other or not. 
+    An anagram of a string is another string that contains the same characters, 
+    only the order of characters can be different. 
+    
+    For example, act and tac are an anagram of each other.
+    
+    Note:-
+    
+    If the strings are anagrams you have to return True or else return False
+
+    |s| represents the length of string s.
+
+
+  Q3: Mirror Tree:
+
+    Given a Binary Tree, convert it into its mirror.
