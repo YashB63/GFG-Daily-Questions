@@ -533,3 +533,27 @@ Day 21:
   Q3: Mirror Tree:
 
     Given a Binary Tree, convert it into its mirror.
+
+
+Day 22:
+
+  Q1: Determinant of a Matrix:
+
+    Given a square matrix of size n*n. 
+    The task is to find the determinant of this matrix.
+
+  Q2: Remove Duplicates
+
+    Given a string without spaces, the task is to remove duplicates from it.
+    
+    Note: The original order of characters must be kept the same. 
+
+  Q3: Rotate Bits:
+
+    Given an integer N and an integer D, 
+    rotate the binary representation of the integer N 
+    by D digits to the left as well as right and 
+    return the results in their decimal representation after each of the rotation.
+    
+    Note: Integer N is stored using 16 bits. i.e. 
+    12 will be stored as 0000000000001100.  
