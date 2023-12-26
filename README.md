@@ -556,4 +556,35 @@ Day 22:
     return the results in their decimal representation after each of the rotation.
     
     Note: Integer N is stored using 16 bits. i.e. 
-    12 will be stored as 0000000000001100.  
+    12 will be stored as 0000000000001100.
+
+
+Day 23:
+
+  Q1: Largest rectangular sub-matrix whose sum is 0:
+
+    Given a matrix mat[][] of size N x M. 
+    The task is to find the largest rectangular 
+    sub-matrix by area whose sum is 0.
+    
+    If there are multiple solutions return the rectangle 
+    which starts from minimum column index. 
+    If you still have multiple solutions return the 
+    one starting from minimum row index. 
+    If you still have multiple solutions return the 
+    one having greatest row number. 
+    
+    If no such matrix is present return a zero (0) size matrix.
+
+  Q2: Twice Counter:
+
+    Given a list of N words. Count the number of words 
+    that appear exactly twice in the list.
+
+  Q3: Panagram Checking:
+
+    Given a string check if it is Panagram or not. 
+    A panagram is a sentence containing every letter 
+    in the English Alphabet (either lowercase or uppercase or both). 
+    For example, we say the letter A is present in the string 
+    if either 'a' is present or 'A' is present.
