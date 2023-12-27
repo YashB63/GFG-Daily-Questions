@@ -588,3 +588,34 @@ Day 23:
     in the English Alphabet (either lowercase or uppercase or both). 
     For example, we say the letter A is present in the string 
     if either 'a' is present or 'A' is present.
+
+
+Day 24:
+
+  Q1: Anti Diagonal traversal of a matrix:
+    
+    Give a N*N square matrix, return an array of its 
+    anti-diagonals in top-leftmost to bottom-rightmost order. 
+    In an element of a anti-diagonal (i, j), surrounding elements will be 
+    (i+1, j-1) and (i-1, j+1). 
+    
+    Look at the examples for more clarity.
+
+  Q2: Arithmetic Number:
+
+    Given three integers  'A' denoting the first term 
+    of an arithmetic sequence , 'C' denoting the common difference 
+    of an arithmetic sequence and an integer 'B'. 
+    
+    you need to tell whether 'B' exists in the 
+    arithmetic sequence or not. Return 1 if B is present in the sequence. 
+    Otherwise, returns 0.
+
+  Q3: Perfect Number:
+
+    Given a number N, check if a number is perfect or not. 
+    A number is said to be perfect if sum of all its factors 
+    excluding the number itself is equal to the number. 
+    
+    Return 1 if the number is Perfect otherwise return 0.
+
