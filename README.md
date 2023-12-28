@@ -619,3 +619,41 @@ Day 24:
     
     Return 1 if the number is Perfect otherwise return 0.
 
+
+Day 25:
+
+  Q1: Wildcard string matching:
+
+    Given two strings wild and pattern. 
+    Determine if the given two strings can be matched given that, 
+    wild string may contain * and ? but string pattern will not. 
+    
+    * and ? can be converted to another character 
+    according to the following rules:
+    
+    * --> This character in string wild can be 
+    replaced by any sequence of characters, 
+    it can also be replaced by an empty string.
+    
+    ? --> This character in string wild can 
+    be replaced by any one character.
+
+
+  Q2: Reverse Coding:
+
+    You will be given an integer n, 
+    your task is to return the sum of 
+    all natural number less than or equal to n.
+    
+    As the answer could be very large, return answer modulo 10^9+7.
+
+  Q3: Series GP:
+
+    Given the A and R i,e first term and common ratio of a GP series. 
+    Find the Nth term of the series.
+    
+    Note: As the answer can be rather 
+    large print its modulo 1000000007 (10^9 + 7).
+
+  
+
