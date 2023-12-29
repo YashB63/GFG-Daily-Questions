@@ -655,5 +655,35 @@ Day 25:
     Note: As the answer can be rather 
     large print its modulo 1000000007 (10^9 + 7).
 
+
+Day 26:
+
+  Q1: Check if a string is repetition of its substring of k-length:
+
+    Given a string s, check if it is possible to convert it 
+    into a string that is the repetition of a substring of length k. 
+    Conversion has to be done by following the steps mentioned below only once:
+    
+    Select two indices i and j (zero-based indexing, i could be equal to j), 
+    such that i and j are divisible by k.
+    
+    Select substrings of length k starting from indices i and j.
+    
+    Replace substring starting at index i with 
+    substring starting at index j within the string.
+
+  Q2: Nth Fibonacci Number:
+
+    Given a positive integer n, 
+    find the nth fibonacci number. 
+    
+    Since the answer can be very large, 
+    return the answer modulo 1000000007.
+
+  Q3: Square root of a number:
   
+    Given an integer x, find the square root of x. 
+    If x is not a perfect square, then return floor(√x).
+
+
 
