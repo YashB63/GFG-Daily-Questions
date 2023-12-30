@@ -686,4 +686,50 @@ Day 26:
     If x is not a perfect square, then return floor(√x).
 
 
+Day 27:
 
+  Q1: Winner of an election:
+
+    Given an array of n names arr of candidates in an election, 
+    where each name is a string of lowercase characters. 
+    
+    A candidate name in the array represents a vote casted 
+    to the candidate. Print the name of the candidate that 
+    received the maximum count of votes. 
+    
+    If there is a draw between two candidates, 
+    then print lexicographically smaller name.
+
+
+  Q2: Frogs and Jumps:
+
+    N frogs are positioned at one end of the pond. 
+    All frogs want to reach the other end of the pond 
+    as soon as possible. 
+    
+    The pond has some leaves arranged in a straight line. 
+    Each frog has the strength to jump exactly K leaves.
+    
+    For example, a  frog having strength 2 
+    will visit the leaves 2, 4, 6, ...  etc. 
+    while crossing the pond.
+    
+    Given the strength of each frog and the number of leaves, 
+    your task is to find the number of leaves that not be visited 
+    by any of the frogs when all frogs have reached the other end of the pond. 
+
+
+  Q3: Maximum Diamonds:
+
+    There are N bags with diamonds in them. 
+    The i'th of these bags contains A[i] diamonds. 
+    If you drop a bag with A[i] diamonds, it changes to 
+    A[i]/2 diamonds and you gain A[i] diamonds. 
+    
+    Dropping a bag takes 1 minute. 
+    
+    Find the maximum number of diamonds that 
+    you can take if you are given K minutes.
+
+
+    
