@@ -773,3 +773,40 @@ Day 28:
     
     Among all integers present in the array, 
     find the minimum integer X such that S ≤ N*X.
+
+
+Day 29:
+
+  Q1: Array pair sum divisiility problem:
+
+    Given an array of integers nums and a number k, 
+    write a function that returns true if given array 
+    can be divided into pairs such that 
+    sum of every pair is divisible by k.
+
+  Q2: Least Prime Factors:
+    
+    Given a number N, find the least prime factors 
+    for all numbers from 1 to N.  
+    
+    The least prime factor of an integer X 
+    is the smallest prime number that divides it.
+    
+    Note :
+    
+    1 needs to be printed for 1.
+    
+    You need to return an array/vector/list of 
+    size N+1 and need to use 1-based indexing to store the answer for each number.
+
+  Q3: Array Operations:
+
+    You are given an array arr of n integers. 
+    You must return the minimum number of operations 
+    required to make this array 0. 
+    
+    For this you can do an operation :
+    
+    Choose a sub-array of non-zero elements & 
+    replace all with 0(0 must be present in arr, 
+    if not you can not replace it).
