@@ -849,4 +849,32 @@ Day 30:
 
     You are given 2 numbers (n , m); 
     the task is to find n√m (nth root of m).
-  
+
+
+Day 31:
+
+  Q1: Smallest window containing 0, 1 and 2:
+
+    Given a string S consisting of the characters 0, 1 and 2. 
+    Your task is to find the length of the smallest substring of 
+    string S that contains all the three characters 0, 1 and 2. 
+    If no such substring exists, then return -1.
+
+  Q2: Parenthesis Checker:
+
+    Given an expression string x.
+     
+    Examine whether the pairs and the 
+    orders of {,},(,),[,] are correct in exp.
+    
+    For example, the function should 
+    return 'true' for exp = [()]{}{[()()]()} 
+    and 'false' for exp = [(]).
+    
+    Note: The drive code prints "balanced" 
+    if function return true, otherwise it prints "not balanced".
+
+  Q3: Second Largest:
+
+    Given an array Arr of size N, 
+    print second largest distinct element from an array.
