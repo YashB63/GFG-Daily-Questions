@@ -878,3 +878,34 @@ Day 31:
 
     Given an array Arr of size N, 
     print second largest distinct element from an array.
+
+
+Day 32:
+
+  Q1: Find element occuring once when all other are present thrice:
+
+    Given an array of integers arr[] of length N, 
+    every element appears thrice except for one which occurs once.
+    Find that element which occurs once.
+
+  Q2: Peak element:
+
+    An element is called a peak element if its value 
+    is not smaller than the value of its adjacent elements (if they exists). 
+    
+    Given an array arr[] of size N, 
+    Return the index of any one of its peak elements. 
+    
+    Note: The generated output will always be 1 if the index 
+    that you return is correct. Otherwise output will be 0. 
+    
+    Also, arr[] will be in ascending order before the peak element, 
+    and in descending order after that.
+
+  Q3: Common elements:
+
+    Given three arrays sorted in increasing order. 
+    Find the elements that are common in all three arrays.
+    
+    Note: can you take care of the duplicates without 
+    using any additional Data Structure?
