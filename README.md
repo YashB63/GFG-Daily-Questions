@@ -909,3 +909,36 @@ Day 32:
     
     Note: can you take care of the duplicates without 
     using any additional Data Structure?
+
+
+Day 33:
+
+  Q1: Count possible ways to construct buildings:
+
+    There is a road passing through a city with N plots on both sides of the road. 
+    Plots are arranged in a straight line on either side of the road. 
+    Determine the total number of ways to construct buildings in these plots, 
+    ensuring that no two buildings are adjacent to each other. Specifically, 
+    buildings on opposite sides of the road cannot be adjacent.
+    
+    Using * to represent a plot and || for the road, 
+    the arrangement for N = 3 can be visualized as follows: * * * || * * *.
+    
+    Note: As the answer can be very large, print it mod 10^9+7.
+
+  Q2: Find triplets with zero sum:
+
+    Given an array arr[] of n integers. 
+    Check whether it contains a triplet that sums up to zero. 
+    
+    Note: Return 1, if there is at least 
+    one triplet following the condition else return 0.
+
+  Q3: Coin CHange
+
+    Given an integer array coins[ ] of size N 
+    representing different denominations of currency and an integer sum, 
+    find the number of ways you can make sum by using different combinations from coins[ ].  
+    
+    Note: Assume that you have an infinite supply of each type of coin. 
+    And you can use any coin as many times as you want.
