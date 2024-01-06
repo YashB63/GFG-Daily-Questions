@@ -942,3 +942,53 @@ Day 33:
     
     Note: Assume that you have an infinite supply of each type of coin. 
     And you can use any coin as many times as you want.
+
+
+Day 34:
+
+  Q1: Techfest and the Queue:
+    
+    A Techfest is underway, and each participant 
+    is given a ticket with a unique number. Organizers 
+    decide to award prize points to everyone 
+    who has a ticket ID between a and b (inclusive). 
+    
+    The points given to a participant with 
+    ticket number x will be the sum of powers of the prime factors of x.
+    
+    For instance, if points are to be awarded 
+    to a participant with ticket number 12, 
+    the amount of points given out will be 
+    equal to the sum of powers in the prime factorization 
+    of 12 (2^2 × 3^1), which will be 2 + 1 = 3.
+    
+    Given a and b, determine the sum of all the points 
+    that will be awarded to the participants with ticket 
+    numbers between a and b (inclusive).
+
+  Q2: Majority Element:
+
+    Given an array A of N elements. 
+    Find the majority element in the array. 
+    A majority element in an array A of size N 
+    is an element that appears strictly more 
+    than N/2 times in the array.
+
+  Q3: Minimum Platforms:
+
+    Given arrival and departure times of all trains 
+    that reach a railway station. 
+    
+    Find the minimum number of platforms required 
+    for the railway station so that no train is kept waiting.
+    
+    Consider that all the trains arrive on the 
+    same day and leave on the same day. Arrival and 
+    departure time can never be the same for a train 
+    but we can have arrival time of one train equal 
+    to departure time of the other. 
+    
+    At any given instance of time, same platform 
+    can not be used for both departure of a train 
+    and arrival of another train. In such cases, 
+    we need different platforms.
