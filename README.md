@@ -992,3 +992,40 @@ Day 34:
     can not be used for both departure of a train 
     and arrival of another train. In such cases, 
     we need different platforms.
+
+
+Day 35:
+
+  Q1: Split Array Largest Sum:
+
+    Given an array arr[] of N elements and a number K., 
+    split the given array into K subarrays such that the 
+    maximum subarray sum achievable out of K subarrays 
+    formed is minimum possible. 
+    Find that possible subarray sum.
+
+  Q2: Power of Numbers:
+
+    Given a number and its reverse. 
+    Find that number raised to the power of its own reverse.
+    
+    Note: As answers can be very large, 
+    print the result modulo 10^9 + 7.
+
+  Q3: The Celebrity Problem:
+
+    A celebrity is a person who is known to all but 
+    does not know anyone at a party. 
+    
+    If you go to a party of N people, 
+    find if there is a celebrity in the party or not.
+    
+    A square NxN matrix M[][] is used to represent people 
+    at the party such that if an element of row i and column j  
+    is set to 1 it means ith person knows jth person. 
+    
+    Here M[i][i] will always be 0.
+    
+    Note: Follow 0 based indexing.
+    
+    Follow Up: Can you optimize it to O(N)
