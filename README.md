@@ -1029,3 +1029,40 @@ Day 35:
     Note: Follow 0 based indexing.
     
     Follow Up: Can you optimize it to O(N)
+
+
+Day 36:
+
+  Q1: Merge 2 sorted linked list in reverse order:
+
+    Given two linked lists of size N and M, 
+    which are sorted in non-decreasing order. 
+    
+    The task is to merge them in such a way that 
+    the resulting list is in non-increasing order.
+
+  Q2: Trapping Rain Water:
+
+    Given an array arr[] of N non-negative integers 
+    representing the height of blocks. If width of each block is 1, 
+    compute how much water can be trapped between 
+    the blocks during the rainy season. 
+
+  Q3: Stickler Thief:
+
+    Stickler the thief wants to loot money from a 
+    society having n houses in a single line. 
+    
+    He is a weird person and follows a certain rule 
+    when looting the houses. According to the rule, 
+    he will never loot two consecutive houses. 
+    
+    At the same time, he wants to maximize the amount he loots. 
+    The thief knows which house has what amount of money but is 
+    unable to come up with an optimal looting strategy. 
+    
+    He asks for your help to find the maximum money he can get 
+    if he strictly follows the rule. 
+    
+    ith house has a[i] amount of money present in it.
+
