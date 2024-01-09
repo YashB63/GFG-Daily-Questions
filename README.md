@@ -1066,3 +1066,37 @@ Day 36:
     
     ith house has a[i] amount of money present in it.
 
+
+Day 37:
+
+  Q1: Search Pattern (KMP-Algorithm):
+
+    Given two strings, one is a text string, txt and 
+    other is a pattern string, pat. 
+    
+    The task is to print the indexes of all the occurences 
+    of pattern string in the text string. Use one-based indexing 
+    while returing the indices. 
+    
+    Note: Return an empty list incase of no occurences of pattern. 
+    Driver will print -1 in this case.
+
+  Q2: Subarray with given sum:
+
+    Given an unsorted array A of size N that 
+    contains only non negative integers, 
+    find a continuous sub-array that adds to a given number S 
+    and return the left and right index(1-based indexing) of that subarray.
+    
+    In case of multiple subarrays, return the subarray indexes 
+    which come first on moving from left to right.
+    
+    Note:- You have to return an ArrayList consisting of two elements left and right. 
+    In case no such subarray exists return an array consisting of element -1.
+
+  Q3: Count the triplets:
+
+    Given an array of distinct integers. 
+    The task is to count all the triplets such 
+    that sum of two elements equals the third element.
+     
