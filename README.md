@@ -1099,4 +1099,36 @@ Day 37:
     Given an array of distinct integers. 
     The task is to count all the triplets such 
     that sum of two elements equals the third element.
-     
+
+Day 38:
+
+  Q1: Longest subarray with sum divisible by K:
+    
+    Given an array arr containing N integers and a positive integer K, 
+    find the length of the longest sub array with sum of the 
+    elements divisible by the given value K.
+
+  Q2: Tom and Jerry:
+
+    Tom and Jerry being bored in this pandemic, 
+    decides to play a game. Given an integer N. 
+    
+    On each player's turn, that player makes a move by 
+    subtracting a divisor of current N (which is less than N) 
+    from current N, thus forming a new N for the next turn. 
+    
+    The player who does not have any divisor left to subtract loses the game.
+    
+    The game begins with Tom playing the first move. 
+    
+    Both Tom and Jerry play optimally. 
+    
+    The task is to determine who wins the game. 
+    
+    Return 1 if Tom wins, else return 0.
+
+  Q3: Binary Modulo:
+
+    You are given a binary string s and an integer m. 
+    You need to return an integer r. Where r = k%m, 
+    k is the binary equivalent of string s.
