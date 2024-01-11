@@ -1132,3 +1132,33 @@ Day 38:
     You are given a binary string s and an integer m. 
     You need to return an integer r. Where r = k%m, 
     k is the binary equivalent of string s.
+
+Day 39:
+
+  Q1: Remove K digits:
+
+    Given a non-negative integer S represented as a string, 
+    remove K digits from the number so that the new number is the smallest possible.
+    
+    Note : The given num does not contain any leading zero.
+
+  Q2: Make Palindrome:
+
+    You are given an array of strings arr of size n. 
+    
+    You have to find out if it is possible to make a 
+    palindromic string by concatenating all the strings in any order. 
+    
+    Provided that all the strings given in the array are of equal length.
+
+  Q3: String Mirror:
+
+    You are given a string str of length n. 
+    You want to choose a non-zero integer k (k<=n), 
+    such that you can perform the following operation:
+    
+    Take the prefix of the string of length k 
+    and append the reverse of it to itself.
+    
+    Your task is to find the lexicographically 
+    smallest string you can get.
