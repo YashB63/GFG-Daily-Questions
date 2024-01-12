@@ -1162,3 +1162,33 @@ Day 39:
     
     Your task is to find the lexicographically 
     smallest string you can get.
+
+Day 40:
+
+  Q1: Reverse first k elements of a queue:
+
+    Given an integer K and a queue of integers, 
+    we need to reverse the order of the first K elements of the queue, 
+    leaving the other elements in the same relative order.
+    
+    Only following standard operations are allowed on queue.
+    
+    enqueue(x) : Add an item x to rear of queue
+    dequeue() : Remove an item from front of queue
+    size() : Returns number of elements in queue.
+    front() : Finds front item.
+    
+    Note: The above operations represent the general processings. 
+    In-built functions of the respective languages can be used to solve the problem.
+
+  Q2: Is binary number multiple of 3:
+
+    Given a number in its binary form 
+    find if the given binary number is a multiple of 3. 
+    
+    It is recommended to finish the task using 
+    one traversal of input binary number.
+
+  Q3: Trailing zeroes in a factorial:
+
+    For an integer N find the number of trailing zeroes in N!.  
