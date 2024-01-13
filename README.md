@@ -1192,3 +1192,29 @@ Day 40:
   Q3: Trailing zeroes in a factorial:
 
     For an integer N find the number of trailing zeroes in N!.  
+
+
+Day 41:
+
+  Q1: Insertion sort for singly linked list:
+
+    Given a singly linked list, sort the list 
+    (in ascending order) using insertion sort algorithm.
+
+  Q2: Break a number:
+
+    Given a really large number N, 
+    break it into 3 whole numbers such that 
+    they sum up to the original number and 
+    find the number of ways to do so. 
+    
+    Since this number can be very large, 
+    return it modulo 109+7. 
+
+  Q3: BBT Counter:
+
+    Given a height h, count the maximum number of balanced 
+    binary trees possible with height h. Print the result modulo 10^9 + 7.
+    
+    Note : A balanced binary tree is one in which for every node, 
+    the difference between heights of left and right subtree is not more than 1.
