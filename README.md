@@ -1218,3 +1218,43 @@ Day 41:
     
     Note : A balanced binary tree is one in which for every node, 
     the difference between heights of left and right subtree is not more than 1.
+
+Day 42:
+
+  Q1: Find duplicate rows in a binary matrix:
+
+    Given a boolean matrix of size RxC where 
+    each cell contains either 0 or 1, 
+    find the row numbers (0-based) of row 
+    which already exists or are repeated.
+
+  Q2: Overlapping Rectangles:
+
+    You are given an integer N. 
+    Consider an array arr having N elements 
+    where arr[i] = 2*i+1. (The array is 0-indexed)
+    
+    You are allowed to perform the 
+    given operation on the array any number of times:
+    
+    1) Select two indices i and j and 
+    increase arr[i] by 1 and decrease arr[j] by 1.
+    
+    Your task is to find the minimum number 
+    of such operations required to make all 
+    the elements of the array equal.
+
+  Q3: Make array elements equal:
+
+    Given two rectangles, 
+    find if the given two rectangles overlap or not. 
+    A rectangle is denoted by providing the x and y coordinates 
+    of two points: the left top corner and the 
+    right bottom corner of the rectangle. 
+    
+    Two rectangles sharing a side are considered overlapping. 
+    (L1 and R1 are the extreme points of the first rectangle 
+    and L2 and R2 are the extreme points of the second rectangle).
+    
+    Note: It may be assumed that the rectangles are parallel to the coordinate axis.
+
