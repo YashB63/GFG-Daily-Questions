@@ -1290,3 +1290,58 @@ Day 43:
 
     Find the total number of Squares in a N*N chessboard.
 
+Day 44: 
+
+  Q1: Sequence of Sequence:
+
+    Given two integers m and n, try making a 
+    special sequence of numbers seq of length n such that
+    
+    seqi+1 >= 2*seqi 
+    seqi > 0
+    seqi <= m
+    
+    Your task is to determine total number 
+    of such special sequences possible.
+
+  Q2: Jumping Caterpillars:
+
+    Given N leaves numbered from 1 to N . 
+    A caterpillar at leaf 1, jumps from 
+    leaf to leaf in multiples of Aj (Aj, 2Aj, 3Aj).
+    
+    j is specific to the caterpillar. 
+    Whenever a caterpillar reaches a leaf, 
+    it eats it a little bit.. 
+    
+    You have to find out how many leaves, 
+    from 1 to N, are left uneaten after all K 
+    caterpillars have reached the end. 
+    
+    Each caterpillar has its own jump factor
+    denoted by Aj, and each caterpillar 
+    starts at leaf number 1.
+
+  Q3: Last Modified Ball:
+
+    Samwell laid out N bowls in a straight line 
+    and put a few marbles randomly in each bowl, 
+    ith bowl has A[i] marbles. 
+    
+    A bowl can never have more than 9 marbles at a time. 
+    A bowl can have zero marbles. Now Samwells friend adds 
+    one more marble to the last bowl, after this addition all 
+    the bowls must still be aligned with the rules mentioned above. 
+    
+    Adding a marble follows the same rules as of addition with carryover. 
+    You are given the initial list of the number of marbles in each bowl 
+    find the position of the bowl which was last modified. 
+    
+    It is guaranteed that there is at least 
+    one bowl which has at least one space left.
+    
+    Note: Consider one-based indexing.
+
+
+
+  
