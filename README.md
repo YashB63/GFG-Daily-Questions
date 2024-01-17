@@ -1343,5 +1343,29 @@ Day 44:
     Note: Consider one-based indexing.
 
 
+Day 45:
 
-  
+  Q1: All unique permutations of an array:
+
+    Given an array arr[] of length n. 
+    Find all possible unique permutations of 
+    the array in sorted order. 
+    
+    A sequence A is greater than sequence B 
+    if there is an index i for which Aj = Bj 
+    for all j<i and Ai > Bi.
+
+  Q2: Remainder on dividing by 11:
+
+    Given a big positive number x represented as string, 
+    find value of x % 11 or x mod 11. 
+    Output is expected as an integer.
+
+  Q3: Nearest multiple of 10:
+
+    Given a string  N representing a positive number. 
+    The task is to round N to the nearest multiple of 10.
+    
+    Note: If you are having two multiple equally apart 
+    from N then we will choose the smallest element among them.
+
