@@ -1369,3 +1369,42 @@ Day 45:
     Note: If you are having two multiple equally apart 
     from N then we will choose the smallest element among them.
 
+
+Day 46:
+
+  Q1: Water the plants:
+
+    A gallery with plants is divided into n parts, 
+    numbered 0, 1, 2, 3, ..., n-1. There are provisions 
+    for attaching water sprinklers in every division. 
+    
+    A sprinkler with range x at division i can 
+    water all divisions from i-x to i+x.
+    
+    Given an array gallery[] consisting of n integers,
+    where gallery[i] is the range of the sprinkler at 
+    partition i (a power of -1 indicates no sprinkler attached), 
+    return the minimum number of sprinklers that need to be 
+    turned on to water the entire gallery. 
+    
+    If there is no possible way to water the 
+    full length using the given sprinklers, print -1.
+
+  Q2: Shortest path from 1 to n:
+
+    Consider a directed graph whose vertices 
+    are numbered from 1 to n. 
+    
+    There is an edge from a vertex i to a vertex j 
+    if and only if either j = i + 1 or j = 3 * i. 
+    
+    The task is to find the minimum number of 
+    edges in a path from vertex 1 to vertex n.
+
+  Q3: Modular Multiplicative inverse:
+
+    Given two integers ‘a’ and ‘m’. 
+    The task is to find the smallest modular multiplicative 
+    inverse of ‘a’ under modulo ‘m’. 
+    
+    if it does not exist then return -1.
