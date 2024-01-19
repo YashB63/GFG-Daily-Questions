@@ -1408,3 +1408,47 @@ Day 46:
     inverse of ‘a’ under modulo ‘m’. 
     
     if it does not exist then return -1.
+
+
+Day 47:
+
+  Q1: Top K numbers in a stream:
+
+    Given N numbers in an array, 
+    your task is to keep at most the top K 
+    numbers with respect to their frequency.
+    
+    In other words, you have to iterate over the array, 
+    and after each index, determine the top K most 
+    frequent numbers until that iteration and store them 
+    in an array in decreasing order of frequency. 
+    
+    An array will be formed for each iteration and 
+    stored in an array of arrays. If the total number 
+    of distinct elements is less than K, 
+    then keep all the distinct numbers in the array. 
+    
+    If two numbers have equal frequency, 
+    place the smaller number first in the array.
+
+  Q2: Maximum Identical bowls:
+
+    There are N bowls containing cookies. In one operation, 
+    you can take one cookie from any of the non-empty bowls 
+    and put it into another bowl. If the bowl becomes empty you discard it. 
+    
+    You can perform the above operation any number of times. 
+    You want to know the maximum number of bowls 
+    you can have with an identical number of cookies.
+    
+    Note: All the non-discarded bowls should contain the identical number of cookies.
+
+  Q3: Minimum Numbers:
+
+    You are given an array arr of n elements. 
+    In one operation you can pick two indices i and j, 
+    such that arr[i] >= arr[j] and replace the value 
+    of arr[i] with (arr[i] - arr[j]). 
+    
+    You have to minimize the values of the 
+    array after performing any number of such operations.
