@@ -1452,3 +1452,44 @@ Day 47:
     
     You have to minimize the values of the 
     array after performing any number of such operations.
+
+
+Day 48:
+
+  Q1: Distribute candies in a binary tree:
+
+    Given a binary tree with N nodes, 
+    in which each node value represents number 
+    of candies present at that node. 
+    
+    In one move, one may choose two adjacent nodes 
+    and move only one candy from one node to another 
+    (the move may be from parent to child, or from child to parent.) 
+    
+    The task is to find the number of moves 
+    required such that every node has exactly one candy.
+    
+    Note that the testcases are framed such that it is always 
+    possible to achieve a configuration in which every node 
+    has exactly one candy, after some moves.
+
+  Q2: Cutting Rectangles:
+
+    Given a rectangle of dimensions L x B 
+    find the minimum number (N) of identical squares 
+    of maximum side that can be cut out from that rectangle 
+    so that no residue remains in the rectangle. 
+    
+    Also find the dimension K of that square.
+
+  Q3:  Ball Coloring:
+
+    Given n balls . All of them are initially  uncolored . 
+    You have to color the balls with two colors 
+    RED and BLUE such that there can be atmost 
+    2 positions where a RED ball is touching BLUE ball 
+    or vice versa. 
+    
+    You have to color all the balls.
+    
+    Find the number of ways in which balls can be colored.
