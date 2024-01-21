@@ -1493,3 +1493,33 @@ Day 48:
     You have to color all the balls.
     
     Find the number of ways in which balls can be colored.
+
+
+Day 49:
+
+  Q1: Vertex Cover:
+
+    Vertex cover of an undirected graph is a list of vertices 
+    such that every vertex not in the vertex cover shares their 
+    every edge with the vertices in the vertex cover. 
+    
+    In other words, for every edge in the graph, 
+    atleast one of the endpoints of the graph should 
+    belong to the vertex cover. 
+    
+    You will be given an undirected graph G, 
+    and your task is to determine the smallest 
+    possible size of a vertex cover.
+
+  Q2: Summed Matrix:
+
+    A matrix is constructed of size n*n. 
+    such that Mi,j= i+j. 
+    Count the number of cells having value q.
+    
+    Note: Assume, the array is in 1-based indexing.
+
+  Q3: Is Square:
+
+    Given four different points in space. 
+    Find whether these points can form a square or not.
