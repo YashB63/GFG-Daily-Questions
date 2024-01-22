@@ -1523,3 +1523,30 @@ Day 49:
 
     Given four different points in space. 
     Find whether these points can form a square or not.
+
+
+Day 50:
+
+  Q1: Paths from root with a specified sum:
+
+    Given a Binary tree and a sum S, 
+    print all the paths, starting from root, 
+    that sums upto the given sum. 
+
+    Path not necessarily end on a leaf node.
+
+  Q2: Rectangles in NxN chessboard:
+
+    Find total number of Rectangles 
+    (excluding squares) in a N*N chessboard.
+
+  Q3: Find the minimum time:
+
+    Geek wants to scan N documents using two scanners. 
+    If S1 and S2 are the time taken by the scanner 1 and 
+    scanner 2 to scan a single document, 
+    find the minimum time required to scan all the N documents. 
+    
+    You can use one or more scanners at a time.
+
+  
