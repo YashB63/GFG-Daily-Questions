@@ -1549,4 +1549,53 @@ Day 50:
     
     You can use one or more scanners at a time.
 
-  
+
+Day 51:
+
+  Q1: Course Schedule:
+
+    There are a total of n tasks you have to pick, 
+    labelled from 0 to n-1. 
+    Some tasks may have prerequisite tasks, 
+    for example to pick task 0 you have to 
+    first finish tasks 1, which is expressed as a pair: [0, 1]
+    
+    Given the total number of n tasks and 
+    a list of prerequisite pairs of size m. 
+    Find a ordering of tasks you should pick to finish all tasks.
+    
+    Note: There may be multiple correct orders, 
+    you just need to return any one of them. 
+    If it is impossible to finish all tasks, 
+    return an empty array. 
+    
+    Driver code will print "No Ordering Possible", 
+    on returning an empty array. 
+    
+    Returning any correct order will give the output as 1, 
+    whereas any invalid order will give the output 0. 
+
+  Q2: Final Destination:
+
+    Consider a 2d plane and a Robot which is located at (0,0) 
+    who can move only one unit step at a time in any direction i.e. 
+    if its initial position is (x,y), he can go to positions (x + 1, y), 
+    (x - 1, y), (x, y + 1) or (x, y - 1). 
+    
+    Now Given three integers a,b 
+    (denoting the final position where the robot has to reach), and x. 
+    Find out if the Robot can reach the final position in exactly x steps.
+
+  Q3: Triangular Number:
+
+    Given a number N.Check whether it is a triangular number or not.
+    
+    Note: A number is termed as a triangular number 
+    if we can represent it in the form of a triangular grid 
+    of points such that the points form an equilateral triangle 
+    and each row contains as many points as the row number, i.e., 
+    the first row has one point, the second row has two points, 
+    the third row has three points and so on.
+    
+    The starting triangular numbers are 1, 3 (1+2), 
+    6 (1+2+3), 10 (1+2+3+4).
