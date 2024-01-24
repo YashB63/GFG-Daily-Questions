@@ -1599,3 +1599,24 @@ Day 51:
     
     The starting triangular numbers are 1, 3 (1+2), 
     6 (1+2+3), 10 (1+2+3+4).
+
+
+Day 52: 
+
+  Q1: Check if a given graph is tree or not:
+
+    You are given an undirected graph of N nodes 
+    (numbered from 0 to N-1) and M edges. 
+    Return 1 if the graph is a tree, else return 0.
+    
+    Note: The input graph can have self-loops and multiple edges.
+
+  Q2: All divisors of a number:
+
+    Given an integer N, print all the divisors of N in the ascending order.
+
+  Q3: Number Game:
+
+    Given a number n the task is to find the minimum number 
+    which is divisible by all numbers from 1 to n. 
+    Print the answer modulo (10^9+7).
