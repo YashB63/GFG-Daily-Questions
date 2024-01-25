@@ -1620,3 +1620,26 @@ Day 52:
     Given a number n the task is to find the minimum number 
     which is divisible by all numbers from 1 to n. 
     Print the answer modulo (10^9+7).
+
+
+Day 53:
+
+  Q1: Shortest Prime Path:
+
+    You are given two four digit prime numbers num1 and num2. 
+    Find the distance of the shortest path from Num1 to Num2 
+    that can be attained by altering only single digit at a time 
+    such that every number that we get after changing a digit 
+    is a four digit prime number with no leading zeros.
+
+  Q2: Day of the week:
+
+    Write a program that calculates the day of the week 
+    for any particular date in the past or future.
+
+  Q3: Love for the twins:
+
+    Given an Array of Integers Arr of length N, 
+    you have to count number of elements of the array 
+    that can be counted as pair of equal elements.
+  
