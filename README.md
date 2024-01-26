@@ -1643,3 +1643,33 @@ Day 53:
     you have to count number of elements of the array 
     that can be counted as pair of equal elements.
   
+
+Day 54:
+
+  Q1: Fractional Knapsack:
+
+    Given weights and values of N items, 
+    we need to put these items in a knapsack of capacity W 
+    to get the maximum total value in the knapsack.
+    
+    Note: Unlike 0/1 knapsack, you are allowed to break the item here. 
+
+  Q2: Multiply two polynomials:
+
+    Given two polynomials represented by two arrays 
+    that contains the coefficients of poynomials, 
+    returns the polynomial in form of array formed 
+    after multiplication of given polynomials.
+
+  Q3: Deficient Number:
+
+    Given a number x, your task is to find if 
+    this number is Deficient number or not. 
+    A number x is said to be Deficient Number 
+    if sum of all the divisors of the number denoted by 
+    divisorsSum(x) is less than twice the value of the number x. 
+    And the difference between these two values is called the deficiency.
+    
+    Mathematically, if below condition holds the number is said to be Deficient:
+    divisorsSum(x) < 2*x
+    deficiency = (2*x) - divisorsSum(x)
