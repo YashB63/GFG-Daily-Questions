@@ -1,0 +1,52 @@
+Given two polynomials represented by two arrays 
+that contains the coefficients of poynomials, 
+returns the polynomial in form of array formed 
+after multiplication of given polynomials.
+
+
+Example 1:
+
+Input:
+M = 4, N = 3
+Arr1 = {1 , 0, 3, 2}
+Arr2 = {2, 0, 4}
+Output: {2, 0, 10, 4, 12, 8}
+Explaination: 
+First polynomial: 
+1 + 0x^1 + 3x^2 + 2x^3
+Second polynomial: 
+2 + 0x^1 + 4x^2
+Product polynomial:
+2 + 0x^1 + 10x^2 + 4x^3 + 12x^4 + 8x^5
+
+
+Example 2:
+
+Input:
+M = 5, N = 4
+Arr1 = {1, 9, 3, 4, 7}
+Arr1 = {4, 0, 2, 5}
+Output: {4, 36, 14, 39, 79, 23, 34, 35}
+Explaination: 
+First polynomial: 
+1 + 9x^1 + 3x^2 + 4x^3 + 7x^4
+Second polynomial: 
+4 + 0x^1 + 2x^2 + 5x^3
+Product polynomial:
+4 + 36x^1 + 14x^2 + 39x^3 + 79x^4 + 23x^5 + 34x^6 + 35x^7
+
+Your Task:
+You don't need to read input or print anything. 
+Your task is to complete the function polyMultiply() 
+which takes the array Arr1[] and Arr2[]and their 
+size M and N as input parameters and returns the polynomial 
+in form of array formed after multiplication of given polynomials..
+
+
+Expected Time Complexity: O(M*N)
+Expected Auxiliary Space: O(M+N)
+
+
+Constraints:
+1 ≤ M, N ≤ 100
+1 ≤  Arr1[i] , Arr2[i]  ≤ 100
