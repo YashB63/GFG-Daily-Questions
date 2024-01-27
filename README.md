@@ -1673,3 +1673,45 @@ Day 54:
     Mathematically, if below condition holds the number is said to be Deficient:
     divisorsSum(x) < 2*x
     deficiency = (2*x) - divisorsSum(x)
+
+Day 55:
+
+  Q1: Brackets in Matrix Chain Multipliation:
+
+    Given an array p[] of length n used to denote the dimensions 
+    of a series of matrices such that the dimension of i'th matrix 
+    is p[i] * p[i+1]. There are a total of n-1 matrices. 
+    
+    Find the most efficient way to multiply these matrices together. 
+    
+    As in MCM, you were returning the most effective count but 
+    this time return the string which is formed of A - Z (only Uppercase) 
+    denoting matrices & Brackets( "(" ")" ) denoting multiplication symbols. 
+    
+    For example, if n =11, the matrixes can be denoted as 
+    A - K as n<=26 & brackets as multiplication symbols.
+    
+    NOTE:
+    
+    Each multiplication is denoted by putting open & closed brackets 
+    to the matrices multiplied & also Please note that the order of 
+    matrix multiplication matters, as matrix multiplication is non-commutative A*B != B*A
+    
+    As there can be multiple possible answers, 
+    the console would print "True" for the correct string 
+    and "False" for the incorrect string. 
+    You need to only return a string that performs 
+    a minimum number of multiplications.
+
+  Q2: Multiply by 11:
+
+    Given a number in the form of a string of length N . 
+    You have to multiply the given number by 11.
+
+  Q3: Find the Maximum Number:
+
+    Given a number N, write a program to find a maximum number 
+    that can be formed using all of the digits of this number.
+    
+    Note: The given number can be very large, 
+    so the input is taken as a String.
