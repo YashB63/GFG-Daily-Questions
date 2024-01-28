@@ -1715,3 +1715,43 @@ Day 55:
     
     Note: The given number can be very large, 
     so the input is taken as a String.
+
+Day 56:
+
+  Q1: Geekina Hate 1s:
+
+    It is a universal fact that Geekina hates 1s however 
+    it is also known that Geekina loves the integers having 
+    atmost k 1s (set-bits) in their binary representation. 
+    
+    Geekina demanded nth such non-negative number from Geek, 
+    and being a good friend of Geek, 
+    now it's your responsibility to tell him that number.
+    
+    Note: The test cases are generated such that the answer 
+    always exists and will fit in the 64-bit data type.
+
+  Q2: Faithful Numbers:
+
+    A number is called faithful if you can write it 
+    as the sum of distinct powers of 7. 
+    
+    e.g.,  2457 = 7 + 7^2 + 7^4 . 
+    If we order all the faithful numbers, 
+    we get the sequence 1 = 7^0, 7 = 7^1, 
+    8 = 7^0 + 7^1, 49 = 7^2, 50 = 7^0 + 7^2 . . . and so on.
+    
+    Given some value of N, 
+    you have to find the N'th faithful number.
+
+  Q3: Amicable Pair:
+
+    Amicable numbers are two different numbers so related that 
+    the sum of the proper divisors of each is equal to the other number. 
+    (A proper divisor of a number is a positive factor 
+    of that number other than the number itself. 
+    
+    Given two Numbers A and B, find whether 
+    they are Amicable Numbers or not. 
+    
+    Print 1 if they are Amicable else 0.
