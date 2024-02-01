@@ -29,6 +29,7 @@ If there is no non-repeating character then return '$' .
 
 Expected Time Complexity: O(N).
 Expected Auxiliary Space: O(Number of distinct characters).
+
 Note: N = |S|
 
 Constraints:
