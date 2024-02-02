@@ -1755,3 +1755,37 @@ Day 56:
     they are Amicable Numbers or not. 
     
     Print 1 if they are Amicable else 0.
+
+Day 57:
+
+  Q1: Count Odd Factors:
+
+    Given an integer N, count the numbers having 
+    an odd number of factors from 1 to N (inclusive).
+
+  Q2: Lucky Number:
+
+    A n digit number has n*(n+1)/2 sub-numbers.  
+    For example, all possible sub-numbers of 975 are 9 7 5 97 75 975. 
+    A number is called Lucky if all sub-numbers have different digit product.  
+    Digit product of a number is product of its digits.  
+    
+    For example, the number 23 is Lucky.  
+    Sub-numbers of it are 2, 3 and 23 and digit products are 
+    2, 3 and 6 respectively (All digit products are different). 
+    975 is also lucky. Print 1 if given Number is Lucky else Print 0.
+
+  Q3: Count digit groupings of a number:
+
+    Given a string str consisting of digits, you can divide it 
+    into sub-groups by separating the string into substrings. 
+    For example, "112" can be divided as 
+    {"1", "1", "2"}, {"11", "2"}, {"1", "12"}, and {"112"}.
+    
+    A valid grouping can be done if you are able to divide 
+    sub-groups where the sum of digits in a sub-group is less than 
+    or equal to the sum of the digits of the sub-group immediately right to it. 
+    Your task is to determine the total number of valid groupings 
+    that could be done for a given string.
+
+  
