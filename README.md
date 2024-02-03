@@ -1788,4 +1788,26 @@ Day 57:
     Your task is to determine the total number of valid groupings 
     that could be done for a given string.
 
+Day 58:
+
+  Q1: LCS of three strings:
+
+    Given 3 strings A, B and C, 
+    the task is to find the length of the longest sub-sequence 
+    that is common in all the three given strings.
+
+  Q2: Find first set bit:
+
+    Given an integer N. The task is to return the position of first set bit 
+    found from the right side in the binary representation of the number.
+    
+    Note: If there is no set bit in the integer N, then return 0 from the function.
+
+  Q3: Bubble Sort:
+
+    Given an Integer N and a list arr. 
+    Sort the array using bubble sort algorithm.
+
+  
+
   
