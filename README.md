@@ -1808,6 +1808,31 @@ Day 58:
     Given an Integer N and a list arr. 
     Sort the array using bubble sort algorithm.
 
-  
 
-  
+Day 59:
+
+  Q1: Insert and Search in a Trie:
+
+    Complete the Insert and Search functions for a Trie Data Structure. 
+    
+    Insert: Accepts the Trie's root and a string, 
+    modifies the root in-place, and returns nothing.
+    
+    Search: Takes the Trie's root and a string, 
+    returns true if the string is in the Trie, otherwise false.
+    
+    Note: To test the correctness of your code, 
+    the code-judge will be inserting a list of N 
+    strings called into the Trie, and then will search 
+    for the string key in the Trie. 
+    The code-judge will generate 1 if the key is present in the Trie, else 0.
+
+  Q2: Reverse a String:
+
+    You are given a string s. 
+    You need to reverse the string.
+
+  Q3: Prime Number:
+
+    For a given number N check if it is prime or not. 
+    A prime number is a number which is only divisible by 1 and itself.
