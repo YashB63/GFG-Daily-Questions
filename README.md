@@ -1836,3 +1836,31 @@ Day 59:
 
     For a given number N check if it is prime or not. 
     A prime number is a number which is only divisible by 1 and itself.
+
+
+Day 60:
+
+  Q1: Panagram Checking:
+
+    Given a string s check if it is "Panagram" or not.
+    
+    A "Panagram" is a sentence containing 
+    every letter in the English Alphabet.
+
+  Q2: Non Repeating Character:
+
+    Given a string S consisting of lowercase Latin Letters. 
+    Return the first non-repeating character in S. 
+    If there is no non-repeating character, return '$'.
+
+  Q3: Run Length Encoding:
+
+    Given a string, Your task is to  complete the function 
+    encode that returns the run length encoded string for the given string.
+    
+    eg if the input string is “wwwwaaadexxxxxx”, 
+    then the function should return “w4a3d1e1x6″.
+    
+    You are required to complete the function encode 
+    that takes only one argument the string which is 
+    to be encoded and returns the encoded string.
