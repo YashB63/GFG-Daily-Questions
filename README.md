@@ -1864,3 +1864,27 @@ Day 60:
     You are required to complete the function encode 
     that takes only one argument the string which is 
     to be encoded and returns the encoded string.
+
+
+Day 61:
+
+  Q1: Implement Atoi:
+
+    Given a string, s, the objective is to convert it into integer 
+    format without utilizing any built-in functions. 
+    If the conversion is not feasible, the function should return -1.
+    
+    Note: Conversion is feasible only if all characters in the string 
+    are numeric or if its first character is '-' and rest are numeric.
+
+  Q2: Remaining String:
+
+    Given a string S without spaces, a character ch, 
+    and an integer count, the task is to find the string 
+    after the specified character has occurred count number of times.
+
+  Q3: Closest Strings:
+
+    Given a list of words followed by two words, 
+    the task to find the minimum distance between 
+    the given two words in the list of words
