@@ -1888,3 +1888,55 @@ Day 61:
     Given a list of words followed by two words, 
     the task to find the minimum distance between 
     the given two words in the list of words
+
+Day 62: 
+
+  Q1: Decimal Equivalent of Binary Linked List:
+
+    Given a singly linked list of length n. 
+    The link list represents a binary number, 
+    ie- it contains only 0s and 1s. Find its decimal equivalent.
+    
+    The significance of the bits decreases 
+    with the increasing index in the linked list.
+    
+    An empty linked list is considered 
+    to represent the decimal value 0. 
+    
+    Since the answer can be very large, 
+    answer modulo 109+7 should be printed.
+
+  Q2: Wifi Range:
+
+    There are N rooms in a straight line in 
+    Geekland State University's hostel, 
+    you are given a binary string S of length N where S[i] = '1' 
+    represents that there is a wifi in ith room or 
+    S[i] = '0' represents no wifi. Each wifi has range X i.e. 
+    if there is a wifi in ith room then its range will go upto 
+    X more rooms on its left as well as right. 
+    
+    You have to find whether students in all rooms can use wifi.
+
+  Q3: Type it:
+
+    Geek is extremely punctual but today even he is not 
+    feeling like doing his homework assignment. 
+    He must start doing it immediately 
+    in order to meet the deadline. 
+    
+    For the assignment, 
+    Geek needs to type a string s.
+    
+    To reduce his workload, 
+    he has decided to perform one of the following 
+    two operations till he gets the string.
+    
+    Append a character at the end of the string.
+    
+    Append the string formed thus far to the end of the string. 
+    (This can not be done more than once.)
+    
+    Help Geek find the minimum operations 
+    required to type the given string.
+
