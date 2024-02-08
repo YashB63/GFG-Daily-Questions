@@ -1940,3 +1940,31 @@ Day 62:
     Help Geek find the minimum operations 
     required to type the given string.
 
+Day 63:
+
+  Q1: Subtraction in linked list:
+
+    You are given two linked lists that represent two large positive numbers. 
+    From the two numbers represented by the linked lists, 
+    subtract the smaller number from the larger one. 
+    
+    Look at the examples to get a better understanding of the task.
+
+  Q2: K-Pangrams
+
+    Given a string str and an integer K, 
+    find whether the string can be changed into a pangram 
+    after at most k operations. 
+    
+    A pangram is a sentence containing every letter 
+    in the english alphabet. 
+    A single operation can be used to swap an 
+    existing alphabetic character with any other alphabetic character.
+
+  Q3: Count Substrings:
+
+    Given a binary string S. 
+    The task is to count the number of substrings 
+    that starts and end with 1.
+    
+    Note: The starting and the ending 1s should be different.
