@@ -1,0 +1,26 @@
+Given a number S, you need to check whether 
+any permutation of the number S divisible by 8 or not. 
+
+
+Example 1:
+
+Input: S = "80"
+Output: "Divisible"
+Explanation: 80 is divisible by 8
+
+
+Example 2:
+
+Input: S = "101"
+Output: "Not divisible"
+Your Task :
+Complete the function isDivisible8() that 
+receives a string S denoting the number and 
+returns 1 if any permutation of the number is 
+divisible by 8 or else returns 0.
+
+Expected Time Complexity : O(lS|^3)
+Expected Space Complexity : O(1)
+
+Constraints:
+1 ≤ lS| ≤ 10^2
