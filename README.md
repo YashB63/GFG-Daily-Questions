@@ -1968,3 +1968,47 @@ Day 63:
     that starts and end with 1.
     
     Note: The starting and the ending 1s should be different.
+
+
+Day 64: 
+
+  Q1: Sorted insert for circular linked list:
+
+    Given a sorted circular linked list of length n, 
+    the task is to insert a new node in this circular list 
+    so that it remains a sorted circular linked list.
+
+  Q2: Min number of flips:
+
+    Given a binary string, that is it contains only 0s and 1s. 
+    We need to make this string a sequence of alternate characters 
+    by flipping some of the bits, our goal is to minimize the
+    number of bits to be flipped.
+
+  Q3: Balanced String:
+
+    Given an integer N.Create a string using only 
+    lowercase characters from a to z that follows the given rules.
+    
+    When N is even:
+    
+    Use N/2 characters from the beginning of a-z 
+    and N/2 characters from the ending of a-z.
+    
+    When N is greater than 26,
+    continue repeating the instructions 
+    until length of string becomes N.
+    
+    When N is odd:
+    
+    Case 1: If the sum of digits of N is even, 
+    Select (N+1)/2 characters from the beginning 
+    of a-z and (N-1)/2 characters from the ending of a-z.
+    
+    Case 2: If the sum of digits of N is odd, 
+    Select (N-1)/2 characters from the beginning of a-z 
+    and (N+1)/2 characters from the ending of a-z.
+    
+    When N is greater than 26,
+    continue repeating the instructions 
+    until length of string becomes N.
