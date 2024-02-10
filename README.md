@@ -2012,3 +2012,33 @@ Day 64:
     When N is greater than 26,
     continue repeating the instructions 
     until length of string becomes N.
+
+Day 65:
+
+  Q1: Rearrange a String:
+
+    Given a string containing uppercase alphabets and 
+    integer digits (from 0 to 9), the task is to print 
+    the alphabets in the lexicographical order 
+    followed by the sum of digits.
+
+  Q2: Count the nodes at distance K from leaf:
+
+    Given a binary tree with n nodes and a non-negative integer k, 
+    the task is to count the number of special nodes.
+    
+    A node is considered special if there exists 
+    at least one leaf in its subtree such that the 
+    distance between the node and leaf is exactly k.
+    
+    Note: Any such node should be counted only once. 
+    For example, if a node is at a distance k from 2 or more leaf nodes, 
+    then it would add only 1 to our count.
+
+  Q3: Meta Strings:
+
+    Given two strings consisting of lowercase english alphabets, 
+    the task is to check whether these strings are meta strings or not. 
+    Meta strings are the strings which can be made equal 
+    by exactly one swap in any of the strings. 
+    Equal string are not considered here as Meta strings.
