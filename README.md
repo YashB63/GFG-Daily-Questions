@@ -2042,3 +2042,24 @@ Day 65:
     Meta strings are the strings which can be made equal 
     by exactly one swap in any of the strings. 
     Equal string are not considered here as Meta strings.
+
+
+Day 66:
+
+  Q1: Min distance between two given nodes of a binary tree:
+
+    Given a binary tree with n nodes and two node values, 
+    a and b, your task is to find the minimum distance between them. 
+    The given two nodes are guaranteed to be in the binary tree and 
+    all node values are unique.
+
+  Q2: Palindrome Sentence:
+
+    Given a single sentence s, 
+    check if it is a palindrome or not. 
+    Ignore white spaces and any other character you may encounter. 
+
+  Q3: Count Alphabets:
+
+    Given a string, The task is to count the 
+    number of alphabets present in the string.
