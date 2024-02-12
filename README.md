@@ -2063,3 +2063,31 @@ Day 66:
 
     Given a string, The task is to count the 
     number of alphabets present in the string.
+
+Day 67:
+
+  Q1: Check if all leaves are at same level:
+
+    Given a binary tree with n nodes, 
+    determine whether all the leaf nodes 
+    are at the same level or not. 
+    
+    Return true if all leaf nodes are 
+    at the same level, and false otherwise.
+
+  Q2: Amend the Sentence:
+
+    Given a string which is basically a sentence without spaces between words. 
+    However the first letter of every word is in uppercase. 
+    You need to print this sentence after following amendments:
+    
+    (i) Put a single space between these words
+    
+    (ii) Convert the uppercase letters to lowercase.
+    
+    Note: The first character of the string can be both uppercase/lowercase.
+
+  Q3: Divisible by 8:
+
+    Given a number S, you need to check whether 
+    any permutation of the number S divisible by 8 or not. 
