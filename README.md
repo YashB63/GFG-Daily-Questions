@@ -2091,3 +2091,33 @@ Day 67:
 
     Given a number S, you need to check whether 
     any permutation of the number S divisible by 8 or not. 
+
+Day 68:
+
+  Q1: Check for children sum property in a Binary tree:
+
+    Given a binary tree having n nodes. 
+    Check whether all of its nodes have the value 
+    equal to the sum of their child nodes. 
+    
+    Return 1 if all the nodes in the tree 
+    satisfy the given properties, else it return 0.
+    
+    For every node, data value must be equal to the 
+    sum of data values in left and right children. 
+    Consider data value as 0 for NULL child.  
+    Also, leaves are considered to follow the property.
+
+  Q2: Check if the number is balanced:
+
+    Given an integer N which has odd number of digits, 
+    find whether the given number is a balanced or not.
+    
+    An odd digit number is called a balanced number 
+    if the sum of all digits to the left of the middle digit 
+    and the sum of all digits to the right of the middle digit is equal.
+
+  Q3: Check if a number is divisible by 8:
+
+    Given a string representation of a number S, 
+    check if it is divisible by 8.
