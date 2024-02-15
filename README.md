@@ -2121,3 +2121,74 @@ Day 68:
 
     Given a string representation of a number S, 
     check if it is divisible by 8.
+
+Day 69:
+
+  Q1: Number of Paths in a matrix with k coins:
+
+    Given a n x n matrix such that each of its cells contains some coins. 
+    Count the number of ways to collect exactly k coins while moving 
+    from top left corner of the matrix to the bottom right. 
+    
+    From a cell (i, j), you can only move to (i+1, j) or (i, j+1).
+
+  Q2: Second most repeated string in a sequence:
+
+    Given a sequence of strings, 
+    the task is to find out the second most repeated 
+    (or frequent) string in the given sequence.
+    
+    Note: No two strings are the second most repeated, 
+    there will be always a single string.
+
+  Q3: Remove all duplicates from a given string:
+
+    Given a string str which may contains lowercase and uppercase chracters. 
+    The task is to remove all duplicate characters from the string 
+    and find the resultant string. 
+    
+    The order of remaining characters in the output 
+    should be same as in the original string.
+
+Day 70:
+
+  Q1: Racemans Sequence:
+
+    Given an integer n, return the 
+    first n elements of Recaman’s sequence.
+    
+    It is a function with domain and 
+    co-domain as whole numbers.
+     
+    It is recursively defined as below:
+    
+    Specifically, let a(n) denote the (n+1)th term. 
+    (0 being the 1st term).
+    The rule says:
+    a(0) = 0
+    a(n) = a(n-1) - n, if a(n-1) - n > 0 and 
+    is not included in the sequence previously
+           =  a(n-1) + n otherwise.
+
+  Q2: Convert to Roman No:
+
+    Given an integer n, your task is to complete the function 
+    convertToRoman which prints the corresponding roman number of n. 
+    Various symbols and their values are given below
+    
+    Note:- There are a few exceptions for some numbers 
+    like 4 in roman is IV,9 in roman is IX, similarly, 
+    40 is XL while 90 is XC. Similarly, 
+    400 is CD while 900 is CM
+    
+    I 1
+    V 5
+    X 10
+    L 50
+    C 100
+    D 500
+    M 1000
+
+  Q3: Print Bracket Number:
+
+    Given a string S, the task is to find the bracket numbers. 
