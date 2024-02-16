@@ -2192,3 +2192,55 @@ Day 70:
   Q3: Print Bracket Number:
 
     Given a string S, the task is to find the bracket numbers. 
+
+Day 71:
+
+  Q1: Recursive Sequence:
+
+    Given a string S that consists of only 
+    alphanumeric characters and dashes. 
+    The string is separated into N + 1 
+    groups by N dashes. 
+    
+    Also given an integer K. 
+    
+    We want to reformat the string S, 
+    such that each group contains exactly K characters, 
+    except for the first group, which could be shorter than K 
+    but still must contain at least one character. 
+    
+    Furthermore, there must be a dash inserted between two groups, 
+    and you should convert all lowercase letters to uppercase.
+    
+    Return the reformatted string.
+
+  Q2: Reversing the equation:
+
+    A function F is defined as follows F(n)= (1) +(2*3) + (4*5*6) ... 
+    upto n terms (look at the examples for better clarity). 
+    
+    Given an integer n, determine the F(n).
+    
+    Note: As the answer can be very large, 
+    return the answer modulo 10^9+7.
+
+  Q3: License Key Formatting:
+
+    Given a string S that consists of only 
+    alphanumeric characters and dashes. 
+    The string is separated into N + 1 
+    groups by N dashes. 
+    
+    Also given an integer K. 
+    
+    We want to reformat the string S, 
+    such that each group contains exactly K characters, 
+    except for the first group, which could be shorter than K 
+    but still must contain at least one character. 
+    
+    Furthermore, there must be a dash inserted between two groups, 
+    and you should convert all lowercase letters to uppercase.
+    
+    Return the reformatted string.
+
+  
