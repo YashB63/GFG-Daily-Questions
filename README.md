@@ -2243,4 +2243,42 @@ Day 71:
     
     Return the reformatted string.
 
-  
+Day 72:
+
+  Q1: Clone an Undirected Graph:
+
+    Given a connected undirected graph with n nodes and m edges, 
+    with each node having a distinct label from 0 to n-1, 
+    create a clone of the graph. 
+    
+    Each node in the graph contains an integer val 
+    and an array (neighbors) of nodes, 
+    containing nodes that are adjacent to the current node.
+    
+    Note: If the user returns a correct copy of the given graph, 
+    then the system will print 1; in the case when an incorrect 
+    copy is generated or when the user returns the original node, 
+    the system will print 0.
+    
+    For Example :    
+    
+    class Node {
+        val: integer
+        neighbors: List[Node]
+    }
+
+  Q2: Minimum indexed Character:
+
+    Given a string str and another string patt. 
+    Find the minimum index of the character in 
+    str that is also present in patt.
+
+  Q3: Find first repeated Character:
+
+    Given a string S. The task is to find the 
+    first repeated character in it. 
+    
+    We need to find the character that occurs 
+    more than once and whose index of 
+    second occurrence is smallest. 
+    S contains only lowercase letters.
