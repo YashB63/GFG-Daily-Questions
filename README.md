@@ -2282,3 +2282,45 @@ Day 72:
     more than once and whose index of 
     second occurrence is smallest. 
     S contains only lowercase letters.
+
+
+Day 73:
+
+  Q1: Find all critical connections in the graph:
+
+    A critical connection refers to an edge that, 
+    upon removal, will make it impossible for certain nodes 
+    to reach each other through any path. You are given an 
+    undirected connected graph with v vertices and 
+    e edges and each vertex distinct and ranges from 0 to v-1, 
+    and you have to find all critical connections in the graph. 
+    It is ensured that there is at least one such edge present.
+    
+    Note: The answers may be presented in various potential orders. 
+    Each edge should be displayed in sorted order. For instance, 
+    if there's an edge between node 1 and node 2, 
+    it should be stored as (1,2) rather than (2,1). 
+    
+    Additionally, it is expected that you 
+    store the edges in sorted order.
+
+  Q2: N meetings in one room:
+
+    There is one meeting room in a firm. 
+    There are N meetings in the form of (start[i], end[i]) where start[i] 
+    is start time of meeting i and end[i] is finish time of meeting i.
+    
+    What is the maximum number of meetings that can be accommodated 
+    in the meeting room when only one meeting can be held in 
+    the meeting room at a particular time?
+    
+    Note: Start time of one chosen meeting can't be 
+    equal to the end time of the other chosen meeting.
+
+  Q3: Floor in a Sorted Array:
+
+    Given a sorted array arr[] of size N without duplicates, 
+    and given a value x. Floor of x is defined as the 
+    largest element K in arr[] such that K is smaller than 
+    or equal to x. Find the index of K(0-based indexing).
+  
