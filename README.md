@@ -2323,4 +2323,39 @@ Day 73:
     and given a value x. Floor of x is defined as the 
     largest element K in arr[] such that K is smaller than 
     or equal to x. Find the index of K(0-based indexing).
+
+
+Day 74:
+
+  Q1: Count all Possible Path:
+
+    You are presented with an undirected connected graph 
+    consisting of n vertices and connections between them 
+    represented by an adjacency matrix. Your objective is 
+    to determine whether it is possible to start traversing 
+    from a node, x, and return to it after traversing 
+    all the vertices at least once, using each edge exactly once.
+
+  Q2: Check for BST:
+
+    Given the root of a binary tree. 
+    Check whether it is a BST or not.
+    Note: We are considering that BSTs 
+    can not contain duplicate Nodes.
+    
+    A BST is defined as follows:
+    
+    The left subtree of a node contains only nodes 
+    with keys less than the node's key.
+    
+    The right subtree of a node contains only nodes 
+    with keys greater than the node's key.
+    
+    Both the left and right subtrees must 
+    also be binary search trees.
+
+  Q3: Detect Loop in linked list:
   
+    Given a linked list of N nodes. 
+    The task is to check if the linked list has a loop. 
+    Linked list can contain self loop.
