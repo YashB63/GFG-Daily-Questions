@@ -2359,3 +2359,35 @@ Day 74:
     Given a linked list of N nodes. 
     The task is to check if the linked list has a loop. 
     Linked list can contain self loop.
+
+
+Day 75:
+
+  Q1: Flatten BST to sorted list:
+
+    You are given a Binary Search Tree (BST) with n nodes, 
+    each node has a distinct value assigned to it. 
+    
+    The goal is to flatten the tree such that, 
+    the left child of each element points to nothing (NULL), 
+    and the right child points to the next element in the 
+    sorted list of elements of the BST (look at the examples for clarity). 
+    
+    You must accomplish this without using any extra storage, 
+    except for recursive calls, which are allowed.
+    
+    Note: If your BST does have a left child, 
+    then the system will print a -1 and will skip it, 
+    resulting in an incorrect solution.
+
+  Q2: Easy String:
+
+    You are given the string S. 
+    Compress the string when lower and upper cases are the same. 
+    In compressed string characters should be in lowercase.
+
+  Q3: Special array Reversal:
+
+    Given a string S, containing special characters a
+    nd all the alphabets, reverse the string without
+    affecting the positions of the special characters.
