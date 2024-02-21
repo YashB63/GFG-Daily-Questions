@@ -2391,3 +2391,36 @@ Day 75:
     Given a string S, containing special characters a
     nd all the alphabets, reverse the string without
     affecting the positions of the special characters.
+
+
+Day 76:
+
+  Q1: Does array represent Heap:
+
+    Given an array arr of size n, 
+    the task is to check if the given array can 
+    be a level order representation of a Max Heap.
+
+  Q2: Left view of Binary Tree:
+
+    Given a Binary Tree, return Left view of it. 
+    Left view of a Binary Tree is set of nodes visible 
+    when tree is visited from Left side. 
+    The task is to complete the function leftView(), 
+    which accepts root of the tree as argument. 
+    If no left view is possible, return an empty tree.
+    
+    Left view of following tree is 1 2 4 8.
+    
+              1
+           /     \
+         2        3
+       /     \    /    \
+      4     5   6    7
+       \
+         8   
+
+  Q3: Reverse a linked list:
+
+    Given a linked list of N nodes. 
+    The task is to reverse this list.
