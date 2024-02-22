@@ -2424,3 +2424,37 @@ Day 76:
 
     Given a linked list of N nodes. 
     The task is to reverse this list.
+
+Day 77:
+
+  Q1: Arya's Long String:
+
+    Arya has a string, s, of uppercase English letters. 
+    She writes down the string s on a paper k times. 
+    She wants to calculate the occurence of a specific letter  
+    in the first n characters of the final string.
+
+  Q2: Closing bracket index:
+
+    Given a string with brackets ('[' and ']') and 
+    the index of an opening bracket. 
+    
+    Find the index of the corresponding closing bracket.
+
+  Q3: Sum of leaf nodes in BST:
+
+    Given a Binary Search Tree with n nodes, 
+    find the sum of all leaf nodes. 
+    BST has the following property (duplicate nodes are possible):
+    
+    The left subtree of a node contains 
+    only nodes with keys less than the node’s key.
+    
+    The right subtree of a node contains only nodes 
+    with keys greater than or equal to the node’s key.
+    
+    Your task is to determine the total sum 
+    of the values of the leaf nodes.
+    
+    Note: Input array arr doesn't represent the actual BST, 
+    it represents the order in which the elements will be added into the BST.
