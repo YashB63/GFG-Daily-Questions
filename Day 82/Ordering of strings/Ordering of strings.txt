@@ -1,0 +1,44 @@
+You will be given N number of strings. 
+You have to find the lexicographically smallest string 
+and the lexicographically largest string among these strings.
+
+
+Example 1:
+
+Input:
+N = 3
+strings = a , ab , abc
+Output: a abc
+Explanation: Lexicographically smallest is
+"a" and lexicographically largest is
+"abc".
+ 
+
+Example 2:
+
+Input:
+N = 2
+strings = abc , abc
+Output: abc abc
+Explanation: Lexicographically smallest is
+"abc" and lexicographically largest is
+"abc"
+ 
+
+Your Task:  
+You dont need to read input or print anything. 
+Complete the function orderStringâ€‹() 
+which takes a 2d character array and an integer N 
+as input parameter and returns an array of size 2 
+where first value should be lexicographically 
+smallest string and second value should be 
+lexicographically largest string.
+
+ 
+
+Expected Time Complexity: O(N* max of all string length ).
+Expected Auxiliary Space: O(1).
+ 
+
+Constraints:
+1 <= N , length of each string <= 10^3
