@@ -2458,3 +2458,39 @@ Day 77:
     
     Note: Input array arr doesn't represent the actual BST, 
     it represents the order in which the elements will be added into the BST.
+
+
+Day 78:
+
+  Q1: Game with String:
+
+    Given a string s of lowercase alphabets and a number k, 
+    the task is to print the minimum value of the string 
+    after removal of k characters. 
+    
+    The value of a string is defined as the sum of squares 
+    of the count of each distinct character present in the string. 
+
+  Q2: The Modified String:
+
+    Ishaan is playing with strings these days. 
+    He has found a new string. 
+    He wants to modify it as per the 
+    following rules to make it valid:
+    
+    The string should not have three 
+    consecutive same characters 
+    (Refer example for explanation).
+    
+    He can add any number of characters 
+    anywhere in the string. 
+    
+    Find the minimum number of characters which 
+    Ishaan must insert in the string to make it valid.
+
+  Q3: Pattern Searching:
+
+    Given a text and a pattern, 
+    the task is to check if the pattern 
+    exists in the text or not.
+
