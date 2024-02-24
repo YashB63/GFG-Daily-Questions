@@ -2494,3 +2494,31 @@ Day 78:
     the task is to check if the pattern 
     exists in the text or not.
 
+Day 79:
+
+  Q1: Word Break:
+
+    Given a string s and a dictionary of n words dictionary, 
+    find out if a s can be segmented into a space-separated 
+    sequence of dictionary words. 
+    
+    Return 1 if it is possible to break the s into 
+    a sequence of dictionary words, else return 0. 
+    
+    Note: From the dictionary dictionary each word 
+    can be taken any number of times and in any order.
+
+  Q2: Count the Substrings:
+
+    Given a string S. 
+    The task is to count the number of substrings which contains 
+    equal number of lowercase and uppercase letters. 
+
+  Q3: Match specific pattern:
+
+    Given a dictionary of words and a pattern. 
+    Every character in the pattern is uniquely mapped 
+    to a character in the dictionary. 
+    
+    Find all such words in the dictionary 
+    that match the given pattern. 
