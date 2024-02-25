@@ -2522,3 +2522,36 @@ Day 79:
     
     Find all such words in the dictionary 
     that match the given pattern. 
+
+Day 80:
+
+  Q1: Boolean Parenthesization:
+
+    Given a boolean expression s of length n with following symbols.
+    Symbols
+        'T' ---> true
+        'F' ---> false
+    and following operators filled between symbols
+    Operators
+        &   ---> boolean AND
+        |   ---> boolean OR
+        ^   ---> boolean XOR
+    Count the number of ways we can parenthesize the expression 
+    so that the value of expression evaluates to true.
+    
+    Note: The answer can be large, 
+    so return it with modulo 1003
+
+  Q2: Divisible by 7:
+
+    Given an n-digit large number in form of string, 
+    check whether it is divisible by 7 or not. 
+    Print 1 if divisible by 7, otherwise 0.
+
+  Q3: Prime String:
+
+    Provided a String of length N, your task is to find out 
+    whether or not the given string is a prime string. 
+    
+    A prime string is a string in which the sum of the 
+    ASCII value of all the characters is prime.
