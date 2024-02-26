@@ -2555,3 +2555,23 @@ Day 80:
     
     A prime string is a string in which the sum of the 
     ASCII value of all the characters is prime.
+
+Day 81:
+
+  Q1: Distinct Occurences:
+
+    Given two strings s and t of length n and m respectively. 
+    Find the count of distinct occurrences of t in 
+    s as a sub-sequence modulo 10^9 + 7.
+
+  Q2: Pangram Strings:
+
+    Check if the given string S is a Panagram or not. 
+    A pangram is a sentence containing every 
+    letter in the English Alphabet.
+
+  Q3: Common Subsequence: 
+
+    Given two strings a and b. 
+    Check whether they contain any 
+    common subsequence (non empty) or not.
