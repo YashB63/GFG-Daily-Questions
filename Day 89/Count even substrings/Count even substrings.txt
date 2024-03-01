@@ -1,0 +1,29 @@
+Given a string of digits 0 – 9. 
+The task is to count the number of substrings 
+which when converting into integer form an even number.
+
+
+Example 1:
+
+Input : s = "1234".
+Output : 6
+Explanation: "2", "4", "12", "34", "234",
+"1234" are 6 substring which are even.
+
+
+Example 2:
+
+Input : s = "154".
+Output : 3
+Explanation: "154", "54", "4" are the 
+even substrings.
+Your Task:  
+You don't need to read input or print anything. 
+Your task is to complete the function evenNumSubstring() 
+which takes the string as inputs and returns the count of even substring.
+
+Expected Time Complexity: O(|S|)
+Expected Auxiliary Space: O(1)
+
+Constraints:
+1 ≤ |S| ≤ 10^5
