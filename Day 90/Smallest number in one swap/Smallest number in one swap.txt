@@ -1,0 +1,30 @@
+Given a non-negative number N. The task is to apply 
+at most one swap operation on the number N 
+so that the result is the smallest possible number.
+
+Note: Input and Output should not contain leading zeros.
+
+
+Example 1:
+
+Input: N = "9625635"
+Output: "2695635"
+Explanation: Swapped the digits 9 and 2.
+
+
+Example 2:
+
+Input: N = "1205763"
+Output: "1025763"
+Explanation: Swapped the digits 0 and 2.
+Your Task:  
+You don't need to read input or print anything. 
+Your task is to complete the function smallestNumber() 
+which takes the string as inputs and returns the answer.
+
+Expected Time Complexity: O(|N|)
+Expected Auxiliary Space: O(|N|)
+
+Constraints:
+1 ≤ |N| ≤ 10^5
+
