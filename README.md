@@ -2597,3 +2597,33 @@ Day 82:
     Check whether they contain any 
     common subsequence (non empty) or not.
 
+
+Day 83:
+
+  Q1: Maximum Sum Problem:
+
+    A number n can be broken into three parts n/2, n/3, and n/4 
+    (consider only the integer part). 
+    
+    Each number obtained in this process can be divided further recursively. 
+    
+    Find the maximum sum that can be obtained by 
+    summing up the divided parts together.
+    
+    Note: It is possible that we don't divide the number at all.
+
+  Q2: String Modification:
+
+    Given a string with repeated characters, 
+    the task is to complete the function rearrangeString 
+    which rearrange characters in a string so that 
+    no two adjacent characters are same.
+    
+    Note : It may be assumed that the string has only lowercase 
+    English alphabets and such transformation is always always possible.
+
+  Q3: Last Match:
+
+    Given two strings A and B, 
+    you need to find the last occurrence 
+    ( 1 based indexing) of string B in string A.
