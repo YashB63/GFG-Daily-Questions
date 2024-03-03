@@ -2627,3 +2627,43 @@ Day 83:
     Given two strings A and B, 
     you need to find the last occurrence 
     ( 1 based indexing) of string B in string A.
+
+
+Day 84:
+
+  Q1: Reach a given score:
+
+    Consider a game where a player can score 3 or 5 
+    or 10 points in a move. 
+    Given a total score n, 
+    find number of distinct combinations 
+    to reach the given score.
+
+  Q2: Difficulty of sentence:
+
+    Given a sentence as a string S. 
+    
+    Calculate difficulty of a given sentence.
+    
+    Difficulty of sentence is defined as 5*(number of hard words) + 
+    3*(number of easy words). 
+    
+    A word in the given string is considered hard 
+    if it has 4 consecutive consonants or number of consonants 
+    are more than number of vowels. 
+    
+    Else the word is easy.
+    
+    Note: uppercase and lowercase characters are same.
+
+  Q3: Odd Even Problem:
+
+    Given a string S of lowercase english characters, 
+    find out whether the summation of X and Y is even or odd, 
+    where X is the count of distinct characters which occupy 
+    even positions in english alphabets and 
+    have positive even frequency, and Y is the count of 
+    distinct characters which occupy odd positions 
+    in english alphabets and have positive odd frequency.
+    
+    Note: Positive means greater than zero.
