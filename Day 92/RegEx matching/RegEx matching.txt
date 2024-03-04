@@ -1,0 +1,76 @@
+Given a pattern string and a test string, 
+If the pattern is preceded by a ^, 
+the pattern(excluding the ^) will be matched 
+with the starting position of the text string. 
+Similarly, if it is preceded by a $, 
+the pattern(excluding the ^) will be matched 
+with the ending position of the text string. 
+
+If no such markers are present, 
+it will be checked whether pattern 
+is a substring of test.
+
+ 
+Example 1:
+
+Input:
+P = "^coal"
+S = "coaltar"
+Output:
+1
+Explanation:
+The pattern "coal" is present at the
+beginning of the string, so Output is 1.
+
+
+Example 2:
+
+Input:
+P = "tar$"
+S = "coaltar"
+Output:
+1
+Explanation: 
+The pattern "tar" is present at the
+end of the string, so Output is 1.
+
+
+Example 3:
+
+Input:
+P = "rat"
+S = "algorate"
+Output:
+1
+Explanation:
+The pattern "rat" is present as a
+substring of the string S,
+so Output is 1.
+
+
+Example 4:
+
+Input:
+P = "abcd"
+S = "efgh"
+Output:
+0
+Explanation:
+There is no substring which is equal
+to P in string S, so output is 0.
+ 
+
+Your Task:
+You don't need to read input or print anything. 
+Your task is to complete the function isPatternPresent() 
+which takes Strings P and S as input and returns 0 or 1.
+
+
+Expected Time Complexity: O(|P|*|S|)
+Expected Auxiliary Space: O(1)
+
+
+Constraints:
+1 <= |S| <= 10^5
+1 <= |P| <= 10
+String S may contain both Uppercase and Lowercase letters.
