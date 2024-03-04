@@ -2667,3 +2667,25 @@ Day 84:
     in english alphabets and have positive odd frequency.
     
     Note: Positive means greater than zero.
+
+Day 85:
+
+  Q1: Power Set:
+
+    Given a string s of length n, 
+    find all the possible subsequences of the string s 
+    in lexicographically-sorted order.
+
+  Q2: Count number of words:
+
+    Given a string consisting of spaces,\t,\n and lower case  
+    alphabets.Your task is to count the number of words 
+    where spaces,\t and \n work as separators.
+
+  Q3: Replace a word:
+
+    Given three strings S, oldW and newW. 
+    
+    Find all occurrences of the word oldW 
+    in S and replace them with word newW.
+
