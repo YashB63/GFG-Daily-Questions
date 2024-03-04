@@ -1,0 +1,40 @@
+You are given a large number N in the form of a string, 
+you have to check whether it is divisible by 999 
+without dividing or finding modulo of number by 999.
+
+
+Example 1-
+
+Input:
+N = 1998
+Output:
+Divisible
+ 
+
+Example 2 -
+
+Input:
+N = 99999999
+Output:
+Not divisible
+ 
+
+Your Task :
+Complete the function isDivisible999() 
+that receives a string N denoting number and
+ returns true if the n is divisible by 999 and 
+flse otherwise. 
+
+The driver code itself prints 
+"Divisible" if the returned value 
+is true and returns "Non Divisible" 
+if returned value is false.
+
+ 
+Expected Time Complexity : O(len(N))
+Expected Space Complexity : O(1)
+
+
+Constraints:
+1<=|N|<=10^3
+
