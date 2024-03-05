@@ -2689,3 +2689,23 @@ Day 85:
     Find all occurrences of the word oldW 
     in S and replace them with word newW.
 
+Day 86:
+
+  Q1: Play with OR:
+
+    You are given an array arr[] of length n, 
+    you have to re-construct the same array arr[] in-place. 
+    The arr[i] after reconstruction will become arr[i] OR arr[i+1], 
+    where OR is bitwise or. If for some i, 
+    i+1 does not exists, then do not change arr[i].
+
+  Q2: Longest common prefix:
+
+    Given two strings str1 and str2 of the same length. 
+    Find the longest prefix of str1 which is common in str2.
+
+  Q3: Generate binary string:
+
+    Given a string containing of 0, 1 and ? - a wildcard character, 
+    generate all distinct binary strings that can be formed by 
+    replacing each wildcard character by either 0 or 1.
