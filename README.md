@@ -2709,3 +2709,36 @@ Day 86:
     Given a string containing of 0, 1 and ? - a wildcard character, 
     generate all distinct binary strings that can be formed by 
     replacing each wildcard character by either 0 or 1.
+
+Day 87:
+
+  Q1: Check if a number is divisible by 8:
+
+    Given a string representation of a decimal number s, 
+    check whether it is divisible by 8.
+
+  Q2: Minimal moves to form a string:
+
+    Given a string S, check if it is possible to construct the 
+    given string S by performing any of the 
+    below operations any number of times. 
+    
+    In each step, we can:
+    
+    Add any character at the end of the string.
+    or, append the string to the string itself.
+    
+    The above steps can be applied any number of times. 
+    
+    The task is to find the minimum steps required to form the string.
+
+  Q3: Next greater even number:
+
+    Given a positive integer X. 
+    The task is to find the smallest 
+    even number E such that
+    E > X and all digits in 
+    X and E are the same.
+    
+    Note: All the digits in X should 
+    be same with digits in E.
