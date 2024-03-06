@@ -1,0 +1,37 @@
+Given a Binary String S (the string that contains only 0's and 1's). 
+
+Find the minimum number of palindromic subsequences 
+that are needed to be removed such that string S becomes empty.
+
+
+Example 1:
+
+Input: N = 5, S = "10001"
+
+Output: 1
+
+Explanation: We can remove whole S, as
+S is already a palindrome.
+
+
+Example 2: 
+
+Input: N = 8, S = "10001001"
+
+Output: 2
+
+Explanation: First we'll remove sub-
+sequence "111" and then "00000".
+
+Your Task:  
+You don't need to read input or print anything. 
+Your task is to complete the function MinRemove() 
+which takes the length of string and the 
+string as inputs and returns the answer.
+
+Expected Time Complexity: O(N)
+Expected Auxiliary Space: O(1)
+
+Constraints:
+1 ≤ N ≤ 10^8
+
