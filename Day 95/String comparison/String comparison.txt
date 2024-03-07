@@ -1,0 +1,44 @@
+In a native language, the increasing order of priority 
+of characters is a, b, c, d, e, f, g, h, i, j, k, l, m, 
+n, ng, o, p, q, r, s, t, u, v, w, x, y, z. 
+
+You are given two strings s1 and s2 and 
+your task is to compare them on the basis 
+of the given priority order.
+
+Note: Function must return 0 if both the strings are equal, 
+1 if s1 is greater than s2, and -1 if s1 is lesser than s2.
+
+
+Example 1:
+
+Input: s1 = "adding", s2 = "addio"
+
+Output: -1
+
+Explanation: 'o' has greater priority 
+than 'ng'
+
+
+Example 2:
+
+Input: s1 = "abcng", s2 = "abcno"
+
+Output: 1
+
+Explanation: 'ng' has greater priority 
+than 'n'
+
+Your Task:  
+You don't need to read input or print anything. 
+Your task is to complete the function stringComparsion() 
+which takes the two strings as input and 
+returns the integer value.
+
+Expected Time Complexity: O(|s1 + s2|)
+Expected Auxiliary Space: O(1)
+
+Constraints:
+1 ≤ |s1|, |s2| ≤ 10^5
+The string contains lower case English alphabets
+
