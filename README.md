@@ -2742,3 +2742,39 @@ Day 87:
     
     Note: All the digits in X should 
     be same with digits in E.
+
+Day 88: 
+
+  Q1: Sum of bit differences:
+
+    Given an array integers arr[], containing n elements, 
+    find the sum of bit differences between 
+    all pairs of element in the array. 
+    
+    Bit difference of a pair (x, y) is the count of 
+    different bits at the same positions in
+    binary representations of x and y.
+    
+    For example, bit difference for 2 and 7 is 2. 
+    
+    Binary representation of 2 is 010 and 7 is 111 respectively 
+    and the first and last bits differ between the two numbers.
+    
+    Note: (x, y) and (y, x) are considered two separate pairs.
+
+  Q2: Distinct Substrings:
+
+    Given a string s consisting of uppercase and 
+    lowercase alphabetic characters. 
+    
+    Return the  number of distinct substrings 
+    of size 2 that appear in s as contiguous substrings.
+    
+  Q3: Colorful Strings: 
+
+    Find the count of all possible strings of size n.
+    Each character of the string is either ‘R’, ‘B’ or ‘G’.
+     
+    In the final string there needs to be at least r number of ‘R’, 
+    at least b number of ‘B’ and at least g 
+    number of ‘G’ (such that r + g + b <= n). 
