@@ -1,0 +1,38 @@
+Given a string S, the task is to check if a 
+string is a non-repetitive or not.  
+
+A non-repetitive string is defined as a string 
+that does not contain any different character 
+between two same characters
+
+
+Example 1:
+
+Input: S = "AABBCCCCC"
+
+Output: 1
+
+Explanation: No different character is 
+placed between the two same characters.
+
+
+Example 2:
+
+Input: S = "ABA"
+
+Output: 0
+
+Explanation: B is in between two A's
+
+Your Task:
+You don't need to read input or print anything. 
+Your task is to complete the function nonRepetitive() 
+which takes a string S as input and returns the boolean value.
+
+Expected Time Complexity: O(|S|).
+Expected Auxiliary Space: O(constant).
+
+
+Constraints:
+1 <= |S| <= 10^5
+S contains upper case English alphabets
