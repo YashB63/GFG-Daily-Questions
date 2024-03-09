@@ -2778,3 +2778,28 @@ Day 88:
     In the final string there needs to be at least r number of ‘R’, 
     at least b number of ‘B’ and at least g 
     number of ‘G’ (such that r + g + b <= n). 
+
+Day 89:
+
+  Q1: Count even substrings:
+
+    Given a string of digits 0 – 9. 
+    The task is to count the number of substrings 
+    which when converting into integer form an even number.
+
+  Q2: Peak Element:
+
+    Given an 0-indexed array of integers arr[] of size n, 
+    find its peak element. 
+    
+    An element is considered to be peak if it's value 
+    is greater than or equal to the values 
+    of its adjacent elements (if they exist).
+    
+    Note: The output will be 1 if the index returned 
+    by your function is correct; otherwise, it will be 0.
+
+  Q3: Divisible by 5 or not:
+
+    The problem is to check whether the decimal representation 
+    of a given binary number is divisible by 5 or not.
