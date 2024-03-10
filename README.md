@@ -2803,3 +2803,27 @@ Day 89:
 
     The problem is to check whether the decimal representation 
     of a given binary number is divisible by 5 or not.
+
+Day 90:
+
+  Q1: First element to occur k times:
+
+    Given an array of n integers. 
+    Find the first element that occurs atleast k number of times. 
+    If no such element exists in the array, 
+    then expect the answer to be -1.
+
+  Q2: Large number division:
+
+    Given a large number (represented as string S)  
+    which has to divided by another number 
+    (represented as int data type D). 
+    The task is to find division of these numbers.
+
+  Q3: Smallest number in one swap:
+
+    Given a non-negative number N. The task is to apply 
+    at most one swap operation on the number N 
+    so that the result is the smallest possible number.
+    
+    Note: Input and Output should not contain leading zeros.
