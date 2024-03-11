@@ -1,0 +1,59 @@
+Given a string S containing lowercase English alphabets. 
+Initially, you are at index 1. 
+You can only jump to some other location j (j>i) 
+only if s[j] = s[i] + 1. 
+
+Find the maximum index you can reach.
+
+Note: First character of the string is always 'a'. 
+He can only go 'a'->'b','b'->'c','c'->'d' and so on. 
+'a'->'c','b'->'d','b'->'a' is not a valid move. 
+He can start from any of index of 'a'. 
+Indexing is zero based.
+
+
+Example 1:
+
+Input:
+s = "aaabbcdbdt"
+
+Output:
+8
+
+Explanation:
+One can start from 'a' at index 0 or 1 
+or 2 and then move to 'b' at index 3 or 
+4, then jump to 'c' at index 5 and then 
+go to  'd' at greater index than 6 which 
+is 8. Thus the answer is 8.
+ 
+
+Example 2:
+
+Input:
+s = "aabcb"
+
+Output:
+4
+
+Explanation:
+Again one can starts from 'a' and proceed 
+to 'b' and then 'c'. But we have 'b' at 
+the highest index also, so he will not go 
+to 'c' and from 'a', we will directly jump 
+to 'b'.
+ 
+
+Your Task:
+You don't need to read or print anything. 
+Your task is to complete the function maximum_index() 
+which takes the string S as an input parameter and 
+returns the maximum index where one can reach.
+ 
+
+Expected Time Complexity: O(|S|)
+Expected Space Complexity: O(1)
+
+
+Constraints:
+1 <= size of string <= 100000
