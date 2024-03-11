@@ -2827,3 +2827,50 @@ Day 90:
     so that the result is the smallest possible number.
     
     Note: Input and Output should not contain leading zeros.
+
+Day 91:
+
+  Q1: Largest Number formed from an Array:
+
+    Given an array of strings arr[] of length n 
+    representing non-negative integers, 
+    arrange them in a manner, such that, 
+    after concatanating them in order, 
+    it results in the largest possible number. 
+    
+    Since the result may be very large, 
+    return it as a string.
+
+  Q2: Decode It:
+
+    An encoded string S consisting of alphabets(lowercase) 
+    and integers(1<=num<=9) is given, 
+    the task is to decode it and print the character 
+    at the 'K'th position in the string. 
+    
+    The pattern in which the strings were encoded were as follows :\
+    
+    original string: jonjonsnowjonjonsnowjonjonsnow
+    encoded string: jon2snow3
+    
+    Note: encoded string will always start 
+    with an alphabet and end with a number.
+
+  Q3: Palindromic Series:
+
+    Adobe wants to play a game. 
+    He is given a number N. He has to create a alphabetical string 
+    in lower case from that number and 
+    tell whether the string is palindrome or not. 
+    a = 0 , b = 1….. and so on.  
+    
+    For eg : If the number is 61 the substring 
+    “gb” will be printed till 7 (6+1) characters i.e. 
+    “gbgbgbg” and check if palindrome or not. 
+    Adobe is weak in concepts of palindrome and strings, 
+    help him in winning the game.
+    
+    Note: No number will start with zero. 
+    Consider alphabets ' a to j ' only i.e. 
+    single digit numbers from 0 to 9.
+
