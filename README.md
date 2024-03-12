@@ -2874,3 +2874,30 @@ Day 91:
     Consider alphabets ' a to j ' only i.e. 
     single digit numbers from 0 to 9.
 
+Day 92:
+
+  Q1: Swap the array elements:
+
+    Given an array arr of n positive integers. 
+    The task is to swap every ith element of 
+    the array with (i+2)th element.
+
+  Q2: RegEx matching:
+
+    Given a pattern string and a test string, 
+    If the pattern is preceded by a ^, 
+    the pattern(excluding the ^) will be matched 
+    with the starting position of the text string. 
+    Similarly, if it is preceded by a $, 
+    the pattern(excluding the ^) will be matched 
+    with the ending position of the text string. 
+    
+    If no such markers are present, 
+    it will be checked whether pattern 
+    is a substring of test.
+
+  Q3: Divisibility by 999:
+
+    You are given a large number N in the form of a string, 
+    you have to check whether it is divisible by 999 
+    without dividing or finding modulo of number by 999.
