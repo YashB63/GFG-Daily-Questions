@@ -1,0 +1,35 @@
+Given string str, transform it according to the following rules:
+
+Delete all the vowels from the string.
+
+Insert # in front of all the consonants.
+
+Change the case of all the letters of the string. 
+
+
+Example 1:
+
+Input:
+str = aBAcAba
+
+Output: #b#C#B
+
+Explanation: Vowels at position 0,2,4,6 are deleted.
+'#' is added before consonants at position 1,3,5 
+and their case is changed.
+
+Your Task:  
+You don't need to read input or print anything. 
+Complete the function transform() which 
+takes the string str as an input parameter 
+and returns the transformed string. 
+
+If the resulting string is empty return "-1".
+
+
+Expected Time Complexity: O(N) where N is the length of str.
+Expected Auxiliary Space: O(N)  
+
+
+Constraints:
+1<= str.length() <= 10^4
