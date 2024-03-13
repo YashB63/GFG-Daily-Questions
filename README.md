@@ -2901,3 +2901,22 @@ Day 92:
     You are given a large number N in the form of a string, 
     you have to check whether it is divisible by 999 
     without dividing or finding modulo of number by 999.
+
+Day 93:
+
+  Q1: Maximum Index:
+
+    Given an array a of n positive integers. 
+    The task is to find the maximum of j - i 
+    subjected to the constraint of a[i] < a[j] and i < j.
+
+  Q2: Unusual String Sort:
+
+    Given a string composed of both lowercase and uppercase letters. 
+    Sort it in such a manner such that the uppercase and 
+    lowercase letter comes in an alternate manner but in sorted way.
+
+  Q3: Reverse alternate words:
+
+    Given a string str consisting of multiple words, 
+    reverse alternate words in str. 
