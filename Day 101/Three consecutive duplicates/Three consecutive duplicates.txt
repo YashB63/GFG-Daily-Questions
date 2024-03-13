@@ -1,0 +1,43 @@
+Given a string S, in an operation you can remove 3 
+consecutive characters which are duplicates and 
+concatenate the rest string. 
+
+You can perform this operation any number of times. 
+Find the reduced string.
+
+Note: Return '-1' if the string is 
+empty after removing the duplicates.
+
+
+Example 1:
+
+Input: S = "aabbbaccddddc"
+
+Output: ccdc
+
+Explanation: First remove 3 consecutive
+b's and d's and then a's
+
+
+Example 2:
+
+Input: S = "aabbaccddc"
+
+Output: aabbaccddc
+
+Explanation: No three consecutive 
+duplicates exists
+
+Your Task:
+You don't need to read input or print anything. 
+Your task is to complete the function 
+remove3ConsecutiveDuplicates() which takes a 
+string S as input and returns the string.
+
+Expected Time Complexity: O(|S|).
+Expected Auxiliary Space: O(|S|).
+
+
+Constraints:
+1 <= |S| <= 10^5
+S contains lower case English alphabets
