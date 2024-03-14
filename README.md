@@ -2920,3 +2920,29 @@ Day 93:
 
     Given a string str consisting of multiple words, 
     reverse alternate words in str. 
+
+Day 94:
+
+  Q1: Search Pattern (Rabin-Karp Algorithm):
+
+    Given two strings, one is a text string 
+    and other is a pattern string. 
+    The task is to print the indexes of all the 
+    occurences of pattern string in the text string. 
+    
+    For printing, Starting Index of a string should be taken as 1. 
+    
+    The strings will only contain lowercase English alphabets ('a' to 'z').
+
+  Q2: Split the String:
+
+    Given a string S, you have to check if 
+    we can split it into four strings such that 
+    each string is non-empty and distinct from each other.
+
+  Q3: Palindromic Sequences:
+
+    Given a Binary String S (the string that contains only 0's and 1's). 
+    
+    Find the minimum number of palindromic subsequences 
+    that are needed to be removed such that string S becomes empty.
