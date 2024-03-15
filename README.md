@@ -2946,3 +2946,47 @@ Day 94:
     
     Find the minimum number of palindromic subsequences 
     that are needed to be removed such that string S becomes empty.
+
+Day 95:
+
+  Q1: Longest repeating and non-overlapping substring:
+
+    Given a string s of length n, find the longest repeating 
+    non-overlapping substring in it. In other words 
+    find 2 identical substrings of maximum length which do not overlap. 
+    
+    Return the longest non-overlapping substring. 
+    
+    Return "-1" if no such string exists.
+    
+    Note: Multiple Answers are possible but you have to 
+    return the substring whose first occurrence is earlier.
+    
+    For Example: "abhihiab", here both "ab" and "hi" 
+    are possible answers. But you will have to return "ab" 
+    because it's first occurrence appears 
+    before the first occurrence of "hi".
+
+  Q2: String comparison:
+
+    In a native language, the increasing order of priority 
+    of characters is a, b, c, d, e, f, g, h, i, j, k, l, m, 
+    n, ng, o, p, q, r, s, t, u, v, w, x, y, z. 
+    
+    You are given two strings s1 and s2 and 
+    your task is to compare them on the basis 
+    of the given priority order.
+    
+    Note: Function must return 0 if both the strings are equal, 
+    1 if s1 is greater than s2, and -1 if s1 is lesser than s2.
+
+  Q3: Word with maximum frequency:
+
+    You are given a string that is made up of 
+    words separated by spaces. 
+    
+    Your task is to find the word with highest frequency, 
+    i.e. it appears maximum times in the sentence. 
+    
+    If multiple words have maximum frequency, 
+    then print the word that occurs first in the sentence.
