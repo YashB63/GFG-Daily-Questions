@@ -2990,3 +2990,43 @@ Day 95:
     
     If multiple words have maximum frequency, 
     then print the word that occurs first in the sentence.
+
+Day 96:
+
+  Q1: Check if frequencies can be equal:
+
+    Given a string s which contains only lower alphabetic characters, 
+    check if it is possible to remove at most one character 
+    from this string in such a way that frequency of each distinct 
+    character becomes same in the string. 
+    
+    Return true if it is possible to do else return false.
+    
+    Note: The driver code print 1 if the 
+    value returned is true, otherwise 0.
+
+  Q2: The Even Array:
+
+    Given a string contains 'E' and 'O', 'E' 
+    represents a number is even and 'O' 
+    represents a number is odd. 
+    
+    To make an element even, you can add 1 
+    to any odd element of the array. 
+    
+    Also, when any element of the array is converted to even, 
+    any neighboring element which is odd, 
+    can also be made even without adding 1. 
+    
+    The task is to find the minimum number of 
+    additions required to make all the elements even.
+
+  Q3: The Non-repetitive String:
+
+    Given a string S, the task is to check if a 
+    string is a non-repetitive or not.  
+    
+    A non-repetitive string is defined as a string 
+    that does not contain any different character 
+    between two same characters
+
