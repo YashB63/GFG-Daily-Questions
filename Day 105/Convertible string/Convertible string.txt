@@ -1,0 +1,61 @@
+Given two strings check whether first string 
+could be converted to the second string but the conditions are:
+
+1.If the character is at odd place you can swap 
+this character with the characters only 
+at the odd places in the given first string.
+
+2.If the character is at even place you can swap 
+this character with the characters only at the even places      
+in the given first string.
+
+3.You cannot insert or delete any character on your own.
+
+
+Example 1:
+
+Input: geeks for
+
+Output: 0
+
+Explanation: Two strings are of
+different length. They can't be equal.
+
+
+Example 2:
+
+Input: skeeg geeks
+
+Output: 1
+
+Explanation:
+
+In first string characters at odd indices are 
+'s', 'e', 'g'
+In second string characters at odd indices are 
+'g', 'e', 's'
+After swaping index 1st and 3rd of first
+string all the characters at odd positions 
+become equal.
+Same for even indices.
+ 
+
+Your Task:
+
+You don't need to read or print anything. 
+Your task is to complete the function EqualString() 
+which takes first string as first parameter and 
+second string as second parameter and returns 1 
+if first string can be made equal to the 
+second string otherwise returns 0.
+
+
+Expected Time Complexity: O(n)
+
+Expected Space Complexity: O(K) where K is constant.
+
+
+Constraints:
+
+1 <= length of both strings <= 1000
+
