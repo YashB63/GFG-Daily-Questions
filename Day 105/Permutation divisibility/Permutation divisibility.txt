@@ -1,0 +1,43 @@
+You are given a number. 
+Your task is to check if there exists a permutation 
+of the digits of this number which is divisible by 4.  
+
+
+Example 1:
+
+Input: 003 
+
+Output: 1
+
+Explanation: For 003, we have a permutation
+300  which is  divisible by 4.
+
+
+Example 2:
+
+Input:
+123456
+
+Output:
+1
+
+Explanation:
+For 123456, we have 123564 which is a
+permutation of 123456 and is divisible by 4.
+ 
+
+Your Task:  
+You don't need to read input or print anything. 
+Your task is to complete the function divisible_by_four() 
+which takes string as input parameter and returns 1 
+if any permutaion of string is divisible by 4 
+otherwise returns 0.
+
+
+Expected Time Complexity: O(N^2)
+Expected Auxiliary Space: O(1)
+
+
+Constraints:
+
+1<=|S|<=200
