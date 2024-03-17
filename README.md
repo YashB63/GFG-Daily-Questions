@@ -3030,3 +3030,33 @@ Day 96:
     that does not contain any different character 
     between two same characters
 
+Day 97: 
+
+  Q1: Find the N-th character:
+
+    Given a binary string s. Perform r iterations on string s, 
+    where in each iteration 0 becomes 01 and 1 becomes 10. 
+    Find the nth character (considering 0 based indexing) 
+    of the string after performing these r iterations 
+    (see examples for better understanding).
+
+  Q2: Does robot moves circular:
+
+    Given a sequence of moves for a robot. 
+    Check if the sequence is circular or not.
+    
+    A sequence of moves is circular if the first and 
+    last positions of the robot are the same. 
+    A move can be one of the following :
+    
+        G - Go one unit
+        L - Turn left
+        R - Turn right
+
+  Q3: Generate Grey Code Sequences:
+
+    Given a number N, your task is to complete the function 
+    which generates all n-bit grey code sequences, 
+    a grey code sequence is a sequence such that 
+    successive patterns in it differ by one bit.
+
