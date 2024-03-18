@@ -3060,3 +3060,29 @@ Day 97:
     a grey code sequence is a sequence such that 
     successive patterns in it differ by one bit.
 
+Day 98:
+
+  Q1: Minimum Indexed Character:
+
+    Given a string S and another string patt. 
+    Find the character in patt that is 
+    present at the minimum index in S.
+
+  Q2: Remove all duplicates from a given string:
+
+    Given a string str which may contain lowercase 
+    and uppercase characters. The task is to remove 
+    all duplicate characters from the string and 
+    find the resultant string. 
+    
+    The order of remaining characters in the 
+    output should be same as in the original string.
+
+  Q3: Find the most frequent digit:
+
+    Given a number N, find the most occurring digit in it. 
+    
+    If two or more digits occur same number of times, 
+    then return the highest of them. 
+    
+    Input number is given as a string.
