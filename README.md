@@ -3086,3 +3086,43 @@ Day 98:
     then return the highest of them. 
     
     Input number is given as a string.
+
+Day 99:
+
+  Q1: Mr Binary:
+  
+    Given a string S containing lowercase English alphabets. 
+    Initially, you are at index 1. 
+    You can only jump to some other location j (j>i) 
+    only if s[j] = s[i] + 1. 
+    
+    Find the maximum index you can reach.
+    
+    Note: First character of the string is always 'a'. 
+    He can only go 'a'->'b','b'->'c','c'->'d' and so on. 
+    'a'->'c','b'->'d','b'->'a' is not a valid move. 
+    He can start from any of index of 'a'. 
+    Indexing is zero based.
+
+  Q2: Count pairs Sum in matrices:
+
+    Given two sorted matrices mat1 and mat2 
+    of size n x n of elements. 
+    
+    Each matrix contains numbers arranged in 
+    strictly ascending order, 
+    with each row sorted from left to right, 
+    and the last element of a row being smaller 
+    than the first element of the next row. 
+    
+    You're given a target value, x, your task is to find 
+    and count all pairs {a, b} such that a is from mat1 
+    and b is from mat2 where sum of a and b is equal to x.
+
+  Q3: Common Subsequence OldP:
+
+    Given two strings S1 and S2 print whether they 
+    contain any common subsequence (non empty) or not.
+    
+    NOTE: Print 1 if they have a 
+    common subsequence (non empty) else 0.
