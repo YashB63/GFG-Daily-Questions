@@ -3126,3 +3126,34 @@ Day 99:
     
     NOTE: Print 1 if they have a 
     common subsequence (non empty) else 0.
+
+Day 100:
+
+  Q1: Generalised Fibonacci numbers:
+
+    Consider the generalized Fibonacci number g, 
+    which is dependent on a, b and c as follows :-
+    
+    g(1) = 1, g(2) = 1. 
+    For any other number n, 
+    g(n) = a*g(n-1) + b*g(n-2) + c.
+    
+    For a given value of m, determine g(n)%m.
+
+  Q2: Same characters in two strings:
+
+    Given two strings A and B of equal length, 
+    find how many times the corresponding position 
+    in the two strings hold exactly the same character. 
+    
+    The comparison should not be case sensitive. 
+
+  Q3: Convert the string:
+
+    Given string str, transform it according to the following rules:
+    
+    Delete all the vowels from the string.
+    
+    Insert # in front of all the consonants.
+    
+    Change the case of all the letters of the string. 
