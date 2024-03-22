@@ -3157,3 +3157,32 @@ Day 100:
     Insert # in front of all the consonants.
     
     Change the case of all the letters of the string. 
+
+Day 101:
+
+  Q1: Print matrix in diagonal pattern:
+
+    Given a square matrix mat[][] of n*n size, 
+    the task is to determine the diagonal pattern 
+    which is a linear arrangement of the elements 
+    of the matrix.
+
+  Q2: Largest number in one swap:
+
+    Given a non-negative number N in the form of a string.
+    
+    Find the largest number that can be formed 
+    by swapping two characters at most once.
+
+  Q3: Three consecutive duplicates:
+
+    Given a string S, in an operation you can remove 3 
+    consecutive characters which are duplicates and 
+    concatenate the rest string. 
+    
+    You can perform this operation any number of times. 
+    Find the reduced string.
+    
+    Note: Return '-1' if the string is 
+    empty after removing the duplicates.
+
