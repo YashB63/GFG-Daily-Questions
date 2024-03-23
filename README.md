@@ -3186,3 +3186,27 @@ Day 101:
     Note: Return '-1' if the string is 
     empty after removing the duplicates.
 
+Day 102:
+
+  Q1: Check for Balanced Tree:
+
+    Given a binary tree, find if it is height balanced or not. 
+    
+    A tree is height balanced if difference between heights 
+    of left and right subtrees is not more than one 
+    for all nodes of tree.
+
+  Q2: Largest subsquare surrounded by X:
+
+    Given a square matrix a of size n x n, 
+    where each cell can be either 'X' or 'O', 
+    you need to find the size of the largest square 
+    subgrid that is completely surrounded by 'X'. 
+    
+    More formally you need to find the largest square 
+    within the grid where all its border cells are 'X'.
+
+  Q3: Nth node from front end of linked list:
+
+    Given a linked list consisting of L nodes and given a number N. 
+    The task is to find the Nth node from the end of the linked list.
