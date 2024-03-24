@@ -3210,3 +3210,26 @@ Day 102:
 
     Given a linked list consisting of L nodes and given a number N. 
     The task is to find the Nth node from the end of the linked list.
+
+Day 103:
+
+  Q1: Linked List that is sorted Alternatingly:
+
+    You are given a Linked list of size n. 
+    The list is in alternating ascending and descending orders. 
+    Sort the given linked list in non-decreasing order.
+
+  Q2: Pythagorean Triplet:
+
+    Given an array arr of n integers, 
+    write a function that returns true if there is a 
+    triplet (a, b, c) from the array (where a, b, and c are on different indexes) 
+    that satisfies a^2 + b^2 = c^2, 
+    otherwise return false.
+
+  Q3: Maximum Index:
+
+    Given an array arr[] of n non-negative integers. 
+    The task is to find the maximum of j - i (i<=j) 
+    subjected to the constraint of arr[i] <= arr[j].
+
