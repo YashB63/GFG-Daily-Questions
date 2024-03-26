@@ -3272,3 +3272,37 @@ Day 104:
     Note: Use the recursive approach to find the 
     DFS traversal of the graph starting from the 
     0th vertex from left to right according to the graph.
+
+Day 105:
+
+  Q1: Count Pairs whose sum is equal to X:
+
+    Given two linked list head1 and head2 with distinct elements, 
+    determine the count of all distinct pairs from 
+    both lists whose sum is equal to the given value x.
+    
+    Note: A valid pair would be in the form (x, y) 
+    where x is from first linked list and 
+    y is from second linked list.
+
+  Q2: Permutation divisibility:
+
+    You are given a number. 
+    Your task is to check if there exists a permutation 
+    of the digits of this number which is divisible by 4. 
+
+  Q3: Convertible string:
+
+    Given two strings check whether first string 
+    could be converted to the second string but the conditions are:
+    
+    1.If the character is at odd place you can swap 
+    this character with the characters only 
+    at the odd places in the given first string.
+    
+    2.If the character is at even place you can swap 
+    this character with the characters only at the even places      
+    in the given first string.
+    
+    3.You cannot insert or delete any character on your own.
+
