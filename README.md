@@ -3338,3 +3338,29 @@ Day 105:
     in the given first string.
     
     3.You cannot insert or delete any character on your own.
+
+Day 106:
+
+  Q1: Level order traversal:
+
+    Given a root of a binary tree with n nodes, 
+    find its level order traversal.
+    
+    Level order traversal of a tree 
+    is breadth-first traversal for the tree.
+
+  Q2: Perfect Sum Problem:
+
+    Given an array arr of non-negative integers and an integer sum, 
+    the task is to count all subsets of the given array 
+    with a sum equal to a given sum.
+    
+    Note: Answer can be very large, so, output answer modulo 10^9+7.
+
+  Q3: Row with max 1's:
+
+    Given a boolean 2D array of n x m dimensions, 
+    consisting of only 1's and 0's, where each row is sorted. 
+    
+    Find the 0-based index of the first row 
+    that has the maximum number of 1's.
