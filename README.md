@@ -3364,3 +3364,37 @@ Day 106:
     
     Find the 0-based index of the first row 
     that has the maximum number of 1's.
+
+Day 107: 
+
+  Q1: Possible Paths in a Tree:
+
+    Given a weighted tree with n nodes and (n-1) edges. 
+    You are given q queries. Each query contains a number x. 
+    
+    For each query, find the number of paths in 
+    which the maximum edge weight is less than or equal to x.
+    
+    Note: Path from A to B and B to A are considered to be the same.
+
+  Q2: Chocolate Distribution Problem:
+
+    Given an array A[ ] of positive integers of size N, 
+    where each value represents the number of chocolates in a packet. 
+    Each packet can have a variable number of chocolates. There are M students, 
+    the task is to distribute chocolate packets among M students such that :
+    
+    1. Each student gets exactly one packet.
+    
+    2. The difference between maximum number of chocolates given 
+    to a student and minimum number of chocolates given to a student is minimum.
+
+  Q3: Minimum Cost
+
+    There are given N ropes of different lengths, 
+    we need to connect these ropes into one rope. 
+    
+    The cost to connect two ropes is equal to sum of their lengths.
+    
+    The task is to connect the ropes with minimum cost. 
+    Given N size array arr[] contains the lengths of the ropes.
