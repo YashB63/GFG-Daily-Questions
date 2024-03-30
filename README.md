@@ -3398,3 +3398,37 @@ Day 107:
     
     The task is to connect the ropes with minimum cost. 
     Given N size array arr[] contains the lengths of the ropes.
+
+Day 108:
+
+  Q1: Sum of nodes on the longest path from root to leaf node:
+
+    Given a binary tree having n nodes. 
+    Find the sum of all nodes on the longest path 
+    from root to any leaf node. If two or more paths 
+    compete for the longest path, then the path having 
+    maximum sum of nodes will be considered.
+
+  Q2: Remove duplicates from an unsorted linked list:
+
+    Given an unsorted linked list of N nodes. 
+    The task is to remove duplicate elements 
+    from this unsorted Linked List. 
+    
+    When a value appears in multiple nodes, 
+    the node which appeared first should be kept, 
+    all others duplicates are to be removed.
+
+  Q3: Sum Tree:
+
+    Given a Binary Tree. Return true if, 
+    for every node X in the tree other than the leaves, 
+    its value is equal to the sum of its left subtree's value 
+    and its right subtree's value. 
+    
+    Else return false.
+    
+    An empty tree is also a Sum Tree as the sum of an 
+    empty tree can be considered to be 0. 
+    
+    A leaf node is also considered a Sum Tree.
