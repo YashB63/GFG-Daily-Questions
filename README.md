@@ -3432,3 +3432,42 @@ Day 108:
     empty tree can be considered to be 0. 
     
     A leaf node is also considered a Sum Tree.
+
+Day 109:
+
+  Q1: ZigZag Tree Traversal:
+
+    Given a binary tree with n nodes. 
+    
+    Find the zig-zag level order traversal 
+    of the binary tree.
+
+  Q2: Next Greater Element:
+
+    Given an array arr[ ] of size N having elements, 
+    the task is to find the next greater element for 
+    each element of the array in order of their 
+    appearance in the array.
+    
+    Next greater element of an element in the array 
+    is the nearest element on the right which is 
+    greater than the current element.
+    
+    If there does not exist next greater of current element, 
+    then next greater element for current element is -1.
+    For example, next greater of the last element is always -1.
+
+  Q3: Longest Palindrome in a String:
+
+    Given a string S, 
+    find the longest palindromic substring in S. 
+    Substring of string S: S[ i . . . . j ] 
+    where 0 ≤ i ≤ j < len(S). 
+    
+    Palindrome string: A string that reads the same backward. 
+    More formally, S is a palindrome if reverse(S) = S. 
+    
+    In case of conflict, 
+    return the substring which occurs first 
+    ( with the least starting index).
+
