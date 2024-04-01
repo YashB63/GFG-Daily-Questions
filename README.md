@@ -3471,3 +3471,39 @@ Day 109:
     return the substring which occurs first 
     ( with the least starting index).
 
+Day 110:
+
+  Q1: Diagonal sum in binary tree:
+
+    Consider Red lines of slope -1 
+    passing between nodes (in following diagram). 
+    
+    The diagonal sum in a binary tree is the 
+    sum of all node datas lying between these lines. 
+    
+    Given a Binary Tree of size n, 
+    print all diagonal sums.
+    
+    For the following input tree, output should be 9, 19, 42.
+    9 is sum of 1, 3 and 5.
+    19 is sum of 2, 6, 4 and 7.
+    42 is sum of 9, 10, 11 and 12.
+    
+    DiagonalSum
+
+  Q2: Find All Four Sum Numbers:
+
+    Given an array A of integers and another number K. 
+    Find all the unique quadruple from the 
+    given array that sums up to K.
+    
+    Also note that all the quadruples 
+    which you return should be internally sorted, 
+    ie for any quadruple [q1, q2, q3, q4] 
+    the following should follow: q1 <= q2 <= q3 <= q4.
+
+  Q3: Longest Common Substring:
+
+    Given two strings. 
+    The task is to find the length 
+    of the longest common substring.
