@@ -3507,3 +3507,44 @@ Day 110:
     Given two strings. 
     The task is to find the length 
     of the longest common substring.
+
+Day 111:
+
+  Q1: Fibonacci series up to Nth term:
+
+    You are given an integer n, 
+    return the fibonacci series 
+    till the nth(0-based indexing) term. 
+    Since the terms can become very large 
+    return the terms modulo 10^9+7.
+
+  Q2: Right View of Binary Tree:
+
+    Given a Binary Tree, find Right view of it. 
+    Right view of a Binary Tree is set of nodes 
+    visible when tree is viewed from right side.
+    
+    Right view of following tree is 1 3 7 8.
+    
+              1
+           /     \
+         2        3
+       /   \      /    \
+      4     5   6    7
+        \
+         8
+
+  Q3: Roman Number to Integer:
+
+    Given a string in roman no format (s)  
+    your task is to convert it to an integer. 
+    
+    Various symbols and their values are given below.
+    
+    I 1
+    V 5
+    X 10
+    L 50
+    C 100
+    D 500
+    M 1000
