@@ -3548,3 +3548,56 @@ Day 111:
     C 100
     D 500
     M 1000
+
+Day 112:
+
+  Q1: Insert an Element at the Bottom of a Stack:
+
+    You are given a stack st of n integers and an element x. 
+    You have to insert x at the bottom of the given stack. 
+    
+    Note: Everywhere in this problem, 
+    the bottommost element of the stack is 
+    shown first while priniting the stack.
+
+  Q2: Top View of Binary Tree:
+
+    Given below is a binary tree. 
+    The task is to print the top view of binary tree. 
+    Top view of a binary tree is the set of nodes visible 
+    when the tree is viewed from the top. 
+    
+    For the given below tree
+    
+           1
+        /     \
+       2       3
+      /  \    /   \
+    4    5  6   7
+    
+    Top view will be: 4 2 1 3 7
+    
+    Note: Return nodes from leftmost node to rightmost node. 
+    Also if 2 nodes are outside the shadow of the tree 
+    and are at same position then consider the left ones only(i.e. leftmost). 
+    
+    For ex - 1 2 3 N 4 5 N 6 N 7 N 8 N 9 N N N N N 
+    
+    will give 8 2 1 3 as answer. 
+    Here 8 and 9 are on the same position 
+    but 9 will get shadowed.
+
+  Q3: Diameter of a Binary Tree:
+
+    The diameter of a tree (sometimes called the width) 
+    is the number of nodes on the longest path 
+    between two end nodes. 
+    
+    The diagram below shows two trees 
+    each with diameter nine, 
+    the leaves that form the ends 
+    of the longest path are shaded 
+    
+    (note that there is more than one path 
+    in each tree of length nine, 
+    but no path longer than nine nodes). 
