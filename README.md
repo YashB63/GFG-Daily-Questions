@@ -3601,3 +3601,33 @@ Day 112:
     (note that there is more than one path 
     in each tree of length nine, 
     but no path longer than nine nodes). 
+
+Day 113:
+
+  Q1: Print N-bit binary numbers having more 1s than 0s:
+
+    Given a positive integer n. 
+    
+    Your task is to generate a string list 
+    of all n-bit binary numbers where, 
+    for any prefix of the number, 
+    there are more or an equal number of 1's than 0's.
+     
+    The numbers should be sorted in 
+    decreasing order of magnitude.
+
+  Q2: Largest subarray with 0 sum:
+
+    Given an array having both positive and negative integers.
+     
+    The task is to compute the length of the 
+    largest subarray with sum 0.
+
+  Q3: Longest Common Subsequence:
+
+    Given two strings, 
+    find the length of longest subsequence 
+    present in both of them. 
+    
+    Both the strings are in 
+    uppercase latin alphabets.
