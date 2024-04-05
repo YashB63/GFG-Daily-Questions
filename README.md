@@ -3631,3 +3631,45 @@ Day 113:
     
     Both the strings are in 
     uppercase latin alphabets.
+
+Day 114:
+
+  Q1: Additive Sequence:
+
+    Given a string n, your task is to find whether 
+    it contains an additive sequence or not. 
+    
+    A string n contains an additive sequence 
+    if its digits can make a sequence of numbers 
+    in which every number is addition of previous two numbers. 
+    
+    You are required to complete the function 
+    which returns true if the string is a 
+    valid sequence else returns false. 
+    
+    For better understanding check the examples.
+    
+    Note: A valid string should contain at least 
+    three digit to make one additive sequence. 
+
+  Q2: Insert a node in a BST:
+
+    Given a BST and a key K. 
+    
+    If K is not present in the BST, 
+    Insert a new Node with a value equal to K into the BST.
+     
+    If K is already present in the BST, don't modify the BST.
+
+  Q3: Symmetric Tree:
+
+    Given a Binary Tree. 
+    
+    Check whether it is Symmetric or not, 
+    i.e. whether the binary tree is a 
+    Mirror image of itself or not.
+
+  
+
+
+  
