@@ -3669,7 +3669,36 @@ Day 114:
     i.e. whether the binary tree is a 
     Mirror image of itself or not.
 
-  
+Day 115:
 
+  Q1: Find shortest safe route in a matrix:
+
+    Given a matrix mat[][] with r rows and c columns, 
+    where some cells are landmines (marked as 0) 
+    and others are safe to traverse. 
+    
+    Your task is to find the shortest safe route 
+    from any cell in the leftmost column to any cell 
+    in the rightmost column of the mat. 
+    
+    You cannot move diagonally, 
+    and you must avoid both the landmines and 
+    their adjacent cells (up, down, left, right), 
+    as they are also unsafe.
+
+  Q2: Count number of hops:
+
+    A frog jumps either 1, 2, or 3 steps to go to the top.
+     
+    In how many ways can it reach the top of Nth step. 
+    
+    As the answer will be large find the answer modulo 1000000007.
+
+  Q3: Count Digits:
+
+    Given a number N. Count the number of digits in N which evenly divide N.
+    
+    Note :- Evenly divides means whether N is divisible by a digit 
+    i.e. leaves a remainder 0 when divided.
 
   
