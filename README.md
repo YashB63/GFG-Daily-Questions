@@ -3701,4 +3701,44 @@ Day 115:
     Note :- Evenly divides means whether N is divisible by a digit 
     i.e. leaves a remainder 0 when divided.
 
-  
+Day 116:
+
+  Q1: City with the smallest number of neighbours at threshold distance:
+
+    There are n cities labeled from 0 to n-1 
+    with m edges connecting them. 
+    
+    Given the array edges where edges[i] = [fromi , toi ,weighti]  
+    represents a bidirectional and weighted edge 
+    between cities fromi and toi, 
+    and given the integer distanceThreshold. 
+    
+    You need to find out a city with the smallest number 
+    of cities that are reachable through some path 
+    and whose distance is at most Threshold Distance. 
+    
+    If there are multiple such cities, 
+    our answer will be the city with the greatest label.
+    
+    Note: The distance of a path connecting 
+    cities i and j is equal to the sum of 
+    the edge's weights along that path.
+
+  Q2: Number of 1 bits:
+
+    Given a positive integer N, 
+    print count of set bits in it. 
+
+  Q3: Find length of loop:
+
+    Given a linked list of size N. 
+    
+    The task is to complete the function countNodesinLoop() 
+    that checks whether a given Linked List contains 
+    a loop or not and if the loop is present then return 
+    the count of nodes in a loop or else return 0. 
+    
+    C is the position of the node to which the 
+    last node is connected. 
+    
+    If it is 0 then no loop.
