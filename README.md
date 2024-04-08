@@ -3742,3 +3742,33 @@ Day 116:
     last node is connected. 
     
     If it is 0 then no loop.
+
+Day 117:
+
+  Q1: Euler Circuit in an Undirected Graph:
+
+    Eulerian Path is a path in a graph 
+    that visits every edge exactly once. 
+    Eulerian Circuit is an Eulerian Path that 
+    starts and ends on the same vertex. 
+    
+    Given the number of vertices v and adjacency list 
+    adj denoting the graph. 
+    
+    Find that there exists the Euler circuit or not. 
+    
+    Return 1 if there exist  alteast one eulerian path else 0.
+
+  Q2: Insertion Sort:
+
+    The task is to complete the insert() function 
+    which is used to implement Insertion Sort.
+
+  Q3: Search in a matrix:
+
+    Given a matrix mat[][] of size N x M, 
+    where every row and column is sorted in increasing order, 
+    and a number X is given. 
+    
+    The task is to find whether element X 
+    is present in the matrix or not.
