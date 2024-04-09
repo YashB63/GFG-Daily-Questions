@@ -3772,3 +3772,52 @@ Day 117:
     
     The task is to find whether element X 
     is present in the matrix or not.
+
+Day 118:
+
+  Q1: Minimum element in BST:
+
+    Given the root of a Binary Search Tree. 
+    The task is to find the minimum valued 
+    element in this given BST.
+
+  Q2: Josephus problem:
+
+    A total of n people are standing in a circle, 
+    and you are one of them playing a game. 
+    
+    Starting from a person, k persons will be 
+    counted in order along the circle, 
+    and the k^th person will be killed. 
+    
+    Then the next k persons will be counted along the circle, 
+    and again the k^th person will be killed. 
+    
+    This cycle will continue until only a 
+    single person is left in the circle.
+    
+    If there are 5 people in the circle 
+    in the order A, B, C, D, and E, 
+    you will choose k=3. Starting from A, 
+    you will count A, B and C. C will be 
+    the 3rd person and will be killed. 
+    
+    Then you will continue counting 
+    from D, E and then A. 
+    
+    A will be third person and will be killed. 
+    
+    You will be given an array where the first element 
+    is the first person from whom the counting 
+    will start and the subsequent order of the people. 
+    
+    You want to be the last one standing. 
+    
+    Determine the index at which 
+    you should stand to survive the game.
+
+  Q3: Root to leaf path sum:
+
+    Given a binary tree and an integer s, 
+    check whether there is a root-to-leaf 
+    path with its sum as s.
