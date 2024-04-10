@@ -3821,3 +3821,25 @@ Day 118:
     Given a binary tree and an integer s, 
     check whether there is a root-to-leaf 
     path with its sum as s.
+
+Day 119:
+
+  Q1: Closest Neighbour in BST:
+
+    Given the root of a binary search tree and a number n, 
+    find the greatest number in the binary search tree 
+    that is less than or equal to n.
+
+  Q2: Insert in a sorted list:
+
+    Given a linked list sorted in ascending order 
+    and an integer called data, insert data in the 
+    linked list such that the list remains sorted.
+
+  Q3: Queue Reversal:
+
+    Given a Queue Q containing N elements. 
+    The task is to reverse the Queue. 
+    
+    Your task is to complete the function rev(), 
+    that reverses the N elements of the queue.
