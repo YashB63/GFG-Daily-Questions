@@ -3843,3 +3843,43 @@ Day 119:
     
     Your task is to complete the function rev(), 
     that reverses the N elements of the queue.
+
+Day 120:
+
+  Q1: Pairs violating the BST property:
+
+    Given a binary tree with n nodes, 
+    find the number of pairs violating the BST property.
+    
+    BST has the following properties:-
+    
+    Every node is greater than its left child 
+    and less than its right child.
+    
+    Every node is greater than the maximum value of 
+    in its left subtree and less than the minimum value in its right subtree.
+    
+    The maximum in the left sub-tree must be 
+    less than the minimum in the right subtree.
+
+  Q2: Minimum Operations:
+
+    Given a number N. 
+    
+    Find the minimum number of operations 
+    required to reach N starting from 0. 
+    
+    You have 2 operations available:
+    
+    Double the number
+    Add one to the number
+
+  Q3: Non-Repeating Element:
+
+    Find the first non-repeating element in a given array arr 
+    of n integers and if there is not present any 
+    non-repeating element then return 0
+    
+    Note: The array consists of only positive 
+    and negative integers and not zero.
+
