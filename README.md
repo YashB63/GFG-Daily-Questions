@@ -3908,3 +3908,29 @@ Day 121:
     
     Transpose of a matrix is obtained by 
     changing rows to columns and columns to rows.
+
+Day 121:
+
+  Q1: Minimum Absolute difference in BST:
+
+    Given a binary search tree having n (n>1) nodes, 
+    the task is to find the minimum absolute 
+    difference between any two nodes.
+
+  Q2: Index of an Extra Element:
+
+    Given two sorted arrays of distinct elements.
+     
+    There is only 1 difference between the arrays.
+     
+    First array has one element extra added in between. 
+    
+    Find the index of the extra element.
+
+  Q3: Transpose of Matrix:
+
+    Write a program to find the transpose 
+    of a square matrix of size N*N. 
+    
+    Transpose of a matrix is obtained by 
+    changing rows to columns and columns to rows.
