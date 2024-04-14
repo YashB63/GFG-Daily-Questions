@@ -3934,3 +3934,40 @@ Day 121:
     
     Transpose of a matrix is obtained by 
     changing rows to columns and columns to rows.
+
+Day 122:
+
+  Q1: Kth common ancestor in BST:
+
+    Given a BST with n (n>=2) nodes, 
+    find the kth common ancestor of nodes 
+    x and y in the given tree. 
+    
+    Return -1 if kth ancestor does not exist.
+    
+    Nodes x and y will always be present 
+    in the input of a BST, and x != y.
+
+  Q2: Selection Sort:
+
+    Given an unsorted array of size N, 
+    use selection sort to sort arr[] in increasing order.
+
+  Q3: Delete Middle of Linked List:
+
+    Given a singly linked list, 
+    delete middle of the linked list. 
+    
+    For example, if given linked list is 1->2->3->4->5 
+    then linked list should be modified to 1->2->4->5.
+    
+    If there are even nodes, 
+    then there would be two middle nodes, 
+    we need to delete the second middle element. 
+    
+    For example, if given linked list is 
+    1->2->3->4->5->6 then it should be 
+    modified to 1->2->3->5->6.
+    
+    If the input linked list has single node, 
+    then it should return NULL.
