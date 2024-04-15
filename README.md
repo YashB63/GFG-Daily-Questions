@@ -3971,3 +3971,34 @@ Day 122:
     
     If the input linked list has single node, 
     then it should return NULL.
+
+Day 123:
+
+  Q1: K distance from root:
+
+    Given a binary tree having n nodes and an integer k. 
+    
+    Print all nodes that are at distance k from the root 
+    (root is considered at distance 0 from itself). 
+    
+    Nodes should be printed from left to right.
+
+  Q2: Segregate 0s and 1s:
+
+    Given an array of length n consisting 
+    of only 0's and 1's in random order. 
+    
+    Modify the array in-place to segregate 0s 
+    on the left side and 1s on the right side of the array.
+
+  Q3: Sum of all substrings of a number:
+
+    Given an integer s represented as a string, 
+    the task is to get the sum of all possible 
+    sub-strings of this string.
+    
+    As the answer will be large, 
+    return answer modulo 10^9+7. 
+    
+    Note: The number may have leading zeros.
+
