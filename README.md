@@ -4002,3 +4002,38 @@ Day 123:
     
     Note: The number may have leading zeros.
 
+Day 124:
+
+  Q1: Strictly Increasing Array:
+
+    Given an array nums of n positive integers. 
+    Find the minimum number of operations required 
+    to modify the array such that array elements 
+    are in strictly increasing order (nums[i] < nums[i+1]).
+    
+    Changing a number to greater or lesser than 
+    original number is counted as one operation.
+    
+    Note: Array elements can become negative 
+    after applying operation.
+
+  Q2: Convert array into Zig-Zag fashion:
+
+    Given an array arr of distinct elements of size N, 
+    the task is to rearrange the elements of the array 
+    in a zig-zag fashion so that the converted array 
+    should be in the below form: 
+    
+    arr[0] < arr[1]  > arr[2] < arr[3] > arr[4] 
+    < . . . . arr[n-2] < arr[n-1] > arr[n]. 
+    
+    NOTE: If your transformation is correct, 
+    the output will be 1 else the output will be 0. 
+
+  Q3: Print adjacency list:
+
+    Given an undirected graph with V nodes and E edges, 
+    create and return an adjacency list of the graph. 
+    
+    0-based indexing is followed everywhere.
+
