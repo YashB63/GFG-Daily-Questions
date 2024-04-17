@@ -4037,3 +4037,32 @@ Day 124:
     
     0-based indexing is followed everywhere.
 
+Day 125:
+
+  Q1: Count ways to Nth Stair:
+
+    There are n stairs, and a person standing 
+    at the bottom wants to reach the top. 
+    
+    The person can climb either 1 stair or 
+    2 stairs at a time. 
+    
+    Count the number of ways, 
+    the person can reach the top 
+    (order does not matter).
+
+  Q2: Reverse a Doubly Linked List:
+
+    Given a doubly linked list of n elements. 
+    Your task is to reverse the doubly linked list in-place.
+
+  Q3: Special Stack:
+
+    Design a data-structure SpecialStack that supports 
+    all the stack operations like push(), pop(), isEmpty(), 
+    isFull() and an additional operation getMin() 
+    which should return minimum element from the SpecialStack. 
+    
+    Your task is to complete all the functions, 
+    using stack data-Structure.
+
