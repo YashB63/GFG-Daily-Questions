@@ -4066,3 +4066,26 @@ Day 125:
     Your task is to complete all the functions, 
     using stack data-Structure.
 
+Day 126:
+
+  Q1: Kth largest element in BST:
+
+    Given a Binary Search Tree. 
+    Your task is to complete the function which 
+    will return the Kth largest element without 
+    doing any modification in Binary Search Tree.
+
+  Q2: Stack using two queues:
+
+    Implement a Stack using two queues q1 and q2.
+
+  Q3: Maximize dot product:
+
+    Given two arrays a and b of positive integers of 
+    size n and m where n >= m, the task is to maximize the 
+    dot product by inserting zeros in the second array 
+    but you cannot disturb the order of elements.
+    
+    Dot product of array a and b of size n is 
+    a[0]*b[0] + a[1]*b[1] + ... + a[n-1]*b[n-1].
+
