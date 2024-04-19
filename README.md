@@ -4089,3 +4089,35 @@ Day 126:
     Dot product of array a and b of size n is 
     a[0]*b[0] + a[1]*b[1] + ... + a[n-1]*b[n-1].
 
+Day 127:
+
+  Q1: Optimal Strategy for A Game:
+
+    You are given an array arr of size n. 
+    The elements of the array represent n coin 
+    of values v1, v2, ....vn. 
+    
+    You play against an opponent in an alternating way. 
+    
+    In each turn, a player selects either the 
+    first or last coin from the row, 
+    removes it from the row permanently, 
+    and receives the value of the coin.
+    
+    You need to determine the maximum possible 
+    amount of money you can win if you go first.
+    
+    Note: Both the players are playing optimally.
+
+  Q2: Binary Tree to BST:
+
+    Given a Binary Tree, 
+    convert it to Binary Search Tree in such a way 
+    that keeps the original structure of Binary Tree intact.
+
+  Q3: Rotate by 90 degree:
+
+    Given a square matrix of size N x N. 
+    The task is to rotate it by 90 degrees 
+    in anti-clockwise direction without using any extra space. 
+
