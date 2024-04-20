@@ -4121,3 +4121,37 @@ Day 127:
     The task is to rotate it by 90 degrees 
     in anti-clockwise direction without using any extra space. 
 
+Day 128:
+
+  Q1: Minimum Points to Reach Destination:
+
+    Given a m*n grid with each cell consisting of positive, 
+    negative, or zero point. We can move across a cell only 
+    if we have positive points. 
+    
+    Whenever we pass through a cell, 
+    points in that cell are added to our overall points, 
+    the task is to find minimum initial points to reach cell 
+    (m-1, n-1) from (0, 0) by following these certain set of rules :
+    
+    1. From a cell (i, j) we can move to (i + 1, j) or (i, j + 1).
+    
+    2. We cannot move from (i, j) if your overall points at (i, j) are <= 0.
+    
+    3. We have to reach at (n-1, m-1) with minimum positive points i.e., > 0.
+
+  Q2: Median of BST:
+  
+    Given a Binary Search Tree of size N, 
+    find the Median of its Node values.
+
+  Q3: Print Pattern:
+
+    Print a sequence of numbers starting with N, 
+    without using loop, 
+    where replace N with N - 5, 
+    until N > 0. 
+    
+    After that replace N with N + 5 
+    until N regains its initial value.
+
