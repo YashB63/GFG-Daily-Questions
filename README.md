@@ -4155,3 +4155,36 @@ Day 128:
     After that replace N with N + 5 
     until N regains its initial value.
 
+Day 129:
+
+  Q1: Party of Couples:
+
+    You are given an integer array arr[] of size n, 
+    representing n number of people in a party, 
+    each person is denoted by an integer.
+    
+    Couples are represented by the same number ie: 
+    two people have the same integer value, 
+    it means they are a couple. 
+    
+    Find out the only single person in the party of couples.
+    
+    NOTE: It is guarantee that there exist 
+    only one single person in the party.
+
+  Q2: Queue of Two Stocks:
+
+    Implement a Queue using 2 stacks s1 and s2 .
+    A Query Q is of 2 Types
+    (i) 1 x (a query of this type means  pushing 'x' into the queue)
+    (ii) 2   (a query of this type means to pop 
+    element from queue and print the poped element)
+    
+    Note :- If there is no element return -1 as answer while popping.
+
+  Q3: Inorder Successor in BST:
+
+    Given a BST, and a reference to a Node x in the BST. 
+    Find the Inorder Successor of the given node in the BST.
+
+
