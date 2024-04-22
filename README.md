@@ -4187,4 +4187,34 @@ Day 129:
     Given a BST, and a reference to a Node x in the BST. 
     Find the Inorder Successor of the given node in the BST.
 
+Day 130:
+
+  Q1: Gray to Binary Equivalent:
+
+    Given an integer number n, 
+    which is a decimal representation of Gray Code. 
+    
+    Find the binary equivalent of the Gray Code & 
+    return the decimal representation of the binary equivalent.
+     
+    Note: Please visit here to learn How Gray Code is generated.
+
+  Q2: Count the Zeroes:
+
+    Given an array Arr of size N consisting of only 0's and 1's. 
+    The array is sorted in such a manner that all the 1's 
+    are placed first and then they are followed by all the 0's. 
+    
+    Find the count of all the 0's.
+
+  Q3: Predict the Columnm:
+
+    Given a matrix(2D array) M of size N*N consisting 
+    of 0s and 1s only. The task is to find the column 
+    with maximum number of 0s. 
+    
+    If more than one column exists, 
+    print the one which comes first. 
+    
+    If the maximum number of 0s is 0 then return -1.
 
