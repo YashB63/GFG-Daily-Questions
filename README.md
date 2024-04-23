@@ -4218,3 +4218,53 @@ Day 130:
     
     If the maximum number of 0s is 0 then return -1.
 
+Day 131:
+
+  Q1: Sum of Products:
+
+    Given an array arr[] of size n. 
+    Calculate the sum of Bitwise ANDs 
+    ie: calculate sum of arr[i] & arr[j] 
+    for all the pairs in the given array arr[] where i < j.
+
+  Q2: Maximum width of Tree:
+
+    Given a Binary Tree, 
+    find the maximum width of it. 
+    
+    Maximum width is defined as the 
+    maximum number of nodes at any level.
+    
+    For example, the maximum width of the following tree 
+    is 4 as there are 4 nodes at the 3rd level.
+    
+              1
+           /     \
+         2        3
+       /    \    /    \
+      4    5   6    7
+        \
+          8
+
+  Q3: Sjop in Candy Store:
+
+    In a candy store, there are N different types 
+    of candies available and the prices of all the 
+    N different types of candies are provided to you.
+    
+    You are now provided with an attractive offer.
+    
+    For every candy you buy from the store and 
+    get K other candies ( all are different types ) for free.
+    
+    Now you have to answer two questions. 
+    Firstly, you have to find what is the 
+    minimum amount of money you have to spend 
+    to buy all the N different candies. 
+    
+    Secondly, you have to find what is the 
+    maximum amount of money you have to spend 
+    to buy all the N different candies.
+    
+    In both the cases you must utilize the offer i.e. 
+    you buy one candy and get K other candies for free.
