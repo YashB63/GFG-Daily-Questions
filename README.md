@@ -4268,3 +4268,25 @@ Day 131:
     
     In both the cases you must utilize the offer i.e. 
     you buy one candy and get K other candies for free.
+
+Day 132:
+
+  Q1: Reverse Bits:
+
+    Given a number x, reverse its binary form 
+    and return the answer in decimal.
+
+  Q2: Reverse Level order Traversal:
+
+    Given a binary tree of size N, 
+    find its reverse level order traversal. 
+    
+    ie- the traversal must begin from the last level.
+
+  Q3: Boundary traversal of matrix:
+
+    You are given a matrix of dimensions n x m. 
+    
+    The task is to perform boundary traversal 
+    on the matrix in a clockwise manner starting 
+    from the first row of the matrix.
