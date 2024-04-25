@@ -4290,3 +4290,39 @@ Day 132:
     The task is to perform boundary traversal 
     on the matrix in a clockwise manner starting 
     from the first row of the matrix.
+
+Day 133:
+
+  Q1: Xoring and Clearing:
+
+    You are given an array arr[] of size n. 
+    
+    You need to do the following:
+    
+    You need to calculate the bitwise XOR 
+    of each element in the array with its 
+    corresponding index (indices start from 0).
+    
+    After step1, print the array.
+    
+    Now, set all the elements of arr[] to zero.
+    
+    Now, print arr[].
+
+  Q2: Find the Frequency:
+
+    Given an Array Arr of N positive integers 
+    and an integer X. 
+    
+    Return the frequency of X in the array.
+
+  Q3: Transform to Sum Tree:
+
+    Given a Binary Tree of size N , 
+    where each node can have positive or negative values. 
+    
+    Convert this to a tree where each node contains 
+    the sum of the left and right sub trees 
+    of the original tree. 
+    
+    The values of leaf nodes are changed to 0.
