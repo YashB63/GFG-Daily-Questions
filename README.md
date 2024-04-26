@@ -4326,3 +4326,38 @@ Day 133:
     of the original tree. 
     
     The values of leaf nodes are changed to 0.
+
+Day 134:
+
+  Q1: Count the elements:
+
+    Given two arrays a and b both of size n. 
+    
+    Given q queries in an array query each having 
+    a positive integer x denoting an index of the array a. 
+    
+    For each query, your task is to find 
+    all the elements less than or equal 
+    to a[x] in the array b.
+
+  Q2: Maximize Toys:
+
+    Given an array arr[ ] of length N consisting 
+    cost of N toys and an integer K 
+    depicting the amount with you. 
+    
+    Your task is to find maximum number 
+    of toys you can buy with K amount. 
+
+  Q3: Minimum Number of Coins:
+
+    Given an infinite supply of each denomination 
+    of Indian currency { 1, 2, 5, 10, 20, 50, 100, 200, 500, 2000 } 
+    and a target value N.
+    
+    Find the minimum number of coins and/or 
+    notes needed to make the change for Rs N. 
+    
+    You must return the list containing 
+    the value of coins required. 
+
