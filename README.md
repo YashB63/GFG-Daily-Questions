@@ -4361,3 +4361,46 @@ Day 134:
     You must return the list containing 
     the value of coins required. 
 
+Day 135:
+
+  Q1: Minimize the Difference:
+
+    You are given an array arr of size n. 
+    You have to remove a subarray of size k , 
+    such that the difference between the maximum 
+    and minimum values of the remaining array is minimized.
+    
+    Find the minimum value obtained after performing 
+    the operation of the removal of the subarray and return it.
+
+  Q2: Plus One:
+
+    Given a non-negative number represented 
+    as a list of digits, add 1 to the number 
+    (increment the number represented by the digits). 
+    
+    The digits are stored such that the most 
+    significant digit is first element of array.
+
+  Q3: For Loop - primeChec:
+
+    What do you do when you need to execute 
+    certain statements more than once? 
+    
+    You put them in a loop. 
+    
+    Loops are very powerful. 
+    
+    Majority of coding questions 
+    need loops to work. 
+    
+    You can't even input testcases without loops!
+    
+    Here, we will use for loop and check 
+    if the given number n is prime or not.
+    
+    Note: A number is prime if it's divisible ONLY 
+    by itself and 1 and not any other number. 
+    
+    Also, 1 is not prime.
+
