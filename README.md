@@ -4417,9 +4417,9 @@ Day 136:
   Q2: K largest elements:
 
     Given an array of N positive integers, 
-    print k largest elements from the array. 
+    print k largest elements from the array.  
 
-  Q3: Brothers From Different Roots:
+  Q3: Brothers from Different Roots:
 
     Given two BSTs containing N1 and N2 
     distinct nodes respectively and given a value x, 
