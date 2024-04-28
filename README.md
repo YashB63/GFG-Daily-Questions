@@ -4404,3 +4404,28 @@ Day 135:
     
     Also, 1 is not prime.
 
+Day 136:
+
+  Q1: Count Pairs in an Array:
+
+    Given an array arr of n integers, 
+    count all pairs (arr[i], arr[j]) in it 
+    such that i*arr[i] > j*arr[j] and 0 ≤ i < j < n.
+    
+    Note: 0-based Indexing is followed.
+
+  Q2: K largest elements:
+
+    Given an array of N positive integers, 
+    print k largest elements from the array. 
+
+  Q3: Brothers From Different Roots:
+
+    Given two BSTs containing N1 and N2 
+    distinct nodes respectively and given a value x, 
+    your task is to complete the function countPairs(), 
+    that returns the count of all pairs of (a, b), 
+    where a belongs to one BST and b 
+    belongs to another BST, 
+    such that a + b = x.
+
