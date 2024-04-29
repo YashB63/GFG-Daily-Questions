@@ -4429,3 +4429,42 @@ Day 136:
     belongs to another BST, 
     such that a + b = x.
 
+Day 137:
+
+  Q1: Two repeated elements:
+
+    You are given an integer n and 
+    an integer array arr of size n+2. 
+    
+    All elements of the array are in 
+    the range from 1 to n. 
+    
+    Also, all elements occur once 
+    except two numbers which occur twice. 
+    
+    Find the two repeating numbers.
+    
+    Note: Return the numbers in their 
+    order of appearing twice. 
+    
+    So, if X and Y are the repeating numbers, 
+    and X's second appearance comes before 
+    second appearance of Y, 
+    then the order should be (X, Y).
+
+  Q2: Get min at pop:
+  
+    Now, we'll try to solve a famous stack problem.
+    
+    You are given an array A of size N. 
+    
+    You need to first push the elements 
+    of the array into a stack and then 
+    print minimum in the stack at each 
+    pop until stack becomes empty.
+  
+  Q3: Sieve of Eratosthenes:
+
+    Given a number N, calculate the prime numbers 
+    up to N using Sieve of Eratosthenes.  
+
