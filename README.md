@@ -4468,3 +4468,25 @@ Day 137:
     Given a number N, calculate the prime numbers 
     up to N using Sieve of Eratosthenes.  
 
+Day 138:
+
+  Q1: Find missing in second array:
+
+    Given two integer arrays a of size 
+    n and b of size m, the task is to 
+    find the numbers which are present 
+    in the first array a, but not 
+    present in the second array b.
+
+  Q2: Remove every Kth node:
+
+    Given a singly linked list having n nodes, 
+    your task is to remove every kth node 
+    from the linked list. 
+    
+  Q3: Four Elements:
+
+    Given an array A of N integers. 
+    You have to find whether a combination 
+    of four elements in the array whose sum 
+    is equal to a given value X exists or not.
