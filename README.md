@@ -4490,3 +4490,37 @@ Day 138:
     You have to find whether a combination 
     of four elements in the array whose sum 
     is equal to a given value X exists or not.
+
+Day 139:
+
+  Q1: Union of Two Sorted Arrays:
+
+    Given two sorted arrays of size n and m respectively, 
+    find their union. The Union of two arrays can be 
+    defined as the common and distinct elements in the two arrays. 
+    
+    Return the elements in sorted order.
+
+  Q2: Facing the Sun:
+
+    Given an array H representing heights of buildings. 
+    You have to count the buildings which will see the 
+    sunrise (Assume : Sun rise on the side of array starting point).
+    
+    Note : Height of building should be strictly greater 
+    than height of buildings in left in order to see the sun.
+
+  Q3: Adding Sun:
+
+    You start with an array A of size N. 
+    Initially all elements of the array A are zero. 
+    You will be given K positive integers. 
+    Let j be one of these integers, 
+    you have to add 1 to all A[i], 
+    where i ≥ j. 
+    
+    Your task is to print the array A 
+    after all these K updates are done.
+    
+    Note: Indices in updates array are given in 1-based indexing. 
+    That is updates[i] are in range [1,N].
