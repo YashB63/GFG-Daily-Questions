@@ -4566,3 +4566,38 @@ Day 140:
     
     Note: All keys in BST must be unique.
 
+Day 141:
+
+  Q1: Row with minimum number of 1's:
+
+    Given a 2D binary matrix(1-based indexed) 
+    a of dimensions nxm , 
+    determine the row that contains 
+    the minimum number of 1's.
+    
+    Note: The matrix contains only 1's and 0's. 
+    
+    Also, if two or more rows contain 
+    the minimum number of 1's, 
+    the answer is the lowest of those indices.
+
+  Q2: Seating Arrangements:
+
+    You are given an integer n, 
+    denoting the number of people 
+    who needs to be seated, 
+    and a list of m integers seats, 
+    where 0 represents a vacant seat 
+    and 1 represents an already occupied seat.
+    
+    Find whether all n people can find a seat, 
+    provided that no two people can sit next to each other.
+
+  Q3: Common Elements:
+
+    Given two lists V1 and V2 of sizes n and m respectively. 
+    Return the list of elements common to both the lists 
+    and return the list in sorted order. 
+    
+    Duplicates may be there in the output list.
+
