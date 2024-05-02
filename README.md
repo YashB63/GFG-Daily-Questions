@@ -4524,3 +4524,45 @@ Day 139:
     
     Note: Indices in updates array are given in 1-based indexing. 
     That is updates[i] are in range [1,N].
+
+Day 140:
+
+  Q1: Three way partitioning:
+
+    Given an array of size n and a range [a, b]. 
+    
+    The task is to partition the array around the range 
+    such that the array is divided into three parts.
+    
+    1) All elements smaller than a come first.
+    2) All elements in range a to b come next.
+    3) All elements greater than b appear in the end.
+    The individual elements of three sets 
+    can appear in any order. 
+    
+    You are required to return the modified array.
+    
+    Note: The generated output is 1 if 
+    you modify the given array successfully.
+    
+    Geeky Challenge: Solve this problem in O(n) time complexity.
+
+  Q2: Roof Top:
+
+    You are given heights of consecutive buildings. 
+    You can move from the roof of a building to the 
+    roof of next adjacent building. 
+    
+    You need to find the maximum number of 
+    consecutive steps you can put forward 
+    such that you gain an increase in altitude 
+    with each step.
+
+  Q3: Inorder Traversal and BST:
+
+    Given an array arr of size N, 
+    determine whether this array represents 
+    an inorder traversal of a BST. 
+    
+    Note: All keys in BST must be unique.
+
