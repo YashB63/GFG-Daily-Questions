@@ -4601,3 +4601,39 @@ Day 141:
     
     Duplicates may be there in the output list.
 
+Day 142:
+
+  Q1: Rohan's Love for Matrix:
+
+    Rohan has a special love for the matrices 
+    especially for the first element of the matrix. 
+    
+    Being good at Mathematics, 
+    he also loves to solve the different 
+    problem on the matrices. 
+    
+    So one day he started to multiply 
+    the matrix with the original matrix.  
+    
+    The elements of the original matrix a 
+    are given by [a00=1 , a01=1, a10=1, a11=0].
+    
+    Given the power of the matrix, 
+    n calculate the an and return the 
+    a10 element mod 1000000007.
+
+  Q2: Primes Sum:
+
+    Given a number N. 
+    Find if it can be expressed as 
+    sum of two prime numbers.
+
+
+  Q3: Frequency Game:
+
+    Given an array A of size N. 
+    
+    The elements of the array consist of positive integers. 
+    
+    You have to find the largest element with minimum frequency.
+
