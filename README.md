@@ -4637,3 +4637,36 @@ Day 142:
     
     You have to find the largest element with minimum frequency.
 
+Day 143:
+
+  Q1: Copy Set Bits in Range
+
+    Given two numbers X and Y, and a range [L, R] where 
+    1 <= L <= R <= 32. You have to copy the set bits of 
+    'Y' in the range L to R in 'X'. Return this modified X.
+    
+    Note: Range count will be from Right to Left & start from 1.
+
+  Q2: Paths to reach origin:
+
+    You are standing on a point (x, y) and 
+    you want to go to the origin (0, 0) by 
+    taking steps either left or down i.e. 
+    from each point you are allowed to move either in 
+    (x-1, y) or (x, y-1). 
+    
+    Find the number of paths from point to origin.
+
+  Q3: Three Great Candidates:
+
+    The hiring team aims to find 3 candidates 
+    who are great collectively. Each candidate 
+    has his or her ability expressed as an integer. 
+    
+    3 candidates are great collectively if product 
+    of their abilities is maximum. 
+    
+    Given abilities of N candidates in an array arr[], 
+    find the maximum collective ability from the 
+    given pool of candidates.
+
