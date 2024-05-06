@@ -4670,3 +4670,35 @@ Day 143:
     find the maximum collective ability from the 
     given pool of candidates.
 
+Day 144:
+
+  Q1: Matrix sum of hour glass:
+
+    Given two integers n, m and a 2D matrix 
+    mat of dimensions nxm, the task is to find 
+    the maximum sum of an hourglass.
+    
+    An hourglass is defined as a part 
+    of the matrix with the following form:
+    
+    Return -1 if any hourglass is not found.
+
+  Q2: Adding Array Elements:
+
+    Given an array Arr[] of size N and an integer K, 
+    you have to choose the first two minimum elements 
+    of the array and erase them, then insert the sum 
+    of these two elements in the array until all the 
+    elements are greater than or equal to K and 
+    find the number of such operations required.
+
+  Q3: Missing element of AP:
+
+    Find the missing element from an ordered array arr[], 
+    consisting of N elements representing an Arithmetic Progression(AP).
+    
+    Note: There always exists an element which 
+    upon inserting into sequence forms Arithmetic progression. 
+    
+    Boundary elements (first and last elements) are not missing.
+
