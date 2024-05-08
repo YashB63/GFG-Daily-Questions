@@ -4702,3 +4702,35 @@ Day 144:
     
     Boundary elements (first and last elements) are not missing.
 
+Day 145:
+
+  Q1: Exit Point in a Matrix:
+
+    Given a matrix of size n x m with 0’s and 1’s, 
+    you enter the matrix at cell (0,0) in left to right direction. 
+    Whenever you encounter a 0 you retain it in the same direction, 
+    else if you encounter a 1 you have to change the direction to the 
+    right of the current direction and change that 1 value to 0, 
+    you have to find out from which index you will leave the matrix at the end.
+
+  Q2: Product Pair:
+
+    Given an array arr[] of size N of distinct elements 
+    and a number X, find if there is a pair in arr[] 
+    with product equal to X.
+
+  Q3: Find the closest number:
+
+    Given an array arr of positive sorted integers. 
+    
+    The task is to find the closest value to the 
+    given number k in array. 
+    
+    Array may contain duplicate values.
+    
+    Note: If the difference is same for two values 
+    print the value which is greater than the given number.
+
+  
+
+  
