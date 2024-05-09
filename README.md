@@ -4731,6 +4731,25 @@ Day 145:
     Note: If the difference is same for two values 
     print the value which is greater than the given number.
 
-  
+Day 146:
 
+  Q1: Merge Sort on Doubly Linked List:
+
+    Given Pointer/Reference to the head 
+    of a doubly linked list of n nodes, 
+    the task is to Sort the given 
+    doubly linked list using Merge Sort 
+    in both non-decreasing and non-increasing order.
+
+  Q2: Print Diagonally:
+
+    Give a N * N square matrix A, 
+    return all the elements of its 
+    anti-diagonals from top to bottom.
+
+  Q3: Two Mirror Trees:
+  
+    Given a Two Binary Trees, write a function 
+    that returns true if one is mirror of other, 
+    else returns false.
   
