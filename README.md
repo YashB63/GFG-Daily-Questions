@@ -4752,4 +4752,44 @@ Day 146:
     Given a Two Binary Trees, write a function 
     that returns true if one is mirror of other, 
     else returns false.
-  
+
+Day 147:
+
+  Q1: Delete Middle of Linked List:
+
+    Given a singly linked list, 
+    delete middle of the linked list. 
+    
+    For example, if given linked list is 1->2->3->4->5 
+    then linked list should be modified to 1->2->4->5.
+    
+    If there are even nodes, 
+    then there would be two middle nodes, 
+    we need to delete the second middle element. 
+    
+    For example, if given linked list is 1->2->3->4->5->6 
+    then it should be modified to 1->2->3->5->6.
+    If the input linked list has single node, 
+    then it should return NULL.
+
+  Q2: Sort by Absolute Difference:
+
+    Given an array of N elements and a number K. 
+    The task is to arrange array elements according 
+    to the absolute difference with K, i. e., 
+    element having minimum difference comes first and so on.
+    
+    Note : If two or more elements are at equal distance 
+    arrange them in same sequence as in the given array.
+
+  Q3: Taking Input:
+
+    Before implementing any algorithm, 
+    we should be thorough with taking inputs.
+     
+    Here, we will learn how to read inputs.
+    You are given two inputs: a(integer), and b(string). 
+    You need to take the input and print a and b separated by a space.
+    
+    Note: You have to print a new line 
+    at the end after prinintg a and b.
