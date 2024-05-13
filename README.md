@@ -4793,3 +4793,40 @@ Day 147:
     
     Note: You have to print a new line 
     at the end after prinintg a and b.
+
+Day 148:
+
+  Q1: Remove every kth node:
+
+    Given a singly linked list having n nodes, 
+    your task is to remove every kth node from the linked list. 
+
+  Q2: Make the array beautiful:
+
+    Given an array of negative and non-negative integers. 
+    You have to make the array beautiful. 
+    An array is beautiful if two adjacent integers, 
+    arr[i] and arr[i+1] are either negative or non-negative. 
+    
+    And you can do the following operation any 
+    number of times until the array becomes beautiful.
+    
+    If two adjacent integers are different i.e. 
+    one of them is negative and other is non-negative, 
+    remove them.
+    
+    Return the beautiful array after 
+    performing the above operation.
+    
+    Note:An empty array is also a beautiful array. 
+    There can be many adjacent integers which are 
+    different as stated above. 
+    
+    So remove different adjacent integers 
+    as described above from left to right.
+
+  Q3: Unique rows in boolean matrix:
+
+    Given a binary matrix your task is to find all 
+    unique rows of the given matrix in the order 
+    of their appearance in the matrix.
