@@ -4830,3 +4830,59 @@ Day 148:
     Given a binary matrix your task is to find all 
     unique rows of the given matrix in the order 
     of their appearance in the matrix.
+
+Day 149:
+
+  Q1: Add two numbers represented by linked list:
+
+    Given two decimal numbers, num1 and num2, 
+    represented by linked lists of size n and m respectively. 
+    
+    The task is to return a linked list that 
+    represents the sum of these two numbers.
+    
+    For example, the number 190 will be 
+    represented by the linked list, 1->9->0->null, 
+    similarly 25 by 2->5->null. Sum of these two numbers 
+    is 190 + 25 = 215, which will be represented 
+    by 2->1->5->null. 
+    
+    You are required to return the 
+    head of the linked list 2->1->5->null.
+    
+    Note: There can be leading zeros in the input lists, 
+    but there should not be any leading zeros in the output list.
+
+  Q2: Is it Fibonacc:
+
+    Geek just learned about Fibonacci numbers.
+    
+    The Fibonacci Sequence is the 
+    series of numbers: 0, 1, 1, 2, 3, 5, 8, 13, ...
+    
+    where the next number is found by 
+    adding up the two numbers before it.
+    
+    He defines a new series called Geeky numbers. 
+    Here the next number is the sum of the K preceding numbers.
+    
+    You are given an array of size K, GeekNum[ ], 
+    where the ith element of the array 
+    represents the ith Geeky number. 
+    
+    Return its Nth term.
+    
+    Note: This problem can be solved in O(N2) 
+    time complexity but the user has to solve this in O(N). 
+    
+    The Constraints are less because there 
+    can be integer overflow in the terms.
+
+  Q3: Sequence Fun:
+
+    You have a sequence 2,5,16,65,........
+    
+    Given an integer n as input. 
+    
+    You have to find the value at the 
+    nth position in the sequence.
