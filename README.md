@@ -4886,3 +4886,34 @@ Day 149:
     
     You have to find the value at the 
     nth position in the sequence.
+
+Day 150:
+
+  Q1: Arrange Consonants and Vowels:
+
+    Given a singly linked list having n nodes 
+    containing english alphabets ('a'-'z'). 
+    
+    Rearrange the linked list in such a way that 
+    all the vowels come before the consonants 
+    while maintaining the order of their arrival. 
+
+  Q2: Ticket Counter:
+
+    N people from 1 to N are standing 
+    in the queue at a movie ticket counter. 
+    
+    It is a weird counter, as it distributes tickets 
+    to the first K people and then the last K people 
+    and again first K people and so on, once a person 
+    gets a ticket moves out of the queue. 
+    
+    The task is to find the last person to get the ticket.
+
+  Q3: Odd even level difference:
+
+    Given a Binary Tree. 
+    
+    Find the difference between the 
+    sum of node values at even levels 
+    and the sum of node values at the odd levels.
