@@ -4917,3 +4917,55 @@ Day 150:
     Find the difference between the 
     sum of node values at even levels 
     and the sum of node values at the odd levels.
+
+Day 151:
+
+  Q1: Serialize and deserialize a binary tree:
+
+    Serialization is to store a tree in an array 
+    so that it can be later restored and 
+    deserialization is reading tree back 
+    from the array. 
+    
+    Complete the functions
+    
+    serialize() : stores the tree into an array a and returns the array.
+    
+    deSerialize() : deserializes the array to the tree 
+    and returns the root of the tree.
+    
+    Note: Multiple nodes can have the same data 
+    and the node values are always positive integers. 
+    
+    Your code will be correct if the tree returned 
+    by deSerialize(serialize(input_tree)) 
+    is same as the input tree. 
+    
+    Driver code will print the in-order 
+    traversal of the tree returned by 
+    deSerialize(serialize(input_tree)).
+
+  Q2: Maximum Sum LCM:
+
+    Given a positive number n. 
+    
+    You need to write a program to find the 
+    maximum sum of distinct numbers such that 
+    the LCM of all these numbers is equal to n 
+    and those numbers are less than or equal to n.
+
+  Q3: Geek Jump:
+
+    Geek wants to climb from the 0th stair 
+    to the (n-1)th stair. At a time the Geek 
+    can climb either one or two steps. 
+    
+    A height[N] array is also given. 
+    Whenever the geek jumps from stair i to stair j, 
+    the energy consumed in the jump is 
+    abs(height[i]- height[j]), where abs() 
+    means the absolute difference. 
+    
+    return the minimum energy that 
+    can be used by the Geek to jump 
+    from stair 0 to stair N-1.
