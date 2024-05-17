@@ -4969,3 +4969,38 @@ Day 151:
     return the minimum energy that 
     can be used by the Geek to jump 
     from stair 0 to stair N-1.
+
+Day 152:
+
+  Q1: K distance from root:
+
+    Given a binary tree having n nodes and an integer k. 
+    Print all nodes that are at distance k from the root 
+    (root is considered at distance 0 from itself). 
+    
+    Nodes should be printed from left to right.
+
+  Q2: Sum of Leaf Nodes:
+
+    Given a Binary Tree of size N. 
+    
+    The task is to complete the function sumLeaf(), 
+    that should return the sum of 
+    all the leaf nodes of the given binary tree.
+
+  Q3: Dominant Pairs:
+
+    You are given an array of integers 
+    of size n where n being even.. 
+    
+    You have to calculate the number 
+    of dominate pairs (i,j) .
+    
+    Where a pair is called dominant if 
+    ( 0<=i<n/2, n/2<=j<n, arr[i]>=5*arr[j] ) 
+    these relation are fulfilled.  
+    
+    For example  in arr=[10,3,3,1] 
+    index i=0, j=3 form a dominating pair
+    
+    Note : 0 based indexing is used  and n is even 
