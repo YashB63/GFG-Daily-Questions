@@ -5004,3 +5004,50 @@ Day 152:
     index i=0, j=3 form a dominating pair
     
     Note : 0 based indexing is used  and n is even 
+
+Day 153:
+
+  Q1: Construct Binary Tree from Inorder and Postorder
+
+    Given inorder and postorder traversals 
+    of a binary tree(having n nodes) in the 
+    arrays in[] and post[] respectively. 
+    
+    The task is to construct a binary tree 
+    SSSfrom these traversals.
+    
+    Driver code will print the 
+    preorder traversal of the constructed tree.
+
+  Q2: Kth smallest element:
+
+    Given an array arr[] and an integer k 
+    where k is smaller than the size of the array, 
+    the task is to find the kth smallest element 
+    in the given array. 
+    
+    It is given that all array elements are distinct.
+    
+    Note:-  l and r denotes the starting and 
+    ending index of the array.
+
+  Q3: Minimize the Heights II:
+
+    Given an array arr[] denoting heights of N towers and a positive integer K.
+    
+    For each tower, you must perform exactly 
+    one of the following operations exactly once.
+    
+    Increase the height of the tower by K
+    
+    Decrease the height of the tower by K
+    
+    Find out the minimum possible difference 
+    between the height of the shortest and 
+    tallest towers after you have modified each tower.
+    
+    You can find a slight modification of the problem here.
+    
+    Note: It is compulsory to increase or decrease 
+    the height by K for each tower. After the operation, 
+    the resultant array should not contain any negative integers.
