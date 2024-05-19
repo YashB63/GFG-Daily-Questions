@@ -5051,3 +5051,51 @@ Day 153:
     Note: It is compulsory to increase or decrease 
     the height by K for each tower. After the operation, 
     the resultant array should not contain any negative integers.
+
+Day 154:
+
+  Q1: Vertical Sum:
+
+    Given a binary tree having n nodes, 
+    find the vertical sum of the nodes that 
+    are in the same vertical line. 
+    
+    Return all sums through different 
+    vertical lines starting from the 
+    left-most vertical line to the 
+    right-most vertical line.
+
+  Q2: Count Inversions:
+
+    Given an array of integers. 
+    
+    Find the Inversion Count in the array. 
+    
+    Inversion Count: For an array, 
+    inversion count indicates how far (or close) 
+    the array is from being sorted. 
+    
+    If the array is already sorted 
+    then the inversion count is 0.
+    
+    If an array is sorted in the reverse order 
+    then the inversion count is the maximum. 
+    
+    Formally, two elements a[i] and a[j] 
+    form an inversion if a[i] > a[j] and i < j.
+
+  Q3: Remove loop in Linked List:
+
+    Given a linked list of N nodes 
+    such that it may contain a loop.
+    
+    A loop here means that the last node 
+    of the linked list is connected to the 
+    node at position X(1-based index). 
+    
+    If the linked list does not have any loop, X=0.
+    
+    Remove the loop from the linked list, 
+    if it is present, i.e. unlink the 
+    last node which is forming the loop.
+
