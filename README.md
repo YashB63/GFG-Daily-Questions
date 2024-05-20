@@ -5099,3 +5099,77 @@ Day 154:
     if it is present, i.e. unlink the 
     last node which is forming the loop.
 
+Day 155:
+
+  Q1: Print all nodes that don't have sibling:
+
+    Given a Binary Tree of n nodes, 
+    find all the nodes that don't have any siblings. 
+    
+    You need to return a list of integers containing 
+    all the nodes that don't have a 
+    sibling in sorted order (Increasing).
+    
+    Two nodes are said to be siblings 
+    if they are present at the same level, 
+    and their parents are the same.
+    
+    Note: The root node can not have a sibling 
+    so it cannot be included in our answer.
+
+  Q2: Bottom View of Binary Tree:
+
+    Given a binary tree, 
+    print the bottom view from left to right.
+    
+    A node is included in bottom view 
+    if it can be seen when we look at 
+    the tree from bottom.
+    
+    
+                          20
+                        /    \
+                      8       22
+                    /   \        \
+                  5      3       25
+                        /   \      
+                      10    14
+    
+    For the above tree, the bottom view is 5 10 3 14 25.
+    
+    If there are multiple bottom-most nodes 
+    for a horizontal distance from root, 
+    then print the later one in level traversal. 
+    
+    For example, in the below diagram, 3 and 4 
+    are both the bottommost nodes at 
+    horizontal distance 0, we need to print 4.
+    
+                          20
+                        /    \
+                      8       22
+                    /   \     /   \
+                  5      3 4     25
+                         /    \      
+                     10       14
+    
+    For the above tree the output should be 5 10 4 14 25.
+    
+    Note: The Input/Output format and 
+    Example given are used for the system's 
+    internal purpose, and should be used 
+    by a user for Expected Output only. 
+    
+    As it is a function problem, 
+    hence a user should not read 
+    any input from the stdin/console. 
+    
+    The task is to complete the function specified, 
+    and not to write the full code.
+
+  Q3: Rotate a Linked List:
+
+    Given a singly linked list of size N. 
+    The task is to left-shift the linked list by k nodes, 
+    where k is a given positive integer 
+    smaller than or equal to length of the linked list.
