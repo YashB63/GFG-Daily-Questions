@@ -5173,3 +5173,43 @@ Day 155:
     The task is to left-shift the linked list by k nodes, 
     where k is a given positive integer 
     smaller than or equal to length of the linked list.
+
+Day 156:
+
+  Q1: Reverse Order Traversal:
+
+    Given a binary tree of size n, 
+    find its reverse level order traversal. 
+    ie- the traversal must begin from the last level.
+
+  Q2: Longest Sub-Array with Sum K:
+
+    Given an array containing N integers and an integer K., 
+    Your task is to find the length of the longest Sub-Array 
+    with the sum of the elements equal to the given value K.
+
+  Q3: Validate an IP Address:
+
+    Write a program to Validate an IPv4 Address.
+    
+    According to Wikipedia, IPv4 addresses 
+    are canonically represented in dot-decimal notation, 
+    which consists of four decimal numbers, 
+    each ranging from 0 to 255, separated by dots, 
+    e.g., 172.16.254.1 .
+    
+    A valid IPv4 Address is of the form x1.x2.x3.x4 
+    where 0 <= (x1, x2, x3, x4) <= 255.
+    
+    Thus, we can write the generalized form 
+    of an IPv4 address as (0-255).(0-255).(0-255).(0-255).
+    
+    Note: Here we are considering numbers only 
+    from 0 to 255 and any additional leading 
+    zeroes will be considered invalid.
+    
+    Your task is to complete the function isValid 
+    which returns 1 if the given IPv4 address is 
+    valid else returns 0. The function takes the 
+    IPv4 address as the only argument in the form of string.
+
