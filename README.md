@@ -5213,3 +5213,38 @@ Day 156:
     valid else returns 0. The function takes the 
     IPv4 address as the only argument in the form of string.
 
+Day 157:
+
+  Q1: Root to Leaf Paths:
+
+    Given a Binary Tree of nodes, 
+    you need to find all the possible paths 
+    from the root node to all the leaf nodes 
+    of the binary tree.
+
+  Q2: Topological Sort:
+
+    Given a Directed Acyclic Graph (DAG) 
+    with V vertices and E edges, 
+    Find any Topological Sorting of that Graph.
+
+  Q3: Job Sequencing Problem:
+
+    Given a set of N jobs where each jobi 
+    has a deadline and profit associated with it.
+    
+    Each job takes 1 unit of time to complete 
+    and only one job can be scheduled at a time. 
+    
+    We earn the profit associated with job 
+    if and only if the job is completed by its deadline.
+    
+    Find the number of jobs done and the maximum profit.
+    
+    Note: Jobs will be given in the form (Jobid, Deadline, Profit) 
+    associated with that Job. 
+    
+    Deadline of the job is the time before 
+    which job needs to be completed to earn the profit.
+
+
