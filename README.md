@@ -5247,4 +5247,44 @@ Day 157:
     Deadline of the job is the time before 
     which job needs to be completed to earn the profit.
 
+Day 158:
 
+  Q1: Divisor Game:
+
+    Alice and Bob take turns playing a game, 
+    with Alice starting first.
+    
+    Initially, there is a number n on the chalkboard. 
+    
+    On each player's turn, that player makes a move consisting of:
+    
+    Choosing any x with 0 < x < n  and n % x == 0.
+    
+    Replacing the number n on the chalkboard with n - x.
+    
+    Also, if a player cannot make a move, they lose the game.
+    
+    Return true if and only if Alice wins the game, 
+    assuming both players play optimally.
+
+  Q2: Stock Span Problem:
+
+    The stock span problem is a financial problem 
+    where we have a series of n daily price quotes 
+    for a stock and we need to calculate the 
+    span of stocks price for all n days. 
+    
+    The span Si of the stocks price on a given day i 
+    is defined as the maximum number of consecutive days 
+    just before the given day, for which the price of 
+    the stock on the given day is less than or equal to 
+    its price on the current day.
+    
+    For example, if an array of 7 days prices is given 
+    as {100, 80, 60, 70, 60, 75, 85}, then the span values 
+    for corresponding 7 days are {1, 1, 1, 2, 1, 4, 6}.
+
+  Q3: Number of Occurence:
+
+    Given a sorted array Arr of size N and a number X, 
+    you need to find the number of occurrences of X in Arr.
