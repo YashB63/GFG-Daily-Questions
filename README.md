@@ -5288,3 +5288,48 @@ Day 158:
 
     Given a sorted array Arr of size N and a number X, 
     you need to find the number of occurrences of X in Arr.
+
+Day 159:
+
+  Q1: Combination Sum II:
+
+    Given an array of integers arr, 
+    the length of the array n, 
+    and an integer k, 
+    find all the unique combinations 
+    in arr where the sum of the combination 
+    is equal to k. 
+    
+    Each number can only be used once in a combination.
+    
+    Return the combinations in the lexicographically sorted order, 
+    where each combination is in non-decreasing order.
+
+  Q2: Number of Coins:
+
+    Given a value V and array coins[] of size M, 
+    the task is to make the change for V cents, 
+    given that you have an infinite supply of 
+    each of coins{coins1, coins2, ..., coinsm} valued coins. 
+    
+    Find the minimum number of coins to make the change. 
+    
+    If not possible to make change then return -1.
+
+  Q3: Circular Tour:
+
+    Suppose there is a circle. 
+    
+    There are N petrol pumps on that circle. 
+    
+    You will be given two sets of data.
+    
+    1. The amount of petrol that every petrol pump has.
+    2. Distance from that petrol pump to the next petrol pump.
+    
+    Find a starting point where the truck can start 
+    to get through the complete circle without 
+    exhausting its petrol in between.
+    
+    Note :  Assume for 1 litre petrol, 
+    the truck can go 1 unit of distance.
