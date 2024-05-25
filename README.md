@@ -5333,3 +5333,47 @@ Day 159:
     
     Note :  Assume for 1 litre petrol, 
     the truck can go 1 unit of distance.
+
+Day 160:
+
+  Q1: Juggler Sequence:
+
+    Juggler Sequence is a series of integers 
+    in which the first term starts with a 
+    positive integer number a and the remaining terms 
+    are generated from the immediate previous term 
+    using the below recurrence relation:
+    
+    Juggler Formula
+    
+    Given a number n, 
+    find the Juggler Sequence for this number as 
+    the first term of the sequence until it becomes 1.
+
+  Q2: Non Repeating Numbers:
+
+    Given an array A containing 2*N+2 positive numbers, 
+    out of which 2*N numbers exist in pairs whereas 
+    the other two number occur exactly once and are distinct. 
+    
+    Find the other two numbers. Return in increasing order.
+
+  Q3: Flattening a Linked List:
+
+    Given a Linked List of size N, 
+    where every node represents a sub-linked-list 
+    and contains two pointers:
+    
+    (i) a next pointer to the next node,
+    
+    (ii) a bottom pointer to a linked list where this node is head.
+    
+    Each of the sub-linked-list is in sorted order.
+    Flatten the Link List such that all the nodes 
+    appear in a single level while maintaining the sorted order. 
+    
+    Note: The flattened list will be printed using 
+    the bottom pointer instead of the next pointer.
+    
+    For more clarity have a look at the 
+    printList() function in the driver code.
