@@ -5434,3 +5434,34 @@ Day 161:
     A rotten orange at index [i,j] can rot other 
     fresh orange at indexes [i-1,j], [i+1,j], [i,j-1], [i,j+1] 
     (up, down, left and right) in unit time. 
+
+Day 162:
+
+  Q1: Number of Good Components:
+
+    Given an undirected graph with v vertices
+    (numbered from 1 to v) and e edges. 
+    
+    Find the number of good components in the graph.
+    
+    A component of the graph is good if and 
+    only if the component is fully connected.
+    
+    Note: A fully connected component is a subgraph 
+    of a given graph such that there's an edge between 
+    every pair of vertices in the component, 
+    the given graph can be a disconnected graph. 
+
+  Q2: k largest elements:
+
+    Given an array Arr of N positive integers and an integer K, 
+    find K largest elements from the array.  
+    
+    The output elements should be printed in decreasing order.
+
+  Q3: Merge Sort:
+
+    Given an array arr[], its starting position l 
+    and its ending position r. 
+    
+    Sort the array using merge sort algorithm.
