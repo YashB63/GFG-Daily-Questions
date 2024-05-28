@@ -5465,3 +5465,60 @@ Day 162:
     and its ending position r. 
     
     Sort the array using merge sort algorithm.
+
+Day 163:
+
+  Q1: Path With Minimum Effort:
+
+    Given two binary trees with head reference 
+    as T and S having at most N nodes. 
+    
+    The task is to check if S is present as subtree in T.
+    
+    A subtree of a tree T1 is a tree T2 consisting 
+    of a node in T1 and all of its descendants in T1.
+
+  Q2: Egg Dropping Puzzle:
+
+    You are given N identical eggs and you have 
+    access to a K-floored building from 1 to K.
+    
+    There exists a floor f where 0 <= f <= K such that 
+    any egg dropped from a floor higher than f will break, 
+    and any egg dropped from or below floor f will not break.
+    
+    There are few rules given below. 
+    
+    An egg that survives a fall can be used again.
+    
+    A broken egg must be discarded.
+    
+    The effect of a fall is the same for all eggs.
+    
+    If the egg doesn't break at a certain floor, 
+    it will not break at any floor below.
+    
+    If the eggs breaks at a certain floor, 
+    it will break at any floor above.
+    
+    Return the minimum number of moves that you need 
+    to determine with certainty what the value of f is.
+    
+    For more description on this problem see wiki page
+
+  Q3: Check if Subtree:
+
+    You are a hiker preparing for an upcoming hike. 
+    
+    You are given heights[][], a 2D array of size rows x columns, 
+    where heights[row][col] represents the height of cell (row, col). 
+    
+    You are situated in the top-left cell, (0, 0), 
+    and you hope to travel to the bottom-right cell, 
+    (rows-1, columns-1) (i.e., 0-indexed). 
+    
+    You can move up, down, left, or right, 
+    and you wish to find the route with minimum effort.
+    
+    Note: A route's effort is the maximum absolute difference 
+    in heights between two consecutive cells of the route.
