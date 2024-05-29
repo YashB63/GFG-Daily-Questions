@@ -5522,3 +5522,64 @@ Day 163:
     
     Note: A route's effort is the maximum absolute difference 
     in heights between two consecutive cells of the route.
+
+Day 164:
+
+  Q1: Account Merge:
+
+    Given a list of accounts of size n where each element 
+    accounts [ i ] is a list of strings, 
+    where the first element account [ i ][ 0 ]  is a name, 
+    and the rest of the elements are emails 
+    representing emails of the account.
+    
+    Geek wants you to merge these accounts. 
+    
+    Two accounts belong to the same person if 
+    there is some common email to both accounts. 
+    
+    Note that even if two accounts have the same name, 
+    they may belong to different people as people could have the same name. 
+    
+    A person can have any number of accounts initially, 
+    but all of their accounts have the same name.
+    
+    After merging the accounts, return the accounts 
+    in the following format: 
+    
+    The first element of each account is the name, 
+    and the rest of the elements are emails in sorted order.
+    
+    Note: Accounts themselves can be returned in any order.
+
+  Q2: Total Decoding Messages:
+
+    A top secret message containing letters from A-Z 
+    is being encoded to numbers using the following mapping:
+    
+    'A' -> 1
+    'B' -> 2
+    ...
+    'Z' -> 26
+    
+    You are an FBI agent. 
+    You have to determine the total number of ways 
+    that message can be decoded, as the answer 
+    can be large return the answer modulo 10^9 + 7.
+    
+    Note: An empty digit sequence is considered to have one decoding. 
+    It may be assumed that the input contains valid digits from 0 to 9 
+    and If there are leading 0s, extra trailing 0s and two 
+    or more consecutive 0s then it is an invalid string.
+
+  Q3: Next Permutation:
+
+    Implement the next permutation, 
+    which rearranges the list of numbers into Lexicographically 
+    next greater permutation of list of numbers. 
+    
+    If such arrangement is not possible, 
+    it must be rearranged to the lowest possible order i.e. 
+    sorted in an ascending order. 
+    
+    You are given an list of numbers arr[ ] of size N.
