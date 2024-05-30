@@ -5583,3 +5583,39 @@ Day 164:
     sorted in an ascending order. 
     
     You are given an list of numbers arr[ ] of size N.
+
+Day 165:
+
+  Q1: Divisibility Tree:
+
+    Given a tree with n nodes where n is even. 
+    
+    The tree is numbered from 1 to n, has n - 1 edges 
+    and is rooted at node 1. 
+    
+    Your task is to eliminate the maximum number 
+    of edges resulting in a set of disjoint trees 
+    where the number of nodes in each tree is divisible by 2.
+
+  Q2: Max length chain:
+
+    You are given N pairs of numbers. 
+    
+    In every pair, the first number is always 
+    smaller than the second number. 
+    
+    A pair (c, d) can follow another pair (a, b) if b < c. 
+    
+    Chain of pairs can be formed in this fashion. 
+    
+    You have to find the longest chain which 
+    can be formed from the given set of pairs. 
+
+  Q3: Boolean Matrix:
+
+    Given a boolean matrix of size RxC 
+    where each cell contains either 0 or 1, 
+    modify it such that if a matrix cell matrix[i][j] 
+    is 1 then all the cells in its i^th row 
+    and j^th column will become 1.
+
