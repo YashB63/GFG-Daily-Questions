@@ -5619,3 +5619,39 @@ Day 165:
     is 1 then all the cells in its i^th row 
     and j^th column will become 1.
 
+Day 166:
+
+  Q1: Find Pair Given Difference:
+
+    Given an array arr[] of size n and an integer x, 
+    return 1 if there exists a pair of elements 
+    in the array whose absolute difference is x, 
+    otherwise, return -1.
+
+  Q2: Multiply two Strings:
+
+    Given two numbers as strings s1 and s2. 
+    
+    Calculate their Product.
+    
+    Note: The numbers can be negative and 
+    You are not allowed to use any built-in 
+    function or convert the strings to integers. 
+    
+    There can be zeros in the begining of the numbers. 
+    
+    You don't need to specify '+' sign in the begining of positive numbers.
+
+  Q3: Maximize The Cut Segments:
+
+    Given an integer N denoting the Length of a line segment. 
+    
+    You need to cut the line segment in such a way that 
+    the cut length of a line segment each time is either x , y or z. 
+    
+    Here x, y, and z are integers.
+    
+    After performing all the cut operations, 
+    your total number of cut segments must be maximum.
+    
+    Note: if no segment can be cut then return 0.
