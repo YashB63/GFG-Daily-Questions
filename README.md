@@ -5655,3 +5655,45 @@ Day 166:
     your total number of cut segments must be maximum.
     
     Note: if no segment can be cut then return 0.
+
+Day 167:
+
+  Q1: Find the Highest Number:
+
+    Given an integer array a[] of size n, 
+    find the highest element of the array. 
+    
+    The array will either be strictly increasing 
+    or strictly increasing and then strictly decreasing.
+    
+    Note: a[i] != a[i+1]   
+
+  Q2: Nth Catalan Number:
+
+    Given a number N. The task is to find the Nth catalan number.
+    
+    The first few Catalan numbers for N = 0, 1, 2, 3, … 
+    are 1, 1, 2, 5, 14, 42, 132, 429, 1430, 4862, …
+    
+    Catalan Number for N is equal to the number 
+    of expressions containing N pairs of paranthesis 
+    that are correct matched, i.e., for each of the 
+    N '(' there exist N ')' on there right and vice versa.
+    
+    Since answer can be huge return answer modulo 1e9+7.
+    
+    Note: Positions start from 0 as shown above.
+
+  Q3: Activity Selection:
+
+    Given N activities with their start 
+    and finish day given in array start[ ] and end[ ]. 
+    
+    Select the maximum number of activities that
+    can be performed by a single person, 
+    assuming that a person can only work 
+    on a single activity at a given day.
+    
+    Note : Duration of the activity includes both starting and ending day.
+
+  
