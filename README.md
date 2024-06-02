@@ -5696,4 +5696,30 @@ Day 167:
     
     Note : Duration of the activity includes both starting and ending day.
 
-  
+Day 168:
+
+  Q1: Find the Closest Number:
+
+    Given a sorted array arr[] of positive integers. 
+    
+    The task is to find the closest value in the 
+    array to the given number k. 
+    
+    The array may contain duplicate values.
+    
+    Note: If the difference with k is the same for 
+    two values in the array return the greater value.
+
+  Q2: Count Total set bits:
+
+    You are given a number N. 
+    Find the total count of set bits 
+    for all numbers from 1 to N(both inclusive).
+
+  Q3: Merge two sorted linked lists:
+
+    Given two sorted linked lists consisting 
+    of N and M nodes respectively. 
+    
+    The task is to merge both of the list (in-place) 
+    and return head of the merged list.
