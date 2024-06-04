@@ -5758,3 +5758,59 @@ Day 169:
     is no edge from i to j.
     
     Do it in-place.
+
+Day 170:
+
+  Q1: K closest elements:
+
+    Given a sorted array of unique elements in increasing order, 
+    arr[] of n integers, and a value x. 
+    
+    Find the K closest elements to x in arr[].
+    
+    Keep the following points in mind:
+    
+    If x is present in the array, then it need not be considered.
+    
+    If two elements have the same difference as x, 
+    the greater element is prioritized.
+    
+    If sufficient elements are not present on the right side, 
+    take elements from the left and vice versa.
+
+  Q2: Largest BST:
+
+    Given a binary tree. 
+    
+    Find the size of its largest subtree 
+    that is a Binary Search Tree.
+    
+    Note: Here Size is equal to the 
+    number of nodes in the subtree.
+
+  Q3: Lucky Numbers:
+
+    Lucky numbers are subset of integers. 
+    
+    Rather than going into much theory, 
+    let us see the process of arriving at lucky numbers,
+    
+    Take the set of integers
+    1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19,……
+    First, delete every second number, 
+    we get following reduced set.
+    
+    1, 3, 5, 7, 9, 11, 13, 15, 17, 19,…………
+    
+    Now, delete every third number, we get
+    1, 3, 7, 9, 13, 15, 19,….….
+    
+    Continue this process indefinitely……
+    
+    Any number that does NOT get deleted 
+    due to above process is called “lucky”.
+    
+    You are given a number N, 
+    you need to tell whether the number is lucky or not. 
+    
+    If the number is lucky return 1 otherwise 0.
