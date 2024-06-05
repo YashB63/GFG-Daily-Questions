@@ -5814,3 +5814,42 @@ Day 170:
     you need to tell whether the number is lucky or not. 
     
     If the number is lucky return 1 otherwise 0.
+
+Day 171:
+
+  Q1: Minimize max distance to gas station:
+
+    We have a horizontal number line. 
+    
+    On that number line, we have gas stations 
+    at positions stations[0], stations[1], ..., stations[N-1], 
+    where n = size of the stations array. 
+    
+    Now, we add k more gas stations so that d, 
+    the maximum distance between 
+    adjacent gas stations, is minimized. 
+    
+    We have to find the smallest possible value of d. 
+    
+    Find the answer exactly to 2 decimal places.
+
+  Q2: Number of Paths:
+
+    The problem is to count all the possible paths 
+    from top left to bottom right of an MxN matrix 
+    with the constraints that from each cell 
+    you can either move to right or down.
+    
+    Return answer modulo 10^9+7.
+
+  Q3: Rod Cutting:
+
+    Given a rod of length N inches and 
+    an array of prices, price[]. 
+    
+    price[i] denotes the value of a piece of length i. 
+    
+    Determine the maximum value obtainable by 
+    cutting up the rod and selling the pieces.
+    
+    Note: Consider 1-based indexing.
