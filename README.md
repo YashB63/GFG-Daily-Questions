@@ -5853,3 +5853,41 @@ Day 171:
     cutting up the rod and selling the pieces.
     
     Note: Consider 1-based indexing.
+
+Day 172:
+
+  Q1: K-Palindrome:
+
+    Given a string str of length n, 
+    find if the string is K-Palindrome or not. 
+    
+    A k-palindrome string transforms into a 
+    palindrome on removing at most k characters from it.
+
+  Q2: Minimum Spanning Tree:
+
+    Given a weighted, undirected, 
+    and connected graph with V vertices and E edges, 
+    your task is to find the sum of the weights 
+    of the edges in the Minimum Spanning Tree (MST) of the graph. 
+    
+    The graph is represented by an adjacency list, 
+    where each element adj[i] is a vector containing 
+    pairs of integers. Each pair represents an edge, 
+    with the first integer denoting the endpoint 
+    of the edge and the second integer denoting 
+    the weight of the edge.
+
+  Q3: M-Coloring Problem:
+
+    Given an undirected graph and an integer M. 
+    
+    The task is to determine if the graph can 
+    be colored with at most M colors such that 
+    no two adjacent vertices of the graph 
+    are colored with the same color. 
+    
+    Here coloring of a graph means the assignment 
+    of colors to all vertices. 
+    
+    Print 1 if it is possible to colour vertices and 0 otherwise.
