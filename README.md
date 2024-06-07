@@ -5891,3 +5891,42 @@ Day 172:
     of colors to all vertices. 
     
     Print 1 if it is possible to colour vertices and 0 otherwise.
+
+Day 173:
+
+  Q1: Partitions with Given Difference:
+
+    Given an array arr, 
+    partition it into two subsets(possibly empty) 
+    such that each element must belong to only one subset. 
+    
+    Let the sum of the elements of these two subsets be S1 and S2. 
+    
+    Given a difference d, count the number 
+    of partitions in which S1 is greater than 
+    or equal to S2 and the difference between S1 
+    and S2 is equal to d. 
+    
+    Since the answer may be large return it modulo 10^9 + 7.
+
+  Q2: Largest prime factor:
+
+    Given a number N, the task is to find 
+    the largest prime factor of that number.
+
+  Q3: Maximum path sum in matrix:
+
+    Given a NxN matrix of positive integers. 
+    
+    There are only three possible moves from a cell Matrix[r][c].
+    
+    1. Matrix [r+1] [c]
+    2. Matrix [r+1] [c-1]
+    3. Matrix [r+1] [c+1]
+    
+    Starting from any column in row 0 return 
+    the largest sum of any of the paths up to row N-1.
+    
+    NOTE: We can start from any column in zeroth row 
+    and can end at any column in (N-1)th row.
+
