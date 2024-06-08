@@ -5930,3 +5930,57 @@ Day 173:
     NOTE: We can start from any column in zeroth row 
     and can end at any column in (N-1)th row.
 
+Day 174:
+
+  Q1: You and your books:
+
+    You have n stacks of books. 
+    
+    Each stack of books has some nonzero height arr[i] 
+    equal to the number of books on that stack 
+    ( considering all the books are identical and each book has a height of 1 unit ). 
+    
+    In one move, you can select any number of
+    consecutive stacks of books such that the height 
+    of each selected stack of books arr[i] <= k. 
+    
+    Once such a sequence of stacks is chosen, 
+    You can collect any number of books 
+    from the chosen sequence of stacks.
+    
+    What is the maximum number of 
+    books that you can collect this way?
+
+  Q2: Check if Tree is Isomorphic:
+
+    Given two Binary Trees. 
+    
+    Check whether they are Isomorphic or not.
+    
+    Note: 
+    Two trees are called isomorphic if one can be 
+    obtained from another by a series of flips, i.e. 
+    by swapping left and right children of several nodes. 
+    
+    Any number of nodes at any level can 
+    have their children swapped. 
+    
+    Two empty trees are isomorphic.
+    
+    For example, the following two trees are isomorphic 
+    with the following sub-trees flipped: 2 and 3, 
+    NULL and 6, 7 and 8.
+
+  Q3: Combination Sum:
+
+    Given an array of integers and a sum B, 
+    find all unique combinations in the array 
+    where the sum is equal to B. 
+    
+    The same number may be chosen from 
+    the array any number of times to make B.
+    
+    Note:
+            1. All numbers will be positive integers.
+            2. Elements in a combination (a1, a2, …, ak) must be in non-descending order. (ie, a1 ≤ a2 ≤ … ≤ ak).
+            3. The combinations themselves must be sorted in ascending order.
