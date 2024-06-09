@@ -5984,3 +5984,53 @@ Day 174:
             1. All numbers will be positive integers.
             2. Elements in a combination (a1, a2, …, ak) must be in non-descending order. (ie, a1 ≤ a2 ≤ … ≤ ak).
             3. The combinations themselves must be sorted in ascending order.
+
+Day 175:
+
+  Q1: Minimum Cost To Make TwoStrings Identical:
+
+    Given two strings x and y, and two values costX and costY, 
+    the task is to find the minimum cost required to 
+    make the given two strings identical. 
+    
+    You can delete characters from both the strings. 
+    
+    The cost of deleting a character from string X is costX and from Y is costY. 
+    
+    The cost of removing all characters from a string is the same.
+
+  Q2: Stock buy and sell II:
+
+    The cost of stock on each day is given 
+    in an array price[] of size n. 
+    
+    Each day you may decide to either buy 
+    or sell the stock i at price[i], 
+    you can even buy and sell the stock on the same day, 
+    Find the maximum profit which you can get.
+    
+    Note: Buying and Selling of the stock 
+    can be done multiple times, 
+    but you can only hold one stock at a time. 
+    
+    In order to buy another stock, 
+    firstly you have to sell the current holding stock.
+
+  Q3: Flood fill Algorithm:
+
+    An image is represented by a 2-D array of integers, 
+    each integer representing the pixel value of the image.
+    
+    Given a coordinate (sr, sc) representing 
+    the starting pixel (row and column) 
+    of the flood fill, and a pixel value newColor, 
+    "flood fill" the image.
+    
+    To perform a "flood fill", consider the starting pixel, 
+    plus any pixels connected 4-directionally to the 
+    starting pixel of the same color as the starting pixel, 
+    plus any pixels connected 4-directionally to those pixels (
+    also with the same color as the starting pixel), and so on.
+     
+    Replace the color of all of the 
+    aforementioned pixels with the newColor.
