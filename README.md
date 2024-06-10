@@ -6034,3 +6034,33 @@ Day 175:
      
     Replace the color of all of the 
     aforementioned pixels with the newColor.
+
+Day 176:
+
+  Q1: Longest Subsequence-1:
+
+    Given an integer array a[] of size n, 
+    find the length of the longest subsequence 
+    such that the absolute difference between 
+    adjacent elements is 1.
+
+  Q2: Sort a Stack:
+
+    Given a stack, the task is to sort it 
+    such that the top of the stack has the greatest element.
+
+  Q3: Predecessor and Successor:
+
+    There is BST given with the root node 
+    with the key part as an integer only. 
+    
+    You need to find the in-order successor 
+    and predecessor of a given key. 
+    
+    If either predecessor or successor 
+    is not found, then set it to NULL.
+    
+    Note:- In an inorder traversal the number just smaller 
+    than the target is the predecessor and the number 
+    just greater than the target is the successor. 
+
