@@ -6064,3 +6064,52 @@ Day 176:
     than the target is the predecessor and the number 
     just greater than the target is the successor. 
 
+Day 177:
+
+  Q1: Minimum cost to fill given weight in a bag:
+
+    Given an array cost[] of positive integers 
+    of size n and an integer w, where cost[i] 
+    represents the cost of an i kg packet of oranges, 
+    the task is to find the minimum cost to buy 
+    exactly w kg of oranges. 
+    
+    The cost array has a 1-based indexing. 
+    
+    If buying exactly w kg of oranges is impossible, 
+    then return -1.
+    
+    
+    Note:
+    1. cost[i] = -1 means that i kg packet of orange is unavailable.
+    2. It may be assumed that there is an infinite 
+    supply of all available packet types.
+
+  Q2: K Sum Paths:
+    
+    Given a binary tree and an integer K.
+    
+    Find the number of paths in the tree 
+    which have their sum equal to K.
+    
+    A path may start from any node and end 
+    at any node in the downward direction.
+
+  Q3: Connect Nodes at Same Level:
+
+    Given a binary tree, 
+    connect the nodes that are at same level. 
+    
+    You'll be given an addition nextRight pointer for the same.
+    
+    Initially, all the nextRight pointers point to garbage values. 
+    Your function should set these 
+    pointers to point next right for each node.
+    
+           10                       10 ------> NULL
+          / \                       /      \
+         3   5       =>     3 ------> 5 --------> NULL
+        / \     \               /  \           \
+       4   1   2          4 --> 1 -----> 2 -------> NULL
+
+
