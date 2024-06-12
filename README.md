@@ -6112,4 +6112,64 @@ Day 177:
         / \     \               /  \           \
        4   1   2          4 --> 1 -----> 2 -------> NULL
 
+Day 178:
 
+  Q1: Geek and its Game of Coins:
+
+    Given three numbers n, x, and y, 
+    Geek and his friend are playing a coin game. 
+    
+    In the beginning, there are n coins. 
+    
+    In each move, a player can pick x, y, or 1 coin. 
+    
+    Geek always starts the game. 
+    
+    The player who picks the last coin wins the game. 
+    
+    The task is to determine whether Geek will win 
+    the game or not if both players play optimally.
+
+  Q2: Interleaved Strings:
+
+    Given strings A, B, and C, 
+    find whether C is formed by 
+    an interleaving of A and B.
+    
+    An interleaving of two strings S and T 
+    is a configuration such that it creates 
+    a new string Y from the concatenation substrings 
+    of A and B and |Y| = |A + B| = |C|
+    
+    For example:
+    
+    A = "XYZ"
+    
+    B = "ABC"
+    
+    so we can make multiple interleaving string Y like, 
+    XYZABC, XAYBCZ, AXBYZC, XYAZBC and many more so here 
+    your task is to check whether you can create 
+    a string Y which can be equal to C.
+    
+    Specifically, you just need to create substrings 
+    of string A and create substrings B and 
+    concatenate them and check whether it is equal to C or not.
+    
+    Note: a + b is the concatenation of strings a and b.
+    
+    Return true if C is formed by an 
+    interleaving of A and B, else return false.
+
+  Q3: Minimum sum:
+
+    Given an array Arr of size N 
+    such that each element is 
+    from the range 0 to 9. 
+    
+    Find the minimum possible sum 
+    of two numbers formed using the 
+    elements of the array. 
+    
+    All digits in the given array must 
+    be used to form the two numbers.
