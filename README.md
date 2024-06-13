@@ -6173,3 +6173,40 @@ Day 178:
     
     All digits in the given array must 
     be used to form the two numbers.
+
+Day 179:
+
+  Q1: String Subsequence:
+
+    Given two strings, s1 and s2, 
+    count the number of subsequences 
+    of string s1 equal to string s2.
+    
+    Return the total count modulo 1e9+7.
+
+  Q2: Number of Provinces:
+
+    Given an undirected graph with V vertices. 
+    
+    We say two vertices u and v belong to a 
+    single province if there is a path from 
+    u to v or v to u. 
+    
+    Your task is to find the number of provinces.
+    
+    Note: A province is a group of directly or indirectly 
+    connected cities and no other cities outside of the group.
+
+  Q3: Smallest distinct window:
+
+    Given a string 's'. 
+    
+    The task is to find the smallest window 
+    length that contains all the characters 
+    of the given string at least one time.
+    
+    For eg. A = aabcbcdbca, then the result 
+    would be 4 as of the smallest window will be dbca.
+
+
+  
