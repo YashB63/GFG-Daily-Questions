@@ -6208,5 +6208,52 @@ Day 179:
     For eg. A = aabcbcdbca, then the result 
     would be 4 as of the smallest window will be dbca.
 
+Day 180:
+
+  Q1: Swap two nibbles in a byte:
+
+    Given a number n, 
+    Your task is to swap the 
+    two nibbles and find the resulting number. 
+    
+    A nibble is a four-bit aggregation, or half an octet. 
+    
+    There are two nibbles in a byte. 
+    
+    For example, the decimal number 150 
+    is represented as 10010110 in an 8-bit byte. 
+    
+    This byte can be divided into two nibbles: 1001 and 0110.
+
+  Q2: Infix to Postfix:
+
+    Given an infix expression in the form of string str. 
+    
+    Convert this infix expression to postfix expression.
+    
+    Infix expression: The expression of the form a op b. 
+    
+    When an operator is in-between every pair of operands.
+    
+    Postfix expression: The expression of the form a b op. 
+    
+    When an operator is followed for every pair of operands.
+    
+    Note: The order of precedence is: ^ greater than * 
+    equals to / greater than + equals to -. 
+    Ignore the right associativity of ^.
+
+  Q3: Choose and Swap:
+
+    You are given a string s of lower case english alphabets. 
+    
+    You can choose any two characters in the string and 
+    replace all the occurences of the first character 
+    with the second character and replace all the occurences 
+    of the second character with the first character. 
+    
+    Your aim is to find the lexicographically smallest 
+    string that can be obtained by doing this operation at most once.
+
 
   
