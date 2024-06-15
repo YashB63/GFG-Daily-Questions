@@ -6255,5 +6255,18 @@ Day 180:
     Your aim is to find the lexicographically smallest 
     string that can be obtained by doing this operation at most once.
 
+Day 181:
 
-  
+  Q1: Odd Even Problem:
+
+    
+  Q2: Largest number in K swaps:
+
+
+  Q3: Count number of substrings:
+
+    Given a string of lowercase alphabets, 
+    count all possible substrings 
+    (not necessarily distinct) that 
+    have exactly k distinct characters. 
+
