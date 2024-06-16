@@ -6259,9 +6259,35 @@ Day 181:
 
   Q1: Odd Even Problem:
 
+    Given a string s of lowercase English characters, 
+    determine whether the summation of x and y is EVEN or ODD.
+    where:
+    
+    x is the count of distinct characters that occupy 
+    even positions in the English alphabet and have even frequency.
+     
+    y is the count of distinct characters that 
+    occupy odd positions in the English alphabet 
+    and have odd frequency.
+    
+    Ex: string = "ab" here 'a' has an odd(1) 
+    position in the English alphabet & has an 
+    odd(1) frequency in the string so a is odd 
+    but b has an even(2) position in the English 
+    alphabet & has odd(1) frequency so it doesn't 
+    count(since string doesn't have 2 b's) 
+    so the final answer x + y = 1+0 = 1(odd) 
+    would be "ODD".
+    
+    Note: Return "EVEN" if the sum of x & y 
+    is even otherwise return "ODD".
     
   Q2: Largest number in K swaps:
 
+    Given a number K and string str of digits 
+    denoting a positive integer, 
+    build the largest number possible by performing 
+    swap operations on the digits of str at most K times.
 
   Q3: Count number of substrings:
 
