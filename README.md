@@ -6296,3 +6296,33 @@ Day 181:
     (not necessarily distinct) that 
     have exactly k distinct characters. 
 
+Day 182:
+
+  Q1: Construct list using given q XOR queries:
+
+    Given a list s that initially 
+    contains only a single value 0. 
+    
+    There will be q queries of the following types:
+    
+    0 x: Insert x in the list
+    1 x: For every element a in s, 
+    replace it with a ^ x. ('^' denotes the bitwise XOR operator)
+    
+    Return the sorted list after performing the given q queries.
+
+  Q2: Unique BSTs:
+
+    Given an integer. 
+    
+    Find how many structurally unique binary search 
+    trees are there that stores the values from 1 
+    to that integer (inclusive). 
+
+  Q3: Mother Vertex:
+
+    Given a Directed Graph, 
+    find a Mother Vertex in the Graph (if present). 
+    
+    A Mother Vertex is a vertex through which 
+    we can reach all the other vertices of the Graph.
