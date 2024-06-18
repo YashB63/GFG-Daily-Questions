@@ -6326,3 +6326,35 @@ Day 182:
     
     A Mother Vertex is a vertex through which 
     we can reach all the other vertices of the Graph.
+
+Day 183:
+
+  Q1: Trail of Ones:
+
+    Given a number n, find the number of binary strings 
+    of length n that contain consecutive 1's in them. 
+    
+    Since the number can be very large, 
+    return the answer after modulo with 1e9+7.
+
+  Q2: Number of distinct Islands:
+
+    Given a boolean 2D matrix grid of size n * m. 
+    
+    You have to find the number of distinct islands 
+    where a group of connected 1s (horizontally or vertically) 
+    forms an island. 
+    
+    Two islands are considered to be distinct if 
+    and only if one island is not equal to another 
+    (not rotated or reflected).
+
+  Q3: Arranging the array:
+
+    You are given an array of size N. 
+    
+    Rearrange the given array in-place such that 
+    all the negative numbers occur before all non-negative numbers.
+    
+    (Maintain the order of all -ve and 
+    non-negative numbers as given in the original array).
