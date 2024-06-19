@@ -6358,3 +6358,31 @@ Day 183:
     
     (Maintain the order of all -ve and 
     non-negative numbers as given in the original array).
+
+Day 184:
+
+  Q1: Binary Representation of next number:
+
+    Given a binary representation in the form of a string(s) 
+    of a number n, the task is to find a binary representation of n+1.
+    
+    Note: Output binary string should not contain leading zeros.
+
+  Q2: Reverse a Stack:
+
+    You are given a stack St. 
+    You have to reverse the stack using recursion.
+
+  Q3: Number of Enclaves:
+
+    You are given an n x m binary matrix grid, 
+    where 0 represents a sea cell and 1 represents 
+    a land cell.
+    
+    A move consists of walking from one land cell to 
+    another adjacent (4-directionally) land cell or
+    walking off the boundary of the grid.
+    
+    Find the number of land cells in grid for which 
+    we cannot walk off the boundary of the grid 
+    in any number of moves.
