@@ -6386,3 +6386,41 @@ Day 184:
     Find the number of land cells in grid for which 
     we cannot walk off the boundary of the grid 
     in any number of moves.
+
+Day 185:
+
+  Q1: Swapping pairs make sum equal:
+
+    Given two arrays of integers a[] and b[] 
+    of size n and m, the task is to check if 
+    a pair of values (one value from each array) 
+    exists such that swapping the elements of the 
+    pair will make the sum of two arrays equal.
+    
+    Note: Return 1 if there exists any such pair otherwise return -1.
+
+  Q2: Array to BST:
+
+    Given a sorted array. 
+    
+    Convert it into a Height balanced 
+    Binary Search Tree (BST). 
+    
+    Find the preorder traversal of height balanced BST. 
+    
+    If there exist many such balanced BST consider 
+    the tree whose preorder is lexicographically smallest.
+    
+    
+    Height balanced BST means a binary tree in which 
+    the depth of the left subtree and the right subtree 
+    of every node never differ by more than 1.
+
+  Q3: Union of Two Linked Lists:
+
+    Given two linked lists, 
+    your task is to complete the function makeUnion(), 
+    that returns the union list of two linked lists. 
+    
+    This union list should include all the distinct 
+    elements only and it should be sorted in ascending order.
