@@ -6422,5 +6422,5 @@ Day 185:
     your task is to complete the function makeUnion(), 
     that returns the union list of two linked lists. 
     
-    This union list should include all the distinct 
-    elements only and it should be sorted in ascending order.
+    This union list should include all the distinct elements 
+    only and it should be sorted in ascending order.
