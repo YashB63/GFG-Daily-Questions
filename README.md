@@ -6424,3 +6424,40 @@ Day 185:
     
     This union list should include all the distinct elements only 
     and it should be sorted in ascending order.
+
+Day 186:
+
+
+  Q1: Max sum in the configuration:
+
+    Given an integer array(0-based indexing) a of size n. 
+    
+    Your task is to return the maximum value of the sum 
+    of i*a[i] for all 0<= i <=n-1, where a[i] is the 
+    element at index i in the array. 
+    
+    The only operation allowed is to rotate
+    (clockwise or counterclockwise) 
+    the array any number of times.
+
+  Q2: Print Anagrams Together:
+
+    Given an array of strings, 
+    return all groups of strings that are anagrams. 
+    
+    The groups must be created in order of their 
+    appearance in the original array. 
+    
+    Look at the sample case for clarification.
+    
+    Note: The final output will be in lexicographic order.
+
+  Q3: Negative weight cycle:
+
+    Given a weighted directed graph with n nodes and m edges. 
+    
+    Nodes are labeled from 0 to n-1, 
+    the task is to check if it contains 
+    a negative weight cycle or not.
+    
+    Note: edges[i] is defined as u, v and weight.
