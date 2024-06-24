@@ -6461,3 +6461,55 @@ Day 186:
     a negative weight cycle or not.
     
     Note: edges[i] is defined as u, v and weight.
+
+Day 187:
+
+  Q1: Maximum Occured Integer:
+
+    Given n integer ranges, 
+    the task is to return the maximum occurring 
+    integer in the given ranges. 
+    
+    If more than one such integer exists, 
+    return the smallest one.
+    
+    The ranges are in two arrays l[] and r[].  
+    
+    l[i] consists of the starting point of the range 
+    and r[i] consists of the corresponding endpoint 
+    of the range & a maxx which is the maximum value of r[].
+    
+    For example, consider the following ranges.
+    l[] = {2, 1, 3}, r[] = {5, 3, 9)
+    
+    Ranges represented by the above arrays are.
+    
+    [2, 5] = {2, 3, 4, 5}
+    [1, 3] = {1, 2, 3}
+    [3, 9] = {3, 4, 5, 6, 7, 8, 9}
+    
+    The maximum occurred integer in these ranges is 3.
+
+  Q2: Jump Game:
+  
+    Given an positive integer N and a list of N integers A[]. 
+    
+    Each element in the array denotes the 
+    maximum length of jump you can cover. 
+    
+    Find out if you can make it to the 
+    last index if you start at the 
+    first index of the list.
+
+  Q3: Prerequisite Tasks:
+
+    There are a total of N tasks, labeled from 0 to N-1. 
+    
+    Some tasks may have prerequisites, 
+    for example to do task 0 you have 
+    to first complete task 1, 
+    which is expressed as a pair: [0, 1]
+    
+    Given the total number of tasks N and 
+    a list of prerequisite pairs P, 
+    find if it is possible to finish all tasks.
