@@ -6513,3 +6513,40 @@ Day 187:
     Given the total number of tasks N and 
     a list of prerequisite pairs P, 
     find if it is possible to finish all tasks.
+
+Day 188:
+
+  Q1: Index of an Extra Element:
+
+    You have given two sorted arrays arr1[] & arr2[] of distinct elements. 
+    
+    The first array has one element extra added in between. 
+    
+    Return the index of the extra element.
+    
+    Note: 0-based indexing is followed.
+
+  Q2: Subset Sums:
+
+    Given a list arr of n integers, 
+    return sums of all subsets in it. 
+    
+    Output sums can be printed in any order.
+
+  Q3: Kth ANcestor in a Tree:
+
+    Given a binary tree of size  N, 
+    a node, and a positive integer k. 
+    
+    Your task is to complete the function kthAncestor(), 
+    the function should return the kth ancestor of the 
+    given node in the binary tree. 
+    
+    If there does not exist any 
+    such ancestor then return -1.
+    
+    Note:
+    
+    1. It is guaranteed that the node exists in the tree.
+    2. All the nodes of the tree have distinct values.
+
