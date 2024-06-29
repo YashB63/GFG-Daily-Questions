@@ -6550,3 +6550,43 @@ Day 188:
     1. It is guaranteed that the node exists in the tree.
     2. All the nodes of the tree have distinct values.
 
+Day 189:
+
+  Q1: Convert array into Zig-Zag fashion:
+
+    Given an array arr of distinct elements of size n, 
+    the task is to rearrange the elements of the array 
+    in a zig-zag fashion so that the converted 
+    array should be in the below form: 
+    
+    arr[0] < arr[1]  > arr[2] < arr[3] > arr[4] 
+    < . . . . arr[n-2] < arr[n-1] > arr[n]. 
+    
+    Note: Modify the given arr[] only, 
+    If your transformation is correct, 
+    the output will be 1 else the output will be 0. 
+
+  Q2: Merge k Sorted Arrays:
+
+    Given K sorted arrays arranged in the 
+    form of a matrix of size K*K. 
+    
+    The task is to merge them into one sorted array.
+
+  Q3: Find whether path exist:
+
+    Given a grid of size n*n filled with 0, 1, 2, 3. 
+    
+    Check whether there is a path possible 
+    from the source to destination. 
+    
+    You can traverse up, down, right and left.
+    
+    The description of cells is as follows:
+    
+    A value of cell 1 means Source.
+    A value of cell 2 means Destination.
+    A value of cell 3 means Blank cell.
+    A value of cell 0 means Wall.
+    
+    Note: There are only a single source and a single destination.
