@@ -6590,3 +6590,53 @@ Day 189:
     A value of cell 0 means Wall.
     
     Note: There are only a single source and a single destination.
+
+Day 190:
+
+  Q1: Nuts and Bolts Problem:
+
+    Given a set of n nuts & bolts. 
+    
+    There is a one-on-one mapping between nuts and bolts. 
+    
+    You have to Match nuts and bolts efficiently. 
+    
+    Comparison of a nut to another nut or a bolt 
+    to another bolt is not allowed. 
+    
+    It means the nut can only be compared with 
+    the bolt and the bolt can only be compared 
+    with the nut to see which one is bigger/smaller.
+    
+    The elements should follow the following order: 
+    { !,#,$,%,&,*,?,@,^ }
+    
+    Note: Make all the required changes directly 
+    in the given arrays, output will be handled 
+    by the driver code.
+
+  Q2: Jumping Numbers:
+
+    Given a positive number X. 
+    Find the largest Jumping Number 
+    which is smaller than or equal to X. 
+    
+    Jumping Number: A number is called Jumping Number 
+    if all adjacent digits in it differ by only 1. 
+    
+    All single-digit numbers are considered 
+    as Jumping Numbers. 
+    
+    For example 7, 8987 and 4343456 are 
+    Jumping numbers but 796, 677 and 89098 are not.
+
+  Q3: Bleak Numbers:
+
+    Given an integer, check whether it is Bleak or not.
+    
+    A number n is called Bleak 
+    if it cannot be represented as 
+    sum of a positive number x and 
+    set bit count in x, i.e., 
+    x + countSetBits(x) is not equal 
+    to n for any non-negative number x.
