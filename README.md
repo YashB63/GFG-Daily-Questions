@@ -6641,3 +6641,76 @@ Day 190:
     set bit count in x, i.e., 
     x + countSetBits(x) is not equal 
     to n for any non-negative number x.
+
+Day 191:
+
+
+  Q1: Maximum Tip Calculator:
+
+    In a restaurant, two waiters, 
+    A and B, receive n orders per day, 
+    earning tips as per arrays arr[i] 
+    and brr[i] respectively. 
+    
+    If A takes the ith order, 
+    the tip is arr[i] rupees; if B takes it, 
+    the tip is brr[i] rupees.
+    
+    To maximize total tips, they must distribute the orders such that:
+    
+    A can handle at most x orders
+    
+    B can handle at most y orders
+    
+    Given that x + y ≥ n, all orders can be managed 
+    by either A or B. Return the maximum possible 
+    total tip after processing all the orders.
+
+  Q2: Word Boggle:
+
+    Given a dictionary of distinct words 
+    and an M x N board where every cell 
+    has one character. 
+    
+    Find all possible words from the 
+    dictionary that can be formed by 
+    a sequence of adjacent characters 
+    on the board. 
+    
+    We can move to any of 8 adjacent characters
+    
+    Note: While forming a word we can move to 
+    any of the 8 adjacent cells. 
+    
+    A cell can be used only once in one word.
+
+  Q3: Binary Heap Operations:
+
+    A binary heap is a Binary Tree with the following properties:
+    
+    1) Its a complete tree (All levels are completely 
+    filled except possibly the last level and the 
+    last level has all keys as left as possible). 
+    
+    This property of Binary Heap makes them 
+    suitable to be stored in an array.
+    
+    2) A Binary Heap is either Min Heap or Max Heap. 
+    
+    In a Min Binary Heap, the key at the root 
+    must be minimum among all keys present in Binary Heap. 
+    
+    The same property must be recursively 
+    true for all nodes in Binary Tree. 
+    
+    Max Binary Heap is similar to MinHeap.
+    
+    You are given an empty Binary Min Heap and 
+    some queries and your task is to implement 
+    the three methods insertKey,  deleteKey,  
+    and extractMin on the Binary Min Heap and 
+    call them as per the query given below:
+    
+    1) 1  x  (a query of this type means to insert an element in the min-heap with value x )
+    2) 2  x  (a query of this type means to remove an element at position x from the min-heap)
+    3) 3  (a query like this removes the min element from the min-heap and prints it ).
