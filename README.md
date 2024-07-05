@@ -6714,3 +6714,31 @@ Day 191:
     1) 1  x  (a query of this type means to insert an element in the min-heap with value x )
     2) 2  x  (a query of this type means to remove an element at position x from the min-heap)
     3) 3  (a query like this removes the min element from the min-heap and prints it ).
+
+Day 192:
+
+  Q1: Count numbers containing 4:
+
+    You are given a number n, 
+    Return the count of total numbers from 
+    1 to n containing 4 as a digit.
+
+  Q2: Kth element in a Matrix:
+
+    Given a N x N matrix, where every row 
+    and column is sorted in non-decreasing order. 
+    
+    Find the kth smallest element in the matrix.
+
+  Q3: Minimum Deletions:
+
+    Given a string of S as input. 
+    
+    Your task is to write a program to 
+    delete the minimum number of characters 
+    from the string so that the resultant 
+    string is a palindrome.
+    
+    Note: The order of characters in 
+    the string should be maintained.
+
