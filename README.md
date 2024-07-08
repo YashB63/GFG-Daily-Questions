@@ -6744,3 +6744,47 @@ Day 192:
     Note: The order of characters in 
     the string should be maintained.
 
+Day 193:
+
+  Q1: Padovan sequence: 
+
+    Given a number n, 
+    find the nth number in the Padovan Sequence.
+    
+    A Padovan Sequence is a sequence which is 
+    represented by the following recurrence relation
+    
+    P(n) = P(n-2) + P(n-3)
+    P(0) = P(1) = P(2) = 1
+    
+    Note: Since the output may be too large, 
+    compute the answer modulo 10^9+7.
+
+  Q2: Count the Reversals:
+
+    Given a string S consisting of only opening 
+    and closing curly brackets '{' and '}', 
+    find out the minimum number of reversals 
+    required to convert the string into a balanced expression.
+    
+    A reversal means changing '{' to '}' or vice-versa.
+
+  Q3: IPL 2021 - Match Day 2
+
+    Due to the rise of covid-19 cases in India, 
+    this year BCCI decided to organize 
+    knock-out matches in IPL rather than a league.
+    
+    Today is matchday 2 and it is between 
+    the most loved team Chennai Super Kings 
+    and the most underrated team - Punjab Kings. 
+    
+    Stephen Fleming, the head coach of CSK, 
+    analyzing the batting stats of Punjab. 
+    
+    He has stats of runs scored by all N players 
+    in the previous season and he wants to 
+    find the maximum score for each and 
+    every contiguous sub-list of size K 
+    to strategize for the game.
+
