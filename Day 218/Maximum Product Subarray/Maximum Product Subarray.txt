@@ -1,0 +1,42 @@
+Given an array arr[] that contains n integers 
+(may be positive, negative or zero). 
+
+Find the product of the maximum product subarray.
+
+
+Examples
+
+Input: arr[] = {6, -3, -10, 0, 2}, n = 5
+
+Output: 180
+
+Explanation: The subarray [6, -3, -10] 
+gives max product as 180.
+
+
+Input: arr[] = {2, 3, 4, 5, -1, 0}, n = 6
+
+Output: 120
+
+Explanation: The subarray [2, 3, 4, 5] 
+gives max product as 120.
+
+
+Input: arr[] = {2, 3, 4}, n = 4
+
+Output: 24
+
+Explanation: For an araay with all positive elements, 
+the result is produc of all elements.
+
+
+Note: Use 64-bit integer data type to avoid overflow.
+
+
+Expected Time Complexity: O(n)
+Expected Auxiliary Space: O(1)
+
+
+Constraints:
+1 ≤ n ≤ 500
+-10^2 ≤ arr[i] ≤ 10^2
