@@ -6835,4 +6835,49 @@ Day 194:
     
     The answer should be sorted in ascending order.
 
-  
+Day 195:
+
+  Q1: Armstrong Numbers:
+
+    You are given a 3-digit number n, 
+    Find whether it is an Armstrong number or not.
+    
+    An Armstrong number of three digits is 
+    a number such that the sum of the cubes 
+    of its digits is equal to the number itself. 
+    
+    371 is an Armstrong number since 3^3 + 7^3 + 1^3 = 371. 
+    
+    Note: Return "true" if it is an 
+    Armstrong number else return "false".
+
+  Q2: Preorder to BST:
+
+    Given an array arr[] of N nodes representing 
+    preorder traversal of some BST. 
+    
+    You have to build the BST  
+    from the given preorder traversal. 
+    
+    In Pre-Order traversal, 
+    the root node is visited 
+    before the left child and 
+    right child nodes.
+
+  Q3: Eventual Safe States:
+
+    A directed graph of V vertices and E edges 
+    is given in the form of an adjacency list adj.
+    
+    Each node of the graph is labelled with a 
+    distinct integer in the range 0 to V - 1.
+    
+    A node is a terminal node if there are no outgoing edges. 
+    
+    A node is a safe node if every possible 
+    path starting from that node leads to a terminal node.
+    
+    You have to return an array containing 
+    all the safe nodes of the graph. 
+    
+    The answer should be sorted in ascending order.
