@@ -6879,5 +6879,4 @@ Day 195:
     
     You have to return an array containing 
     all the safe nodes of the graph. 
-    
     The answer should be sorted in ascending order.
