@@ -6881,3 +6881,38 @@ Day 195:
     all the safe nodes of the graph. 
     
     The answer should be sorted in ascending order.
+
+Day 196:
+
+  Q1: Prime Pair with Target Sum:
+
+    Given a number n, find out if n 
+    can be expressed as a+b, 
+    where both a and b are prime numbers. 
+    
+    If such a pair exists, 
+    return the values of a and b, 
+    otherwise return [-1,-1] as an array of size 2.
+    
+    Note: If [a, b] is one solution with a <= b, 
+    and [c, d] is another solution with c <= d, 
+    and a < c then  [a, b] is considered as our answer.
+
+  Q2: Smallest factorial number:
+
+    Given a number n. 
+    
+    The task is to find the smallest number 
+    whose factorial contains at least 
+    n trailing zeroes.
+
+  Q3: Hamiltonian Path: 
+
+    A Hamiltonian path, is a path in an 
+    undirected graph that visits each 
+    vertex exactly once. 
+    
+    Given an undirected graph, 
+    the task is to check if a 
+    Hamiltonian path is present 
+    in it or not.
