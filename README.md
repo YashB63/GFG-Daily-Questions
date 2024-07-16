@@ -6916,3 +6916,52 @@ Day 196:
     the task is to check if a 
     Hamiltonian path is present 
     in it or not.
+
+Day 197:
+
+  Q1: Check if two Line segments Intersect:  
+
+    Given the coordinates of the endpoints(p1,q1, and p2,q2) 
+    of the two line segments. 
+    
+    Check if they intersect or not. 
+    
+    If the Line segments intersect return 
+    true otherwise return false.
+    
+    Note: Please check the intersection 
+    lies within the line segments.
+
+  Q2: Make Matrix Beautiful:
+
+    A beautiful matrix is a matrix in which 
+    the sum of elements in each row and column is equal. 
+    
+    Given a square matrix of size NxN. 
+    
+    Find the minimum number of operation(s) 
+    that are required to make the matrix beautiful. 
+    
+    In one operation you can increment the 
+    value of any one cell by 1.
+
+  Q3: Snake and Ladder Problem:
+
+    Given a 5x6 snakes and ladders board, 
+    find the minimum number of dice throws 
+    required to reach the destination or 
+    last cell (30th cell) from the source (1st cell).
+    
+    You are given an integer N denoting 
+    the total number of snakes and ladders 
+    and an array arr[] of 2*N size where 2*i 
+    and (2*i + 1)th values denote the starting 
+    and ending point respectively of ith 
+    snake or ladder. 
+    
+    The board looks like the following.
+    
+    Note: Assume that you have complete 
+    control over the 6 sided dice. 
+    
+    No ladder starts from 1st cell.
