@@ -6965,3 +6965,36 @@ Day 197:
     control over the 6 sided dice. 
     
     No ladder starts from 1st cell.
+
+Day 198:
+
+  Q1: Number of Rectangles in a Circle:
+
+    Given a circular sheet of radius, r. 
+    
+    Find the total number of rectangles with 
+    integral length and width that can be cut 
+    from the sheet that can fit on the circle, 
+    one at a time.
+
+  Q2: Special Keyboard:
+
+    Imagine you have a special keyboard with the following keys: 
+    
+    Key 1:  Prints 'A' on screen
+    Key 2: (Ctrl-A): Select screen
+    Key 3: (Ctrl-C): Copy selection to buffer
+    Key 4: (Ctrl-V): Print buffer on screen 
+    appending it after what has already been printed.
+    
+    Find maximum numbers of A's that can be 
+    produced by pressing keys on the 
+    special keyboard N times.
+
+  Q3: Bridge edge in a graph:
+
+    Given a Graph of V vertices and E edges 
+    and another edge(c - d), 
+    the task is to find if the 
+    given edge is a Bridge. i.e., 
+    removing the edge disconnects the graph.
