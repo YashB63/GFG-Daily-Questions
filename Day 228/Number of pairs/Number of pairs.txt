@@ -1,0 +1,39 @@
+Given two arrays arr1[] and arr2[]. 
+
+Find number of pairs such that xy > yx where 
+x is an element from arr1[] and y is an 
+element from arr2[]. 
+
+Returns an integer denoting the number of 
+pairs that are true to the given condition. 
+
+
+Examples:
+
+Input: arr1[] = [2, 1, 6] , arr2 = [1, 5]
+
+Output: 3
+
+Explanation: There are total 3 pairs where 
+pow(x, y) is greater than pow(y, x). 
+
+The pairs are (2, 1), (2, 5) and (6, 1).
+
+
+Input: arr1[] = [10, 19, 18] , arr2[] = [11, 15, 9]
+
+Output: 2
+
+Explanation: There are total 2 pairs where 
+pow(x, y) is greater than pow(y, x). 
+
+The pairs are (10, 11) and (10, 15).
+
+
+Expected Time Complexity: O(n*logn + m*logm)
+Expected Auxiliary Space: O(1)
+
+
+Constraints:
+1 ≤ arr1.size, arr2.size ≤ 10^5
+1 ≤ arr1[i], arr2[i] ≤ 10^3
