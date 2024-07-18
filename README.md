@@ -6983,6 +6983,7 @@ Day 198:
     
     Key 1:  Prints 'A' on screen
     Key 2: (Ctrl-A): Select screen
+    
     Key 3: (Ctrl-C): Copy selection to buffer
     Key 4: (Ctrl-V): Print buffer on screen 
     appending it after what has already been printed.
