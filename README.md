@@ -7051,6 +7051,5 @@ Day 199:
     
     The task is to find the smallest 
     positive number missing from the array.
-    
     Note: Positive number starts from 1.
 
