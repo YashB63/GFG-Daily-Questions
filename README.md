@@ -7054,3 +7054,31 @@ Day 199:
     
     Note: Positive number starts from 1.
 
+Day 200:
+
+  Q1: Integral Points Inside Triangle:
+
+    Given three non-collinear points whose 
+    co-ordinates are p(p1, p2), q(q1, q2) and 
+    r(r1, r2) in the X-Y plane. Return the number 
+    of integral / lattice points strictly inside 
+    the triangle formed by these points.
+    
+    Note: - A point in the X-Y plane is said to be 
+    an integral / lattice point if both its 
+    coordinates are integral.
+
+  Q2: K-th smallest element in BST:
+
+    Given a BST and an integer K. 
+    
+    Find the Kth Smallest element 
+    in the BST using O(1) extra space.
+
+  Q3: Heap Sort:
+
+    Given an array of size N. 
+    
+    The task is to sort the array elements 
+    by completing functions heapify() and 
+    buildHeap() which are used to implement Heap Sort.  
