@@ -7082,3 +7082,31 @@ Day 200:
     The task is to sort the array elements 
     by completing functions heapify() and 
     buildHeap() which are used to implement Heap Sort.  
+
+Day 201:
+
+  Q1: Compare two fractions:
+
+    You are given a string str containing two fractions 
+    a/b and c/d, compare them and return the greater. 
+    
+    If they are equal, then return "equal".
+    
+    Note: The string str contains "a/b, c/d"
+    (fractions are separated by comma(,) & space( )).
+
+  Q2: Palindrome Linked List:
+
+    Given a singly linked list of size N of integers. 
+    
+    The task is to check if the given 
+    linked list is palindrome or not.
+
+  Q3: nCr:
+
+    Given two integers n and r, find nCr.
+     
+    Since the answer may be very large, 
+    calculate the answer modulo 10^9+7.
+    
+    Note : If r is greater than n, return 0.
