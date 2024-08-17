@@ -7105,7 +7105,6 @@ Day 201:
   Q3: nCr:
 
     Given two integers n and r, find nCr.
-    
     Since the answer may be very large, 
     calculate the answer modulo 10^9+7.
     
