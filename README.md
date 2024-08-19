@@ -7110,3 +7110,30 @@ Day 201:
     calculate the answer modulo 10^9+7.
     
     Note : If r is greater than n, return 0.
+
+Day 202:
+
+  Q1: Directed Graph Cycle:
+
+    Given a Directed Graph with V vertices 
+    (Numbered from 0 to V-1) and E edges, 
+    check whether it contains any cycle or not.
+
+  Q2: K Sized Subarray Maximum:
+
+    Given an array arr[] of size N and an integer K. 
+    
+    Find the maximum for each and every 
+    contiguous subarray of size K.
+
+  Q3: Extract the Number from the String:
+
+    Given a sentence containing several words and numbers. 
+    
+    Find the largest number among them which does not contain 9. 
+    
+    If no such number exists, return -1.
+    
+    Note: Numbers and words are separated by spaces only. 
+    
+    It is guaranteed that there are no leading zeroes in the answer.
