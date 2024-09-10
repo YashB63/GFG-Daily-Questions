@@ -1,0 +1,46 @@
+Given a positive integer N, find the last digit 
+of the Nth term from the Fibonacci series.
+
+Note: For N=0 you have to return 0.
+ 
+
+Example 1:
+
+Input:
+N = 5
+
+Output:
+5
+
+Explanation:
+5th Fibonacci number is 5
+
+
+Example 2:
+
+Input:
+N = 14
+
+Output:
+7
+
+Explanation:
+14th Fibonacci number is 377
+It's last digit is 7
+
+
+Your Task:
+
+You don't need to read input or print anything. 
+
+Your task is to complete the function fib() which 
+takes an integer N as input parameter and returns 
+the last digit of Nth Fibonacci number.
+
+
+Expected Time Complexity: O(N)
+Expected Space Complexity: O(1)
+ 
+
+Constraints:
+0 <= N <= 1000
