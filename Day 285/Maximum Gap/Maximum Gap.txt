@@ -1,0 +1,33 @@
+Given an unsorted array arr[] of positive elements. 
+
+Your task is to find the maximum difference between 
+the successive elements in its sorted form.
+
+Return 0 if the array contains less than 2 elements.
+
+
+Examples:
+
+Input: arr[] = [1, 10, 5]
+
+Output: 5
+
+Explanation: The maximum difference between 
+successive elements of array is 5 ie abs(5-10).
+
+
+Input: arr[] = [1, 10, 2]
+
+Output: 8
+
+Explanation: The maximum difference between 
+successive elements of array is 8 ie abs(2-10).
+
+
+Expected Time Complexity: O(n)
+Expected Auxiliary Space: O(n)
+
+
+Constraints:
+1 ≤ arr.size() ≤ 10^6
+1 ≤ arr[i] ≤ 10^6
