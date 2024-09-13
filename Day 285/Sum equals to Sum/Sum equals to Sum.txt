@@ -1,0 +1,29 @@
+Given an array arr. 
+
+Find if there are two pairs (a, b) and 
+(c, d) such that a+b = c+d.
+
+
+Examples:
+
+Input: arr[] = [3, 4, 7, 1, 2, 9, 8] 
+
+Output: true
+
+Explanation: (3, 7) and (9, 1) are the pairs whosesum are equal.  
+
+
+Input: arr[] = [65, 30, 7, 90, 1, 9, 8]
+
+Output: false
+
+Explanation: There is no pair.
+
+
+Expected Time Complexity: O(n2).
+Expected Auxiliary Space: O(n2).
+
+
+Constraints:
+1 ≤ arr.size() ≤ 10^3
+1 ≤ arr[i] ≤ 10^4
