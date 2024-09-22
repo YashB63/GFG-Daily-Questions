@@ -1,0 +1,25 @@
+Given a number n, count the numbers from 1 to n, 
+which comprise only digits from set {1, 2, 3, 4, 5}.
+
+
+Examples:
+
+Input: n = 20
+
+Output: 10
+
+Explanation: The numbers whose digits are from the 
+given set are: 1, 2, 3, 4, 5, 11, 12, 13, 14, 15.
+
+
+Input: n = 100
+
+Output: 30
+
+
+Expected Time Complexity: O(n * number of digits in an integer)
+Expected Auxiliary Space: O(1)
+
+
+Constraints:
+1 ≤ n ≤ 10^5
