@@ -1,0 +1,46 @@
+You are a car driver tasked with driving on a track divided into sub-tracks. 
+
+The car can travel "k" kilometers on each sub-track. 
+
+If the car can't cover a sub-track, you can add petrol, 
+with each unit increasing the car's range by one kilometer. 
+
+Return the minimum units of petrol needed for 
+the car to cover all sub-tracks. 
+
+If no extra petrol is required, return -1.
+
+
+Examples:
+
+Input: arr[] = [2, 5, 4, 5, 2], k = 7
+
+Output: -1
+
+Explanation: No extra petrol required, 
+as k is greater than all the elemnts in the array hence -1.
+
+
+Input: arr[] = [1, 6, 3, 5, 2], k = 4
+
+Output: 2
+
+Explanation: You are given 5 sub-tracks with different kilometers. 
+
+Your car can travel 4 km on each sub-track. 
+
+So, when you come on sub-track 2nd you have to cover 6 km of distance, 
+so you need to have 2 unit of petrol more to cover the distance, 
+for 3rd sub-track, your car can travel 4km  and you need extra 1 unit of petrol.
+
+So if you add 2 units of petrol at each sub-track you can cover all the subtracks.
+
+
+Expected Time Complexity: O(n)
+Expected Auxiliary Space: O(1)
+
+
+Constraints:
+1 ≤ arr.size() ≤ 10^6
+1 ≤ k ≤ 10^6
+1 ≤ arr[i] ≤ 10^6
