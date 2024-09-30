@@ -1,0 +1,50 @@
+Given a Binary Tree. 
+
+Your task is to complete the function 
+rightLeafSum(), which should return the 
+sum of all the leaf nodes that are the 
+right child of their parent of the given 
+binary tree.
+
+
+Examples:
+
+Input :
+
+          52
+        /    \
+      12      55
+     /  \     /  \
+    83   6   17  82
+   /    /  \   
+  56   61  35
+
+Output : 117
+
+Explanation: All the right leaf nodes presents 
+are 35, 82 which sums up to 117
+
+
+Input:
+         12
+        /  \    
+     20     30
+    /  \     /
+  40   60  90
+
+Output: 60
+
+Explanation: The only right leaf node is present is 60
+
+
+Expected Time Complexity: O(n).
+Expected Space Complexity: O(Height of the Tree)
+
+
+Constraints:
+
+1<=number of nodes<=10^6
+1<= data of nodes <=10^4
+
+It is guaranteed that sum will 
+not exceed integer max value
