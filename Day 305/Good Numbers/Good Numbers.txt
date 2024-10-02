@@ -1,0 +1,60 @@
+Given two positive integers L, R and a digit D, 
+find out all the good numbers in the range [L, R], 
+which do not contain the digit D.
+
+A number is a good number if it's every digit is 
+larger than the sum of digits which are on the 
+right side of that digit. 
+
+9620  is good as (2 > 0, 6 > 2+0, 9 > 6+2+0)
+
+
+Example 1:
+
+Input:
+L=200
+R=700
+D=4
+
+Output:
+{210, 310, 320, 510, 520, 521, 530, 531,
+610, 620, 621, 630, 631, 632, 650}
+
+Explanation:
+These are the only good numbers in the range
+[200,700]
+
+
+Example 2:
+
+Input:
+L=100
+R=500
+D=5
+
+Output:
+{210, 310, 320, 410, 420, 421, 430}
+
+Explanation:
+These are the only good numbers in the range
+[100,500]
+
+
+Your Task:
+
+You don't need to read input or print anything. 
+
+Your task is to complete the function goodNumbers() 
+which takes 3 integers L, R, and D as input parameters 
+and returns all the good numbers in the range [L, R]. 
+
+(Returns empty if there are no good numbers in that range)
+
+
+Expected Time Complexity:O(N)
+Expected Auxillary Space:O(1)
+
+
+Constraints:
+1<=L<=R<=10^6
+0<=D<10 
