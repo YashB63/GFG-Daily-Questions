@@ -1,0 +1,39 @@
+You are given an array arr[] where each element represents 
+the amount of goodies currently held by students. 
+
+Each student at index i should receive exactly i 
+amount of goodies (1-based indexing) for a fair distribution, 
+with no wastage allowed. 
+
+Your task is to determine whether it is possible 
+to redistribute the goodies such that the student 
+at index i gets exactly i amount of goodies. 
+
+Return true if it is possible otherwise return false.
+
+
+Examples:
+
+Input: arr[] = [7, 4, 1, 1, 2]
+
+Output: true
+
+Explanation: Since, all the goods can be redistributed 
+as 1 2 3 4 5 (ith students get i number of goodies).
+
+So, output is true.
+
+
+Input: arr[] = [1, 1, 1, 1, 1]
+
+Output: false
+
+
+Expected Time Complexity: O(n)
+Expected Auxiliary Space: O(1)
+
+
+Constraints:
+1 <= arr.size() <= 10^6
+1 <= arr[i] <= 10^6
+
