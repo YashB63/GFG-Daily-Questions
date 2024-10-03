@@ -1,0 +1,30 @@
+Given an array arr[] you have to find the 
+maximum value of abs(i – j) *min(arr[i], arr[j]) 
+where i and j vary from 0 to n-1 and i != j. 
+
+
+Examples:
+
+Input: arr[] = [3, 2, 1, 4]
+
+Output: 9
+
+Explanation: Here, a[0] = 3 and a[3] = 4 and 
+thus result is abs(0-3)*min(3,4) = 9.
+
+
+Input: arr[] = [8, 1, 9, 4]
+
+Output: 16
+
+Explanation: Here, a[0] = 8 and a[2] = 9 and 
+thus result is abs(0-2)*min(8,9)=16. 
+
+
+Expected Time Complexity: O(n)
+Expected Auxiliary Space: O(1)
+ 
+
+Constraints:
+2 <= arr.size() <=10^6
+-10^5 <= arr[i] <=10^5
