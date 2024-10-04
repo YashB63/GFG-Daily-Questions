@@ -1,0 +1,49 @@
+You are now familiar with the dictionary in Python. 
+
+It's time to dive deeper into the dictionary in Python. 
+
+How can you use a dictionary to store 
+the frequency of elements in list L. 
+
+Given below is one method:
+
+for i in L:
+     dict[i] = 0
+
+for i in L:
+     dict[i] += 1
+Now, use this concept to solve a question. 
+
+Given a list arr, of N positive integers, and a sum. 
+
+The task is to check if any pair exists in the 
+array whose sum is equal to the given sum.
+
+
+Example:
+
+Input: 
+N = 7 
+sum = 8 
+arr = [1, 2, 3, 3, 5, 5, 5] 
+
+Output: 
+Yes
+
+Explanation:
+Pair with sum 8 is present in
+the array which is (5, 3).
+
+
+Your Task:
+
+Your task is to complete the function pair_sum() 
+which returns True if the required pair is present, 
+else return False. 
+
+Driver code will take care of the printing.
+
+
+Constraints:
+1 <= N, sum <= 10^4
+1 <= arr[i] <= 10^4
