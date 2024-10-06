@@ -1,0 +1,52 @@
+Given a string s containing n lowercase alphabets 
+and an integer k, a string is considered a "k-palindrome" 
+if it can be converted into a palindrome by removing 
+no more than k characters. 
+
+Your task is to determine whether the given string 
+s can be made into a k-palindrome or not.
+
+
+Example 1:
+
+Input: 
+s = abcdecba
+k = 1
+
+Output: 
+true
+
+Explanation: 
+Since k = 1, by removing either 'd' or 'e', 
+the string can become a palindrome. 
+
+- Hence answer is true.
+
+Example 2:
+
+Input: 
+s = abcd
+k = 2
+
+Output: 
+false
+
+Explanation: 
+Since k = 2, we can remove at most 2 characters. 
+
+but for given string it is impossible to make it 
+palindrome by removing at most 2 characters.
+
+- Hence answer is false.
+
+
+Your Task:
+
+The task is to complete the function iskPalindrome() 
+which takes a string s and an integer k as input 
+parameters and returns the true if s is k-palindrome, 
+else false.
+
+Constraints:
+1 ≤ n ≤ 1000
+0 ≤ k ≤ n
