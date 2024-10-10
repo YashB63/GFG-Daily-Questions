@@ -1,0 +1,46 @@
+Given an array arr of size N and two integers l and r, 
+the task is to sort the given array in non - decreasing 
+order in the index range from l to r.
+
+
+Example 1:
+
+Input:
+N = 4
+arr[] = {1, 5, 3, 2}
+l = 2, r = 3
+
+Output: {1, 5, 2, 3}
+
+Explanation: After sorting array
+will look like {1, 5, 2, 3} 
+
+
+Example 2:
+
+Input: 
+N = 3
+arr[] = {2, 3, 4}
+l = 0, r = 2
+
+Output: {2, 3, 4}
+
+Explanation: Array is already sorted
+
+
+Your Task:  
+
+You don't need to read input or print anything. 
+
+Your task is to complete the function partSort() 
+which takes the array arr[], N, l and r as inputs 
+and sorts the given the array in given range.
+
+
+Expected Time Complexity: O(NlogN)
+Expected Auxiliary Space: O(1)
+
+
+Constraints :
+1 ≤ N ≤ 10^5
+0 ≤ l, r ≤ N-1
