@@ -1,0 +1,44 @@
+Charul has been assigned a challenge by Ishaan. 
+
+He needs to fill a container with exactly k liters 
+of water using some vessels, each with a different capacity. 
+
+The capacities of the vessels are given in an array arr[]. 
+
+The goal is to fill the container without any overflow, 
+and no vessel can be filled partially.
+
+Determine if Charul can fill the container up 
+to exactly k liters using the given vessels. 
+
+You can assume there is an unlimited supply of water, 
+but each vessel's capacity must be used fully.
+
+
+Examples:
+
+Input: arr[] = [6, 3, 4, 2, 1], k = 20
+
+Output: true
+
+Explanation: Use the 6-liter vessel 3 times to get 18 liters. 
+
+Use the 2-liter vessel once to get a total of 20 liters.
+
+
+Input: arr[] = [2, 4, 3], k = 15
+
+Output: true
+
+Explanation: The container can be filled exactly up to 
+15 liters using a combination of the given vessels.
+
+
+Expected Time Complexity: O(n*k)
+Expected Auxiliary Space: O(k)
+
+
+Constraints:
+1 ≤ arr.size() ≤ 1000
+1 ≤ k ≤ 1000
+1 ≤ arr[i] ≤ 10^5
