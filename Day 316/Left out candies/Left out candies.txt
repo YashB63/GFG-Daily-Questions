@@ -1,0 +1,41 @@
+Given n students sitting in a circle, 
+distribute m candies to these students. 
+
+The ith student can take only i candies. 
+
+If ith student does not get the required 
+amount of candies he will not take it. 
+
+Distribute the candies starting from the 1st 
+student and moving along the circle of students 
+till you reach a student you can not give candies to. 
+
+You need to find the amount of candies left.
+
+
+Examples:
+
+Input: n = 4, m = 11
+
+Output: 0
+
+Explanation: You first give 1 candy to 1st student, 
+2 to 2nd , 3 to 3rd , 4 to 4th then again 1 to first. 
+
+All candies are finished with none left out.
+
+
+Input: n = 4, m = 12
+
+Output: 1
+
+Explanation: You are left with only one candy.
+
+
+Expected Time Complexity: O(logn)
+Expected Auxiliary Space: O(1)
+
+
+Constraints:
+1 ≤ n ≤ 10^6
+1 ≤ m ≤ 10^6
