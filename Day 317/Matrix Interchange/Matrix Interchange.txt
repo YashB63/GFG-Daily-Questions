@@ -1,0 +1,38 @@
+Working with 2D arrays is quite important. 
+
+Here we will do swapping of columns in a 2D array. 
+
+You are given a matrix arr[][] of r rows and c columns. 
+
+You need to swap the first column with the last column.
+
+
+Example:
+
+Input:
+r = 3
+c = 4
+arr[][] = {{1, 2, 3, 4},
+           {4, 3, 2, 1},
+           {6, 7, 8, 9}}
+
+Output:
+4 2 3 1
+1 3 2 4
+9 7 8 6
+ 
+
+Your Task:
+
+Since this is a function problem, you don't need to take any input. 
+
+Just complete the provided function interchange() that take rows 
+and columns number as parameter. 
+
+In a new line, print the modified matrix.
+
+
+Constraints:
+
+1 <= r, c <= 100
+
