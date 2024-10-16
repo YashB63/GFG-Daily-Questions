@@ -1,0 +1,47 @@
+Given a rope of length N meters, 
+cut the rope in different parts 
+of integer lengths in a way that 
+maximizes the product of lengths 
+of all parts. 
+
+You must make at least one cut. 
+
+Assume that the length of the rope 
+is more than one meter.
+
+
+Example 1:
+
+Input: N = 5
+
+Output: 6
+
+Explanation: Maximum obtainable product 
+is 2*3
+
+
+Example 2:
+
+Input: N = 2
+
+Output: 1
+
+Explanation: Maximum obtainable product
+is 1*1
+
+
+Your Task: 
+ 
+You don't need to read input or print anything. 
+
+Complete the function maxProduct() which takes N 
+as input parameter and returns the maximum product.
+
+
+Expected Time Complexity: O(N2)
+Expected Auxiliary Space: O(N)
+
+
+Constraints:
+
+2 ≤ N ≤ 50
