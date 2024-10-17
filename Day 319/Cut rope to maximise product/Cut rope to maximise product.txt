@@ -1,0 +1,31 @@
+Given a rope of length n meters, cut the rope into 
+several ropes of varying lengths to maximize the 
+product of lengths of all resulting ropes. 
+
+It is mandatory to make at least one cut.
+
+
+Examples:
+
+Input: n = 2
+
+Output: 1
+
+Explanation: Since 1 cut is mandatory. 
+
+Maximum obtainable product is 1*1 = 1.
+
+
+Input: n = 5
+
+Output: 6
+
+Explanation: Maximum obtainable product is 2*3 = 6.
+
+
+Expected Time Complexity: O(n^2)
+Expected Auxiliary Space: O(n)
+
+
+Constraints:
+1 ≤ n ≤ 1000
