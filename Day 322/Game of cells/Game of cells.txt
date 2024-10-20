@@ -1,0 +1,59 @@
+Given a NxNxN grid. Harvey and Mike are playing a game. 
+
+The rule of the game is simple. Each of them in their 
+turn choses a cell and mark it with their initials. 
+
+But the catch here is once a cell is marked they can't 
+chose any of the adjacent(sharing a common face not the 
+just the edge) cell to it. 
+
+Since Harvey is senior he goes first. 
+
+Both of them play optimally. 
+
+The player with no move remaining loses the game. 
+
+Find out who wins.
+
+
+Example 1:
+
+Input: N = 2
+
+Output: Mike
+
+Explaination: 2*2*2 grid they have 8 blocks, 
+if Harvey marks any of the cell the then Mark 
+has only three options left, and once Mike 
+chooses any one of the three, then Harvey has
+no other option so Mike wins.
+ 
+
+Example 2:
+
+Input: N = 1
+
+Output: Harvey
+
+Explaination: There is only one cell which 
+gets filled when Harvey uses his first turn. 
+So Mike has no possible turn and Harvey wins.
+ 
+
+Your Task:
+
+You do not need to read input or print anything. 
+
+Your task is to complete the function winner() 
+which takes the value N as input parameter and 
+returns the name of the winner. ie either 
+"Harvey" or "Mike".
+
+
+Expected Time Complexity: O(1)
+Expected Auxiliary Space: O(1)
+
+
+Constraints:
+
+1 ≤ N ≤ 10^18
