@@ -1,0 +1,39 @@
+Given two linked lists head1 and head2, 
+your task is to complete the function 
+mergeList() which inserts nodes of the 
+second list into the first list at 
+alternate positions of the first list 
+and leaves the remaining nodes as it 
+is if they cannot be inserted.
+
+The function should return an array containing the two 
+modified linked list heads in their original order.
+
+
+Examples:
+
+Input: LinkedList1 = 10->9 , LinkedList2 = 6->1->2->3->4->5
+
+Output: LinkedList1 = 10->6->9->1 , LinkedList2 = 2->3->4->5
+
+Explanation: The two linked list are 10->9 and 6->1->2->3->4->5. 
+
+After merging the two lists as required, 
+the new list is like: 10->6->9->1 and  
+2->3->4->5.
+
+
+Input: LinkedList1 = 55->66->77->88->99 , 
+LinkedList2 = 11->22->33->44->55
+
+Output: LinkedList1 = 55->11->66->22->77->33->88->44->99->55 , 
+LinkedList2 = <empty>
+
+
+Expected Time Complexity: O(n+m)
+Expected Auxiliary Space: O(1)
+
+
+Constraints:
+0 <= number of nodes <= 100
+1 <= node -> data <= 10^4
