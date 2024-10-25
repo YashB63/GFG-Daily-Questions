@@ -1,0 +1,82 @@
+Geek and Nerd are strikers playing football 
+with their friend the Goalie. 
+
+Their energies are denoted by X,Y and Z respectively. 
+
+Strikers can only score a goal if the Goalie's 
+energy is a factor of their energy. 
+
+For every goal scored the energy of the 
+respective player is decreased by 1. 
+
+Each save decreses the Goalie's energy by 1. 
+
+The game ends when the Goalie's energy is reduced to 1. 
+
+The strikers can try to goal repeatedly in any order 
+in order to optimise the total number of goals. 
+
+Geek takes the lead whenever in doubt. 
+
+Find the number of goals made by Geek and Nerd. 
+
+
+Example 1:
+
+Input: 
+X = 4, Y = 9, Z = 5
+
+Output: 3 2
+
+Explaination:
+1st Kick: X=4, Y=9, Z=4
+Z is not a factor of X or Y. So the Goalie 
+will save the first kick and his energy will 
+reduce by 1. 
+
+2nd Kick: X=3, Y=9, Z=4
+Z is a factor of X. So Geek will take the 
+goal and reduce X by 1. 
+
+3rd Kick: X=3, Y=9, Z=3. Goalie saves. 
+
+4th Kick: X=2, Y=9, Z=3. 
+Z is a factor of both X and Y. 
+When in doubt, Geek takes the lead. 
+
+5th Kick: X=2, Y=8, Z=3. Nerd goals.
+6th Kick: X=2, Y=8, Z=2. Goalie saves.
+7th Kick: X=1, Y=8, Z=2. Geek goals.
+8th Kick: X=1, Y=7, Z=2. Nerd goals.
+9th Kick: X=1, Y=7, Z=1. 
+Goalie saves and ends the game.
+
+
+Example 2:
+
+Input: 
+X = 13, Y = 10, Z = 7
+
+Output: 0 3
+
+Explaination: Since X is a prime number, 
+Geek will never goal. 
+
+
+Your Task:
+
+You do not need to read input or print anything. 
+
+Your task is to complee the function goals() which 
+takes X, Y and Z as input parameters and returns a 
+list of integers containing two elements denoting 
+the number of goals scored by Geek and Nerd respectively. 
+
+
+Expected Time Complexity: O(Z)
+Expected Auxiliary Space: O(1)
+
+
+Constraints:
+
+1 ≤ X, Y, Z ≤ 10^5
