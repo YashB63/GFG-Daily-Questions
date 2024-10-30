@@ -7134,5 +7134,6 @@ Day 202:
     
     If no such number exists, return -1.
     
-    Note: Numbers and words are separated by spaces only. 
+    Note: Numbers and words are separated by spaces only.
+    
     It is guaranteed that there are no leading zeroes in the answer.
