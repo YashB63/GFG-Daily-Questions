@@ -1,0 +1,46 @@
+Given two numbers in the form of Strings. 
+
+Find the count of carries in their addition.
+
+
+Example 1:
+
+Input:
+N = "34", M = "25"
+
+Output:
+0
+
+Explanation:
+There are no carries when N and M
+are added.
+
+
+Example 2:
+
+Input:
+N = "4634", M = "1757"
+
+Output:
+2
+
+Explanation:
+There are 2 carries when N and M
+are added.
+ 
+
+Your Task:
+
+You don't need to read input or print anything. 
+
+Your task is to complete the function getCarries() 
+which takes two Strings N and M as input and returns 
+an integer denoting the answer.
+
+
+Expected Time Complexity: O(|N|)
+Expected Auxiliary Space: O(|N|)
+
+ 
+Constraints:
+1 <= |N|,|M| <= 10^5
