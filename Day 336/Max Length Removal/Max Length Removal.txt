@@ -1,0 +1,47 @@
+You are given a binary string S consisting 
+of only characters '0' and '1'. 
+
+You can repeatedly delete any occurrence 
+of the sub-string "100" from S. 
+
+Your task is to determine the length of the 
+longest continuous sub-string that can be 
+completely removed by applying this deletion 
+operation.
+
+
+Examples:
+
+Input: s = "1011100000100"
+
+Output: 6
+
+Explanation: 
+The sub-strings that can be removed are 
+highlighted as: 101{110000}0{100}.
+
+First, we can remove the sub-string "110000" by transforming 
+it into "100" and then further removing "100", leaving the 
+string "1010" (length = 6 removed).
+
+Then, we can remove the next "100" (length = 3 removed).
+
+The longest removable sub-string is 
+"110000", and its length is 6.
+
+
+Input: s = "111011"
+
+Output: 0
+
+Explanation: There is no sub-string which can be make null.
+
+
+Expected Time Complexity: O(n)
+Expected Auxiliary Space: O(n)
+
+
+Constraints:
+
+1 ≤ string length ≤ 10^6
+s[i] = {0, 1}
