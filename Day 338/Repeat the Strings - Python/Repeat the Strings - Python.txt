@@ -1,0 +1,36 @@
+Whooaah! Your are now familiar with String slicing. 
+
+Let's have one more question to make it crystal 
+clear for you with some conditional statements.
+
+Given two strings a and b. The task is to make a 
+new string where the string with longer length 
+should be in between and the one with shorter 
+length should be outside on front and end. 
+
+New string should be like shorter+longer+shorter.
+
+
+Example:
+
+Input: 
+a = Hi, b = There
+
+Output: 
+HiThereHi
+
+Explanation: 
+After joining short+long+short strings, 
+we have new string as "HiThereHi".
+
+
+Your Task:
+
+Your task is to complete the function combo_string(), 
+which joins short+long+short strings and returns the 
+new concatenated string..
+
+
+Constraints:
+
+1 <= |a, b| <= 10^3
