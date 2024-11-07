@@ -1,0 +1,57 @@
+Given three integers A, B, N. 
+
+Your task is to print the number of 
+numbers between A and B including them, 
+which have N-divisors. 
+
+A number is called N-divisor if it has 
+total N divisors including 1 and itself.
+ 
+
+Example 1:
+
+Input:
+A = 1
+B = 7
+N = 2
+
+Output:
+4
+
+Explanation:
+2,3,5,7 have 2-divisors
+
+
+Example 2:
+
+Input:
+A = 1
+B = 25
+N = 3
+
+Output:
+3
+
+Explanation:
+4,9,25 are the numbers
+having 3-divisors
+
+
+Your Task:
+
+You don't need to read input or print anything. 
+
+Your task is to complete the function count() 
+which takes integer A, B and N as input parameters 
+and returns an integer, the number of N-divisor 
+number in between A and B inclusive.
+ 
+
+Expected Time Complexity: O((B-A) sqrt (B))
+Expected Space Complexity: O(1)
+ 
+
+Constraints:
+
+1<=A<=B<=10^4
+1 <= N <= 16
