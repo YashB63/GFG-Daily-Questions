@@ -1,0 +1,40 @@
+You are given an array of character pairs and a string s. 
+
+Your task is to count how many of the character 
+pairs from the array appear in the string s.
+
+
+Examples:
+
+Input: arr[] = [('A','G'),('d','i'),('P','o')], s = "APiod"
+
+Output: 2
+
+Explanation: 
+In the string "APiod", the pairs (d, i) 
+and (P, o) appear. 
+
+Thus, the answer is 2.
+
+
+Input: arr[] = [('r','e')], s = "ghe"
+
+Output: 0
+
+Explanation: In the string "ghe", there 
+are no characters that match the pair (r, e). 
+
+Thus, the answer is 0. 
+
+
+Expected Time Complexity: O(n), n is the size of arr.
+Expected Auxiliary Space: O(1).
+
+
+Constraints:
+
+1<=s.size()<=10^6
+1<=arr.size()<=10^6
+
+The string s and the characters in each pair 
+are either lowercase or uppercase alphabets.
