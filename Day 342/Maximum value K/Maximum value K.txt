@@ -1,0 +1,33 @@
+Given an array arr[] of positive integers, 
+find the maximum value of k such that there 
+are at least k elements in the array that are 
+greater than or equal to k.
+
+
+Examples:
+
+Input: arr[] = [2, 3, 4, 5, 6, 7]
+
+Output: 4
+
+Explanation: 4 elements [4, 5, 6, 7]  
+are greater than equal to 4.
+
+
+Input: arr[] = [1, 2, 3, 4]
+
+Output: 2
+
+Explanation: 3 elements [2, 3, 4] 
+are greater than equal to 2.
+
+
+Expected Time Complexity: O(n)
+Expected Auxiliary Space: O(n)
+
+
+Constraints:
+
+1 <= arr.size() <= 10^6
+1 <= arr[i] <= 10^6
+
