@@ -1,0 +1,38 @@
+Given a permutation of first n 
+natural numbers as an array arr[]. 
+
+Your task is to sort the 
+array in exactly two swaps. 
+
+If It is possible to sort the array then 
+return true otherwise return false.
+
+Note: You can't swap the same pair of indexes two times.
+
+
+Examples:
+
+Input: arr[] = [4, 3, 2, 1]
+Output: true
+
+Explanation: 
+swap(arr[1], arr[4]), now arr[] = [1, 3, 2, 4]
+swap(arr[2], arr[3]), now arr[] = [1, 2, 3, 4]
+
+
+Input: arr[] = [4, 3, 1, 2]
+
+Output: false
+
+Explanation: 
+Not possible to sort the array in 2 swaps.
+
+
+Expected Time Complexity: O(n)
+Expected Auxiliary Space: O(1)
+
+
+Constraints:
+
+1 ≤ arr.size() ≤ 10^6
+1 ≤ arr[i] ≤ arr.size()
