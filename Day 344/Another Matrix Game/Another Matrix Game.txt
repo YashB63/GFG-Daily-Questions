@@ -1,0 +1,84 @@
+Given a string S which contains only small letters. 
+
+The task is to make a square matrix from string S. 
+
+Then perform the following operations.
+
+1. In each column delete the characters which occur more than one.
+
+2. Let the characters in order be abcd....wxyz 
+then print them in order azbycxdw....  
+
+For example, after operation 1 if the remaining 
+characters in a column are cedjki then after 
+sorting they become cdeijk , now when printed 
+in the given order the output will be ckdjei. 
+
+If there's no character remaining Print 0.
+
+Note: Length of the Input String 
+is always a Perfect Square.
+
+ 
+Example 1:
+
+Input:
+S = "adgkbdhlceilcfjm"
+
+Output:
+abefgjhikm
+
+Explanation:
+Matrix will be
+a d g k
+b d h l
+c e i  l
+c f  j m
+In 1st column 'c', in 2nd column 'd' and in
+4th column 'l' has occurred more than once.
+So after deleting them and sorting the
+remaining characters the matrix become 
+
+   a - g  k
+   b - h  -
+   - e i   -
+   - f  j  m 
+
+So after operation 2 we get 'ab' from 1st
+column, 'ef' from 2nd column, 'gjhi' from
+3rd column and 'km' from 4th column. Appending
+all of them we get the output as  "abefgjhikm".
+
+
+Example 2:
+
+Input:
+S = "abcabcabc"
+
+Output:
+0
+
+Explanation:
+Matrix will be
+a b c
+a b c
+a b c
+So, There will be no letters remaining
+and the output will be 0. 
+ 
+
+Your Task:
+
+You don't need to read input or print anything. 
+
+Your task is to complete the function matrixGame() 
+which takes a String S and returns the answer.
+
+
+Expected Time Complexity: O(|S|)
+Expected Auxiliary Space: O(|S|)
+
+ 
+Constraints
+
+1 <= |S| <= 10^5
