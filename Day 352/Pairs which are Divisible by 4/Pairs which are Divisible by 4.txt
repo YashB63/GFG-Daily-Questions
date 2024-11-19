@@ -1,0 +1,29 @@
+Given an array arr[] of positive integers, 
+count the number of pairs of integers in 
+the array that have the sum divisible by 4.
+
+
+Examples:
+
+Input : arr[] = [2, 2, 1, 7, 5]
+
+Output : 3
+
+Explanation: (2,2), (1,7) and (7,5) are the 3 pairs.
+
+
+Input : arr[] = [2, 2, 3, 5, 6]
+
+Output : 4
+
+Explanation: (2,2), (2,6), (3,5) and (2,6) are the 4 pairs.
+
+
+Expected Time Complexity: O(n).
+Expected Auxiliary Space: O(1).
+
+
+Constraints:
+
+1 ≤ arr.size() ≤ 10^6
+1 ≤ arr[i] ≤ 10^6
