@@ -1,0 +1,60 @@
+Given a binary tree of size n, 
+find the depth of the deepest 
+odd-level leaf node in a binary tree. 
+
+If there is no leaf at the odd level then return 0. 
+
+Consider that the level starts with 1. 
+
+The depth of a leaf node is a number of 
+nodes on the path from root to leaf 
+(including both leaf and root).
+
+
+Examples:
+
+Input: 
+          1
+        /    \
+       2      3
+      / \    / \
+     4   5  6   7
+
+Output: 3
+
+Explanation: In the above tree 4,5,6 and 7 are odd 
+level leaf nodes at depth 3.So the answer is 3.
+
+
+Input: 
+     1
+    / \
+    2   4
+
+Output: 0
+
+Explanation: In the above tree,
+no leaf node is at odd level. 
+
+So the answer is 0.
+
+
+Input: 
+          10
+         /  \
+        5    15
+       / \   
+      3   7     
+
+Output: 3
+
+Explanation: In the above tree 3 and 7 are odd 
+level leaf nodes at depth 3. 
+
+So the answer is 3.
+
+
+Constraints:
+
+1<=number of nodes<=10^5
+1<= node->data <=10^5
