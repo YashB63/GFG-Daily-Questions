@@ -1,0 +1,39 @@
+Given the series as follows 2 2 4 8 16 512....... 
+
+Identify the Nth term of the series. 
+
+Answers can be very large use BigInt in Java.
+
+
+Example 1:
+
+Input: N = 1
+
+Output: 2 
+
+Explanation: First term of the series is 2.
+
+
+Example 2:
+
+Input: N = 2
+
+Output: 2
+
+Explanation: Second term of the series is 2.
+
+
+Your Task:  
+
+You dont need to read input or print anything. 
+
+Complete the function NthTerm() which takes N as input 
+parameter and returns the Nth term of the series.
+
+
+Expected Time Complexity: O(logn*logn)
+Expected Auxiliary Space: O(1)
+
+
+Constraints:
+1<= N <=12
