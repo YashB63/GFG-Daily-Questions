@@ -1,0 +1,63 @@
+You are given N numbers you can decrease each 
+number by 10 % or K kg whichever is more. 
+
+If the number you choose is less 
+than K you can make it zero. 
+
+Your task is to minimize the sum of 
+the number as small as possible by 
+performing N operations only.
+
+Note: Final answer should be typecasted to the 
+nearest integer smaller or equal to the value.
+ 
+
+Example 1:
+
+Input:
+N = 2
+k = 10
+arr = 100 15
+
+Output:
+95
+
+Explanation:
+You will remove 10 from 100
+then once again remove 10 
+90.
+
+
+Example 2:
+
+Input:
+N = 2
+K = 10
+arr = 90 100
+
+Output
+170
+
+Explanation:
+remove 10 each time
+from either 100 or 90.
+
+
+Your Task:
+
+You don't need to read input or print anything. 
+
+Your task is to complete the function minSum() 
+which takes an array of integer, its size N, and 
+an integer K  as input parameters and returns an integer, 
+minimum sum of all the elements after performing N operations.
+
+
+Expected Time Complexity: O(log N)
+Expected Space Complexity: O(1)
+ 
+
+Constraints:
+
+1<=N,K<=10^4
+1<=A[i]<=10^6
