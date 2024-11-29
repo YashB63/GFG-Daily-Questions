@@ -1,0 +1,42 @@
+Given an array arr[] of positive integers, 
+you need to select all integers from the array 
+in an order that maximizes the total points. 
+
+For each selected integer, the points earned 
+are equal to the integer's value multiplied 
+by the number of integers already selected 
+before it. 
+
+Calculate the maximum points possible 
+and return the result modulo 10^9 + 7.
+
+
+Examples:
+
+Input: arr[] = [1, 2, 2, 4, 9]
+
+Output: 54
+
+Explanation:
+Select 1: Points = 1 * 0 = 0
+Select 2: Points = 2 * 1 = 2
+Select 2: Points = 2 * 2 = 4
+Select 4: Points = 4 * 3 = 12
+Select 9: Points = 9 * 4 = 36
+Total Points: 0 + 2 + 4 + 12 + 36 = 54.
+
+
+Input: arr[] = [2, 2, 2, 2] 
+
+Output: 12 
+
+
+Expected Time Complexity: O(nlogn)
+Expected Auxiliary Space: O(1)
+
+
+Constraints :
+
+1 ≤ arr.size() ≤ 10^5
+1 ≤ arr[i] ≤ 10^5
+
