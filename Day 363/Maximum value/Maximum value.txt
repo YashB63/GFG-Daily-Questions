@@ -1,0 +1,30 @@
+Given an array arr[] of integres. Find the maximum value of 
+arr[j] – arr[i] + arr[l] – arr[k], such that i < j < k < l.
+
+
+Examples:
+
+Input: arr[] = [1, 2, 3]
+
+Output: -1
+
+Explanation: arr.size() < 4 so no such i,j,k,l is possible.
+
+
+Input: arr[] = [4, 8, 9, 2, 20]
+
+Output: 23
+
+Explanation: Here i = 0, j = 2, k = 3, l = 4 so 
+arr[j] – arr[i] + arr[l] – arr[k] = 9 – 4 + 20 – 2 = 23
+
+
+Expected Time Complexity: O(n)
+Expected Auxiliary Space: O(n)
+
+
+Constraints:
+
+1 ≤ arr.size() ≤ 10^5
+1 ≤ arr[i] ≤ 10^5
+
