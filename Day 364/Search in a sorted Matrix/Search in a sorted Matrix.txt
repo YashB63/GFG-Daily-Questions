@@ -1,0 +1,37 @@
+Given a strictly sorted 2D matrix mat[][] and a number x. 
+
+Find whether element x is present in the matrix or not.
+
+Note: In a strictly sorted matrix, each row is sorted 
+in itself and the first element of the ith row (i!=0) 
+is greater than the last element of the (i-1)th row.
+
+
+Examples:
+
+Input: mat[][] = [[3, 30, 38],[40, 43, 60],[69, 72, 78]], x = 62
+
+Output: false
+
+Explanation: 62 is not present in the matrix, so output is false.
+
+
+Input: mat[][] = [[18, 21, 27, 38, 55, 67]], x = 55
+
+Output: true
+
+Explanation: 55 is present in the matrix.
+
+
+Input: mat[][] = [[87, 96, 99],[101, 103, 111]], x = 101
+
+Output: true
+
+Explanation: 101 is present in the matrix.
+
+
+Constraints:
+
+1 <= mat.size(), mat[0].size() <= 1000
+1 <= mat[i][j] <= 10^5
+1 <= x <= 10^5
