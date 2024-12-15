@@ -1,0 +1,41 @@
+Given two integers l and r find the absolute difference 
+between the number of composites and the number of primes 
+between the range l and r (both inclusive).
+
+
+Example 1:
+
+Input: l = 4, r = 6
+
+Output: 1
+
+Explanation: Composite no. are 4 and 6.
+And prime is 5.
+
+
+Example 2:
+
+Input: l = 4, r = 4
+
+Output: 1
+
+Explanation: There is no prime no. in [l,r]
+ 
+
+Your Task:
+
+You don't need to read or print anything. 
+
+Your task is to complete the function Count() 
+which takes L and R as input parameters and 
+returns the difference between no. of composites 
+and primes between [l, r].
+ 
+
+Expected Time Complexity: O(nlog(n)) where n = r - l + 1
+Expected Space Complexity: O(n)
+ 
+
+Constraints:
+
+1 <= l <= r <= 10^6 
