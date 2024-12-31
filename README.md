@@ -7135,5 +7135,40 @@ Day 202:
     If no such number exists, return -1.
     
     Note: Numbers and words are separated by spaces only.
-    
+
     It is guaranteed that there are no leading zeroes in the answer.
+
+Day 203:
+
+  Q1: Print Bracket Number:
+
+    Given a string str, the task is 
+    to find the bracket numbers, 
+    i.e., for each bracket in str, 
+    return i if the bracket is the 
+    i^th opening or closing bracket 
+    to appear in the string. 
+
+  Q2: Minimum Jumps:
+
+    Given an array arr[] of size n of non-negative integers. 
+    
+    Each array element represents the maximum length 
+    of the jumps that can be made forward from that element. 
+    
+    This means if arr[i] = x, then we can 
+    jump any distance y such that y ≤ x.
+    
+    Find the minimum number of jumps to reach the 
+    end of the array starting from the first element. 
+    
+    If an element is 0, then you cannot move through that element.
+    
+    Note: Return -1 if you can't reach the end of the array.
+
+  Q3: Sort 0s, 1s and 2s:
+
+    Given an array of size N containing only 
+    0s, 1s, and 2s; sort the array in 
+    ascending order.
+
