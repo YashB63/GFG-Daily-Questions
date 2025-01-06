@@ -1,0 +1,44 @@
+A singly linked list and an integer of k are given. 
+
+You need to swap the kth node from the beginning 
+and the kth node from the end of the linked list. 
+
+Swap the nodes through the links. 
+
+Do not change the content of the nodes.
+
+Note: The driver code will output "true" 
+if you successfully swap the nodes.
+
+
+Examples:
+
+Input: LinkedList: 1->2->3->4, k = 1
+
+Output: true
+
+Explanation: Here k = 1, hence after swapping the 
+1st node from the beginning and end the new list 
+will be 4->2->3->1. 
+
+
+Input: LinkedList: 1->2->3->4->5, k = 7
+
+Output: true
+
+Explanation: k > n. 
+
+Swapping is invalid. 
+
+Return the head node as it is.
+ 
+
+Expected Time Complexity: O(n)
+Expected Auxillary Space: O(1)
+
+
+Constraints:
+
+1 <= number of nodes <= 10^3
+1 <= node->data <= 10^6
+1 <= k <= 10^3
