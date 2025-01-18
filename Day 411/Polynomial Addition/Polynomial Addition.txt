@@ -1,0 +1,47 @@
+Given two polynomial numbers represented by a linked list. 
+
+The task is to add these lists meaning the 
+coefficients with the same variable powers.
+
+Note:  Given polynomials are sorted 
+in decreasing order of power.
+
+
+Examples:
+
+Input: LinkedList1: x2, LinkedList2: x3
+
+Output: x3 + x2
+
+Explanation: Since, x2 and x3 both 
+have different powers as 2 and 3. 
+
+So, their coefficient can't be added up.
+
+
+Input: LinkedList1:  x3 -> 2x2, 
+LinkedList2:  3x3 -> 4x2
+
+Output: 4x3 -> 6x2
+
+Explanation: Since, x3 has two 
+different coefficients as 3 and 1. 
+
+Adding them up will lead to 4x3. 
+
+Also, x2 has two coefficients as 4 and 2. 
+
+So, adding them up will give 6x2.
+
+Note: Try to solve the question 
+without using any extra space.
+
+
+Expected Time Complexity: O(n+m)
+Expected Auxiliary Space: O(1)
+
+
+Constraints:
+
+1 <= no. of nodes LinkedList1, LinkedList2 <= 10^5
+1 <= node->data <= 10^6
