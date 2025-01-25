@@ -1,0 +1,31 @@
+Given two integers a and b, 
+the task is to convert the 
+fraction a/b into decimal format. 
+
+If the fractional part is repeating,
+enclose the repeating part in parentheses.
+
+
+Examples:
+
+Input: a = 1, b = 2
+
+Output: "0.5"
+
+Explanation: 1/3 = 0.5 with no repeating part.
+
+
+Input: a = 50, b = 22
+
+Output: "2.(27)"
+
+Explanation: 50/22 = 2.27272727.. 
+
+Since fractional part (27) is repeating, 
+it is enclosed in paranthesis.
+
+
+Constraints:
+
+1 ≤ a, b ≤ 2000
+
