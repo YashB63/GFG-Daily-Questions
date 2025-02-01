@@ -1,0 +1,52 @@
+Given two positive integers n and k. 
+
+You have to find the kth smallest factor of n.  
+
+Output the kth smallest factor of 
+n if it exists, otherwise print -1.
+
+A factor of n is a positive integer that 
+divides n perfectly, i.e., with remainder 0.
+
+
+Example 1:
+
+Input : n = 4 , k = 2
+
+Output: 2
+
+Explanation:
+All factors of 4 are 1,2 and 4. Out of
+these 2 is the 2nd smallest.
+
+
+Example 2:
+
+Input : n = 4 , k = 3
+
+Output: 4
+
+Explanation:
+All factors of 4 are 1,2 and 4. Out of
+these 4 is the 3rd smallest.
+ 
+
+Your Task:
+
+You don't need to read input or print anything. 
+
+Your task is to complete the function 
+kThSmallestFactor() which takes 2 
+Integers n and k as input and returns 
+the answer.
+
+
+Expected Time Complexity: O(sqrt(n)log(sqrt(n))
+Expected Auxiliary Space: O(sqrt(n))
+
+
+Constraints:
+
+1 <= n <= 10^8
+1 <= k <= 10^8
+
