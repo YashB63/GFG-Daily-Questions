@@ -1,0 +1,30 @@
+Given a string s, the task is to find the 
+minimum number of characters to be inserted 
+to convert it to a palindrome.
+
+Note: A palindrome is a string that reads the 
+same backward as forward for example, strings 
+"aba", "abccba" are palindromes
+
+
+Examples:
+
+Input: s = "abcd"
+
+Output: 3
+
+Explanation: Here we can append 3 characters in the 
+beginning and the resultant string will be a palindrome 
+"dcbabcd".
+
+
+Input: s = "aba"
+
+Output: 0
+
+Explanation: Given string is already a 
+pallindrome hence no insertions are required.
+
+
+Constraints:
+1 ≤ s.size() ≤ 500
