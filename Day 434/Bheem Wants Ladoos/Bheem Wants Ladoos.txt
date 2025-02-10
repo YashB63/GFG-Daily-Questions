@@ -1,0 +1,76 @@
+Given a binary tree where each node contains 
+a number of ladoos equal to its value, and a 
+starting node, src, find the maximum sum of 
+ladoos that can be collected within a distance 
+k from the starting node. 
+
+The value at the starting node, src, should 
+be included in the sum. 
+
+Each node has a unique number of ladoos.
+
+
+Examples:
+
+Input:
+                   1
+                 /    \
+                2      9
+               /      /  \
+              4      5     7
+            /   \         /  \
+           8     19     20    11
+          /     /  \
+         30   40   50
+src = 9, k = 1
+
+Output: 22
+
+Explanation: Initially we're at 9, so sum = 9. 
+
+In 2nd move we went to 5, sum=9+5=14. 
+
+In 3rd move we went to 7, sum=14+7=21. 
+
+In 4th move we went to 1, sum=21+1=22. 
+
+So, within k distance we can get 22 ladoos. 
+
+ 
+Input:
+                   1
+                 /    \
+                2      9
+               /      /  \
+              4      5     7
+            /   \         /  \
+           8     19     20    11
+          /     /  \
+         30   40   50
+src = 40, k = 2
+
+Output: 113
+
+Explanation: Initially we're at 40, so sum = 40. 
+
+In 2nd move we went to 19, sum=40+19=59. 
+
+In 3rd move we went to 4, sum=59+4=63. 
+
+In 4th move we went to 50, sum=63+50=113. 
+
+So, within K distance we can get 113 ladoos.
+
+
+Input: 1
+src = 1, k = 1
+
+Output: 1
+
+
+Constraints:
+
+1 ≤ number of nodes, src ≤ 10^5
+1 ≤ node->data ≤ 10^5
+1 ≤ k ≤ 20
+
