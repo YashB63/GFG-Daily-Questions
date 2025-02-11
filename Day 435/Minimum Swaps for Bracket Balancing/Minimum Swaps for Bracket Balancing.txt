@@ -1,0 +1,42 @@
+You are given a string s of 2*n 
+characters consisting of n ‘[‘ 
+brackets and n ‘]’ brackets. 
+
+A string is considered balanced if 
+it can be represented in the form a[b] 
+where a and b are balanced strings. 
+
+We can make an unbalanced string balanced 
+by swapping adjacent characters. 
+
+Calculate the minimum number of swaps 
+necessary to make a string balanced.
+
+Note - Strings a and b can be empty.
+
+
+Examples :
+
+Input: s = "[]][]["
+
+Output: 2
+
+Explanation: First swap: Position 3 and 4 
+[][]][, Second swap: Position 5 and 6 [][][]
+
+
+Input: s = "[][]"
+
+Output : 0 
+
+Explanation: String is already balanced.
+
+
+Input: s = "[[[][][]]]"
+
+Output: 0 
+
+
+Constraints:
+1<= s.size() <=10^5
+
