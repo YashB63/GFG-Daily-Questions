@@ -1,0 +1,39 @@
+Given a string s, return the longest 
+palindromic substring in s.
+
+Substring of string s is a contiguous 
+sequence of characters within a string, 
+i.e. s[ i . . . . j ] where 0 ≤ i ≤ j < len(s).
+
+Palindromic string is a string which 
+reads the same forwards and backwards. 
+
+More formally, s is palindrome if reverse(s) = s.
+
+If there are multiple longest palindromic substrings, 
+return the substring with the least starting index .
+
+
+Examples :
+
+Input: s = "aaaabbaa"
+
+Output: aabbaa
+
+Explanation: The longest 
+palindrome string present in
+the given string is "aabbaa".
+
+
+Input: s = "geeks"
+
+Output: ee
+
+Explanation: The longest 
+palindrome string present in
+the given string is "ee".
+
+
+Constraints:
+1 ≤ |s| ≤ 10^4
+
