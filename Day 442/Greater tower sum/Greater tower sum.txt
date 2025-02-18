@@ -1,0 +1,48 @@
+There are some towers in stright line. 
+
+You are given an array arr denoting 
+the height of each tower. 
+
+For tower p, the greater tower is the 
+closest tower (towards the right), 
+greater than the height of tower p. 
+
+Return the sum of the heights 
+of all tower's greater towers.
+
+Note: Return the answer by taking modulo 1e9+7.  
+
+If for a tower k, no such tower 
+exists then take its height as 0
+
+
+Examples:
+
+Input : arr[] = [112, 133, 161, 311, 122, 512, 1212, 0, 19212]
+
+Output : 41265
+
+Explanation: nextgreater(112) : 133 nextgreater(133) : 
+161 nextgreater(161) : 311 nextgreater(311) : 512 nextgreater(122) : 
+512 nextgreater(512) : 1212 nextgreater(1212) : 19212 nextgreater(0) : 
+19212 nextgreater(19212) : 0
+
+add = 133+161+311+512+512+1212+19212+19212+0 = 41265.
+
+
+Input : arr[] = [5, 9, 7, 6] 
+
+Output : 9
+
+Explanation: nextgreater(5) : 9 nextgreater(9) : 
+0 nextgreater(7) : 0 nextgreater(6) : 0
+
+
+Expected Time Complexity: O(n).
+Expected Auxiliary Space: O(n).
+
+
+Constraints:
+
+1 ≤ arr.size() ≤ 10^6
+0 ≤ arr[i] ≤ 10^6
