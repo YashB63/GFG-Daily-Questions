@@ -1,0 +1,41 @@
+Given a linked list and a value x, 
+partition it such that all nodes 
+less than x come first, then all 
+nodes with a value equal to x, 
+and finally nodes with a value 
+greater than x. 
+
+The original relative order of the nodes 
+in each of the three partitions should be 
+preserved.
+ 
+The partition must work in place.
+ 
+
+Examples:
+
+Input: Linked list: 1->4->3->2->5->2->3, x = 3
+
+Output: 1->2->2->3->3->4->5
+
+Explanation: Nodes with a value less than 3 come 
+first, then equal to 3 and then greater than 3.
+
+
+Input: Linked list: 1->4->2->10, x = 3
+
+Output: 1->2->4->10
+
+Explanation: Nodes with value less than 3 come 
+first, then equal to 3 and then greater than 3.
+
+
+Expected Time Complexity : O(n)
+Expected Space Complexity: O(n)
+ 
+
+Constraints:
+
+1 <= size of linked list <= 10^5
+1 <= data of node <= 10^5
+1 <= x <= 10^5
