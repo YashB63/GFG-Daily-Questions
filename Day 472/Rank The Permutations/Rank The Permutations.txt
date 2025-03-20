@@ -1,0 +1,43 @@
+Given a string, s find the rank of the string amongst 
+all its permutations sorted lexicographically. 
+
+The rank can be big, so print it modulo 1000003. 
+
+Note: Return 0 if the characters are repeated in the string.
+
+
+Example 1:
+
+Input: s = "abc"
+
+Output: 1
+
+Explaination: It is lexicographically the smallest 
+string of the permutation.
+
+
+Example 2:
+
+Input: s = "acb"
+
+Output: 2
+
+Explaination: This is lexicographically the 
+second smallest string of the permutation.
+
+
+Your Task:
+
+You do not need to read input or print anything. 
+
+Your task is to complete the function rank() which 
+takes string s as input parameter and returns the 
+rank modulo 1000003 of the string.
+
+
+Expected Time Complexity: O(|s|2)
+Expected Auxiliary Space: O(|s|)
+
+
+Constraints:
+1 ≤ |s| ≤ 26 
