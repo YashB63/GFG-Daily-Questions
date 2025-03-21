@@ -1,0 +1,34 @@
+Given an array arr[] of positive integers and a value k. 
+
+Return 1 if the sum of any subset(non-empty) of the 
+given array is divisible by k otherwise, return 0.
+
+
+Examples:
+
+Input: arr[] = [3, 1, 7, 5] , k=6
+
+Output: 1
+
+Explanation: If we take the subset {7, 5} then 
+sum will be 12 which is divisible by 6.
+
+
+Input: arr[] = [1, 2, 6] , k=5
+
+Output: 0
+
+Explanation: All possible subsets of the given set are 
+{1}, {2}, {6}, {1, 2}, {2, 6}, {1, 6} and {1, 2, 6}. 
+
+There is no subset whose sum is divisible by 5.
+
+
+Expected Time Complexity: O(n*k)
+Expected Space Complexity: O(n)
+
+
+Constraints:
+
+1 <= arr.size(), k <= 1000
+1 <= arr[i]<= 1000
