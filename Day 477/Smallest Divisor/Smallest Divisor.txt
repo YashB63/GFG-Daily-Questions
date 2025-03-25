@@ -1,0 +1,40 @@
+You are given an array of integers arr 
+and an integer k, your task is to find 
+the smallest positive integer divisor, 
+such that upon dividing all the elements 
+of the given array by it, the sum of 
+the division's result is less than or 
+equal to the given integer k.
+
+Note: Each result of the division is 
+rounded to the nearest integer greater 
+than or equal to that element. 
+
+For Example: 7/3 = 3.
+
+
+Examples:
+
+Input: arr[] = [1, 2, 5, 9], k = 6
+
+Output: 5
+
+Explanation: If the divisor is 5 the sum 
+will be 5 (1+1+1+2), which is less than 6.
+
+
+Input: arr[] = [2, 3, 7, 4, 10], k = 5
+
+Output: 10
+
+
+Input: arr[] = [7, 3, 3, 6], k = 10
+
+Output: 3
+
+
+Constraints:
+
+1 <= nums.length() <= 10^5
+1 <= nums[i] <= 10^6
+nums.length() <= k <= 10^6
