@@ -1,0 +1,74 @@
+Given a string s of size n and q queries.
+
+Each query is either of the following types:
+
+Type 1- Rotate the string by K character from the end.
+
+Type 2- Print the character at the I'th index 
+of the resulting string at that instant.
+
+Answer all queries.
+
+
+Example 1:
+
+Input:
+n=7 q=5
+s=abcdefg
+Query1: Type=1 K=2
+Query2: Type=2 I=0
+Query3: Type=2 I=6
+Query4: Type=1 K=4
+Query5: Type=2 I=1
+
+Output:
+f
+e
+c
+
+Explanation:
+After First query String becomes-"fgabcde"
+Second query returns - 'f'
+Third query returns -'e'
+After Fourth Query String becomes-"bcdefga"
+Fifth Query returns -'c'
+
+
+Example 2:
+
+Input:
+n=5 q=2
+s=geeks
+Query1: Type=1 K=4
+Query2: Type=2 I=4
+
+Output:
+g
+
+Explanation:
+After first query,string becomes "eeksg".
+Second query returns 'g'.
+
+
+Your task:
+
+You don't need to read input or print anything.
+
+Your task is to complete the function StringQuery() 
+which takes an integer N,an integer Q, a string S 
+and two arrays Q1 and Q2(containing Query type and 
+K/I respectively) and returns an array containing 
+the answers to the queries.
+
+
+Expected Time Complexity:O(q)
+Expected Auxillary Space:O(1)
+
+
+Constraints:
+
+1<=n<=10^5
+1<=q<=10^4
+1<=Type<=2
+1<=K<=10^9
+0<=I<N
