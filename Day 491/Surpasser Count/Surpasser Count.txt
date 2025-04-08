@@ -1,0 +1,37 @@
+Given an array containing distinct integers, find 
+the number of surpassers for each of its elements.
+
+An element y is said to be the surpasser of element 
+x if it is a greater element on the right of x. 
+
+ie if x = arr[i] and y = arr[j], 
+i<j and arr[i] < arr[j]. 
+
+
+Examples:
+
+Input: arr[] = [4, 5, 1, 2, 3]
+
+Output: [1, 0, 2, 1, 0]
+
+Explanation: There are no elements 
+greater than 3 at the right of 3. 
+
+There is one element at right 
+of 2 and greater than 2. 
+
+There are 2 elements greater 
+than 1 at the right of 1. 
+
+And so on.
+
+
+Input: arr[] = [2, 7, 5, 3, 8, 1]
+
+Output: [4, 1, 1, 1, 0, 0]
+
+
+Constraints:
+
+1 ≤ arr.size() ≤ 10^5
+1 ≤ arr[i] ≤ 10^6
