@@ -1,0 +1,53 @@
+Given a Binary Tree, extract all 
+its leaf nodes to form a Doubly 
+Link List starting from the 
+leftmost leaf. 
+
+Modify the original tree to make 
+the DLL thus removing the leaf 
+nodes from the tree. 
+
+Consider the left and right pointers 
+of the tree to be the previous and 
+next pointer of the DLL respectively.
+
+Note: The generated output will 
+contain the in-order traversal 
+of the modified tree, the DLL 
+from left to right, and the 
+DLL from right to left.
+
+
+Examples:
+
+Input:
+
+Output: 
+Modified Tree :
+
+Doubly Linked List :
+4 <-> 5 <-> 6 <-> 7
+
+Explanation:
+The leaf nodes are modified 
+to form the DLL in-place. 
+
+Thus their links are removed 
+from  the tree.
+
+
+Input:
+
+Output: 
+Modified Tree :
+
+Doubly Linked List:
+4 <-> 5 <-> 3
+
+
+Expected Time Complexity: O(n)
+Expected Auxiliary Space: O(height of tree)
+
+
+Constraints:
+1 ≤ number of nodes in tree, data of nodes ≤ 10^4
