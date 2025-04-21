@@ -1,0 +1,45 @@
+Given an NxN chessboard and 
+a Knight at position (x, y). 
+
+The Knight has to take exactly K steps, 
+where at each step it chooses any of the 
+8 directions uniformly at random. 
+
+Find the probability that the Knight 
+remains in the chessboard after taking 
+K steps, with the condition that it cant 
+enter the board again once it leaves it.
+ 
+
+Example 1:
+
+Input : N = 8, x = 0, y = 0, K = 3
+
+Output: 0.125000
+
+
+Example 2:
+
+Input: N = 4, x = 1, y = 2, k = 4
+
+Output: 0.024414
+ 
+
+Your Task: 
+
+You don't need to read or print anything. 
+
+Your task is to complete the function findProb() 
+which takes N, x, y and K as input parameter and 
+returns the probability.
+ 
+
+Expected Time Complexity : O(N 3)
+Expected Space Complexity: O(N3)
+ 
+
+Constraints:
+
+1 <= N <= 100
+0 <= x, y <= N
+0 <= K <= N
