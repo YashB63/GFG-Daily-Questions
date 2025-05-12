@@ -1,0 +1,40 @@
+Given a graph with n vertices, e edges 
+and an array arr[] denoting the edges 
+connected to each other, check whether 
+it is Biconnected or not.
+
+Note: The given graph is Undirected.
+
+ 
+Examples :
+
+Input: n = 2, e = 1, arr = {0, 1}
+
+Output: 1
+
+Explanation:
+       0
+      /
+     1
+The above graph is Biconnected.
+
+
+Input: n = 3, e = 2, arr = {0, 1, 1, 2}
+
+Output: 0
+
+Explanation:
+       0
+      /
+     1
+      \
+       2
+The above graph is not Biconnected.
+Expected Time Complexity: O(n+e)
+Expected Auxiliary Space: O(n)
+
+ 
+Constraints:
+
+1 <= e <= 100
+2 <= n <= 100
