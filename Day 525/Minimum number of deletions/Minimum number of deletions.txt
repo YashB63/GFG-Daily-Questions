@@ -1,0 +1,35 @@
+Given a string s. 
+
+The task is to remove or delete 
+the minimum number of characters 
+from the string s, so that the 
+resultant string forms a palindrome. 
+
+Find the minimum number of 
+characters we need to remove.
+
+Note: The order of characters 
+should be maintained.
+
+
+Examples:
+
+Input: s = "aebcbda"
+
+Output: 2
+
+Explanation: Remove characters 'e' and 'd'. 
+
+Resultant string will be "abcba" 
+which is a palindromic string.
+
+
+Input: s = "aba"
+
+Output: 0
+
+Explanation: We don’t remove any character.
+
+
+Constraints:
+1 ≤ s.size() ≤ 10^3
