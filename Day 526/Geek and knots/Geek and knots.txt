@@ -1,0 +1,77 @@
+Given two walls A, B with M, N hooks respectively. 
+
+You are given K ropes. By using one rope you 
+can connect one hook on wall A with another 
+hook on wall B. 
+
+One hook can connect with only one rope. 
+
+Find the number of different ways 
+you can use all the K ropes.
+
+Two ways that use the exact same set 
+of hooks from wall A and wall B are 
+considered to be same. 
+
+For Example, 
+A1    A2    A3      is same as     A1   A2   A3     and can be ignored.
+ |                |                                 |              |      
+B1             B2                              B2           B1
+
+Because both knots are using same 
+set of wall A hooks (A1, A3) and 
+same set of wall B hooks (B1,B2)
+
+Note: Answer can be large, return 
+the answer modulo 10^9+7. 
+
+
+Example 1:
+
+Input:
+M = 3, N = 2, K = 2
+
+Output: 3
+
+Explanation: 
+hooks on Wall A are A1, A2, A3.
+hooks on wall B are B1, B2. 
+Different Possible Knots are
+K1 = (A1-B1, A2-B2), K2 = (A1-B1, A3-B2), 
+K3 = (A2-B1, A3-B2)  
+Each of these use different set of hooks from wall A. 
+
+
+Example 2:
+
+Input:
+M = 2, N = 2, K = 2
+
+Output: 1
+
+Explanation: 
+A1   A2 
+|    | 
+B1   B2
+
+There is only one way to select 2 hooks 
+from wall A and 2 from wall B. 
+
+
+Your Task:
+
+You do not need to read input or print anything. 
+
+Your task is to complete the function knots() which 
+takes M, N and K as input parameters and returns the 
+number of possible knots. Return the answer modulo 10^9+7.
+
+
+Expected Time Complexity: O(max(N2, M2))
+Expected Auxiliary Space: O(max(N2, M2))
+
+
+Constraints:
+
+1 ≤ N, M, K ≤ 1000
+1 ≤ K ≤ min(N, M) 
