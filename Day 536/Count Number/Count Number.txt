@@ -1,0 +1,51 @@
+You are given an integer array arr of size n, 
+along with two additional integers k and x. 
+
+Your objective is to determine the number 
+of distinct subsets of size k from the 
+array where the absolute difference between 
+the maximum and minimum elements of each 
+subset is at most x. 
+
+Return the number of valid subsets 
+of size k, modulo 10^9+7.
+
+
+Examples:
+
+Input: k = 3, x = 5, arr[] = [1, 2, 3, 4, 5]
+
+Output: 10
+
+Explanation :
+The possible subsets of size 3 are:
+{1, 2, 3}, {1, 2, 4}, {1, 2, 5}, {1, 3, 4}, 
+{1, 3, 5}, {1, 4, 5}, {2, 3, 4}, {2, 3, 5}, 
+{2, 4, 5}, {3, 4, 5}. 
+
+All these subsets have a maximum-minimum 
+difference of at most 5.
+
+
+Input: k = 4, x = 6, arr[] = [2, 4, 6, 8, 10, 12, 14, 16]
+
+Output: 5
+
+Explanation:The valid subsets of size 4 are:
+{2, 4, 6, 8}, {4, 6, 8, 10}, {6, 8, 10, 12}, 
+{8, 10, 12, 14}, {10, 12, 14, 16}. 
+
+Each of these subsets meets the condition 
+of having a maximum-minimum difference of 
+at most 6.
+
+
+Expected Time Complexity: O(n. log(n))
+Expected Auxiliary Space: O(n)
+
+
+Constraints:
+
+1 ≤ arr.size() ≤ 10^5
+1 ≤ k ≤ arr.size()
+1 ≤ arr[i], x ≤ 10^9
