@@ -1,0 +1,38 @@
+Given a number n, the task is to calculate 
+two values related to its factorial:
+
+1)The first digit of the factorial of n.
+
+2)The power of 10 that  represents the 
+factorial in the form d * 10^p, where d 
+is the first digit and p is the power.
+
+
+Examples:
+
+Input : n = 5
+
+Output : [1, 2]
+
+Explanation: Factorial of 5 = 120.
+
+So, first digit = 1 and power 
+of 10 = 2 (1 * 102).
+
+
+Input : n = 9
+
+Output : [3, 5] 
+
+Explanation: Factorial of 9 = 362880.
+
+So, first digit = 3 and power of 
+10 = 5 (1 * 105).
+
+
+Expected Time Complexity: O(n).
+Expected Auxiliary Space: O(n).
+
+
+Constraints
+1 ≤ n≤ 10^6
