@@ -1,0 +1,35 @@
+Given an array arr[] of non-negative integers. 
+
+Count the number of pairs {i, j} in the array 
+such that arr[i] + arr[j] < arr[i] * arr[j].
+
+Note: the pair {i, j} and {j, i} are considered 
+the same and i should not be equal to j.
+
+
+Examples:
+
+Input: arr[] = [3, 4, 5]
+
+Output: 3
+
+Explanation: Pairs are {3, 4}, 
+{4, 5}, and {3,5}.  
+
+
+Input: arr[] = [1, 1, 1]
+
+Output: 0
+
+Explanation: No pairs can be formed 
+which satisfy the condition. 
+
+
+Expected Time Complexity: O(n).
+Expected Auxiliary Space: O(1).
+
+
+Constraints:
+
+1 ≤ arr.size() ≤ 10^6
+0 ≤ arr[i] ≤ 10^6
