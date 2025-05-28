@@ -1,0 +1,38 @@
+Given two arrays of diameter of pizzas 
+arr1[] and arr2[], each contains 10 
+pizzas of varying radii. 
+
+Geek is allowed to eat once, he can eat 
+a sequence of pizzas if they are present 
+in both arrays in the same order. 
+
+Geek is greedy, help Geek find the 
+maximum number of pizzas he can eat.
+
+
+Examples:
+
+Input: arr1 = [891, 424, 945, 741, 897, 514, 692, 221, 678, 168], 
+arr2 = [702, 952, 221, 614, 69, 753, 821, 971, 318, 364]
+
+Output: 1
+
+Explanation: There is only one common pizza {221}.
+
+
+Input: arr1 = [476, 241, 866, 571, 827, 599, 949, 948, 579, 726], 
+arr2 = [371, 359, 610, 216, 885, 876, 92, 10, 171, 724]
+
+Output: 0
+
+Explanation: There is no common pizza.
+
+
+Expected Time Complexity: O(n^2)
+Expected Auxiliary Space: O(n^2) 
+
+
+Constraints:
+
+arr1.size() = arr2.size() = 10
+1 <= radii <= 10^3
