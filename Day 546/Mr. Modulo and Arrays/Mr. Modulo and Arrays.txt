@@ -1,0 +1,39 @@
+Given an array arr[] of integers, the task 
+is to find the maximum value of arr[i] % 
+arr[j] for any pair of elements {arr[i], 
+arr[j]} such that arr[i] ≥ arr[j] and 
+1 ≤ i, j ≤ n.
+
+
+Examples:
+
+Input: arr[] = [3, 4, 7] 
+
+Output: 3
+
+Explanation: There are 3 pairs which satisfies 
+             arr[i] >= arr[j] are:-
+             4, 3 => 4 % 3 = 1
+             7, 3 => 7 % 3 = 1
+             7, 4 => 7 % 4 = 3
+             Hence maximum value among all is 3.
+
+
+Input: arr[] = [4, 4, 4, 4] 
+
+Output: 0
+
+Expected Time Complexity: O(nlogn+mlogm)
+
+
+Note: n is total number of elements and 
+m is maximum value of all the elements.
+
+
+Expected Auxiliary Space: O(1).
+
+
+Constraints:
+
+1 ≤ arr.size() ≤ 10^5
+1 ≤ arr[i] ≤ 10^5
