@@ -1,0 +1,60 @@
+Given a row of n coins of values arr[1], 
+arr[2], ... arr[n], where n is even. 
+
+Geek plays a game against an opponent 
+by alternating turns. 
+
+In each turn, a player selects either 
+the first or last coin from the row, 
+removes it from the row permanently, 
+and receives the value of the coin. 
+
+Determine the maximum possible amount 
+geek can get if he moves first.
+
+Note: Both of them play optimally
+
+
+Example 1:
+
+Input: N = 4, arr[] = {5, 3, 7, 10}
+
+Output: 15
+
+Explanation: 
+Geek chooses 10.
+Opponent chooses 7.
+Geek chooses 5.
+Opponent chooses 3.
+
+
+Example 2:
+
+Input: N = 4, arr[] = {8, 15, 3, 7}
+
+Output: 22
+
+Explanation: 
+Geek chooses 7.
+Opponent chooses 8.
+Geek chooses 15.
+Opponent chooses 3.
+
+
+Your Task:  
+
+You don't need to read input or print anything. 
+
+Complete the function maxAmount() which takes N  
+and array arr as input parameter and returns the 
+maximum value geek can get.
+
+
+Expected Time Complexity: O(N^2)
+Expected Auxiliary Space: O(N^2)
+
+
+Constraints:
+
+2 ≤ N ≤ 10^3
+1 ≤ arr[i] ≤ 10^5
