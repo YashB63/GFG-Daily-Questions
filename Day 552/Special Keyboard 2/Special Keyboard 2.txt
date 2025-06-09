@@ -1,0 +1,65 @@
+Geek wants to print n times 'A' 
+on the screen of a computer. 
+
+You can perform one of two operations 
+on this computer for each step and 
+return the minimum number of 
+operations to get the character 
+'A' exactly n times on the screen.
+
+Two Operations are:
+
+Copy All: You can copy all the characters on 
+the screen (a partial copy is not allowed).
+
+Paste: You can paste the characters 
+which are copied last time.
+
+
+Example 1:
+
+Input: 
+n = 3
+
+Output: 
+3
+
+Explanation:
+Initially, we have one character 'A'.
+In step 1, we use Copy All operation.
+In step 2, we use Paste operation to get 'AA'.
+In step 3, we use Paste operation to get 'AAA'
+As you can see, we only need three operations 
+to get three times 'A' on the screen.
+
+
+Example 2:
+
+Input: 
+n = 1
+
+Output: 
+0
+
+Explanation:
+Here, We don't need do any operations 
+because single A is already there.
+
+
+Your Task:
+
+You don't need to read input or print anything. 
+
+You only need to complete the function 
+findminoperation() which takes one 
+integer n as input and returns an 
+integer denoting operation taken to 
+print 'A', n times.
+
+
+Expected Time Complexity:  O(sqrt(n))
+Expected Auxilliary Space: O(1)
+ 
+
+Constraints:
+1 < n < 10^9
