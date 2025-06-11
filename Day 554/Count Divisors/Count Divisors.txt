@@ -1,0 +1,41 @@
+Given n you have to find sum of 
+count of divisors from1 to n.
+ 
+
+Example 1:
+
+Input: n = 2
+
+Output: 3
+
+Explanation: No. of Divisors of 1 = 1,
+No of Divisors of 2 = 2(1, 2).
+
+
+Example 2:
+
+Input: n = 4
+
+Output: 8
+
+Explanation: No. of divisors of 1 = 1
+No. of divisors of 2 = 2(1, 2)
+No. of divisors of 3 = 2(1, 3)
+No. of divisors of 4 = 3(1, 2, 4).
+ 
+
+Your Task:
+
+You don't need to read or print anything, 
+Your task is to complete the function 
+DivCountSum() which takes n as input 
+parameter and returns the sum of count 
+of divisors from 1 to n.
+ 
+
+Expected Time Complexity: O(nlog(n))
+Expected Space Complexity: O(n)
+ 
+
+Constraints:
+1 <= n <= 10^5
