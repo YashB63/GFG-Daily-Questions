@@ -1,0 +1,39 @@
+Given a sorted array arr[] of integers 
+varying from range l to r. 
+
+Find all the missing intervals range in 
+array arr[] from the given range and 
+return in sorted order.
+
+Note: If no Integer is missing return {-1,-1}.
+
+
+Example 1:
+
+Input: arr[] = [1, 5, 6, 7, 9], l = 1, r = 9
+
+Output: [{2, 4}, {8, 8}]
+
+Explanation: all the missing intervals which 
+are not present in array are returned.
+
+
+Example 2:
+
+Input: arr[] = [3, 4, 5, 5], l = 3, r = 5 
+
+Output: [{-1,-1}]
+
+Explanation: There are no missing 
+number from the interval. 
+
+
+Expected Time Complexity: O(n)
+Expected Auxiliary Space: O(1)
+
+
+Constraints:
+
+1 ≤ arr.size() ≤ 10^6
+0 ≤ arr[i] ≤ 10^6
+0 ≤ l ≤ r ≤ 10^6
