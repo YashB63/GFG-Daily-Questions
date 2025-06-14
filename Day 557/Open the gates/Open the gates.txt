@@ -1,0 +1,114 @@
+Geek and his friends went on a trip to 
+one of the hill stations in Geekland. 
+
+While trekking they found a treasure map, 
+it was in the form of r x c size board, 
+each cell on the map denotes a latin 
+uppercase letter. 
+
+On the bottom of the map it was written 
+that there are n gates with a specific 
+name and if they could find out the name 
+of the gate on the map that gate would open. 
+
+Help Geek and his friends to find out the 
+gates they could possibly open with the 
+map they found. 
+
+A name can be formed by a sequence 
+of adjacent characters on the map. 
+
+We can move to any of 8 adjacent characters. 
+
+While forming a word we can move 
+to any of the 8 adjacent cells. 
+
+A cell can be used only once in one name.
+
+ NOTE: All gate names returned must be different 
+even it occurs multiple times in the input.
+
+
+Example 1:
+
+Input: 
+n = 3
+gate_names = {"ZARA", "ZETH", "MYTH"}
+r = 3, c = 3
+map = A Z E
+       R Y T
+       M A H
+
+Output:
+{"ZARA", "ZETH", "MYTH"}
+
+Explanation: 
+Opening gate ZARA
+A Z E
+R Y T
+M A H
+
+Opening gate ZETH
+A Z E
+R Y T
+M A H
+
+Opening gate MYTH
+
+A Z E
+R Y T
+M A H
+
+
+Example 2:
+
+Input:
+n = 5
+gate_names = {"NYX","ONYX","VIRA","KARA", "NYX"}
+r = 3, c = 3 
+map = N O A
+       P Y V
+       K R X
+
+Output:
+{"NYX", "ONYX"}
+
+Explanation: 
+Opening gate NYX
+
+N O A
+P Y V
+K R X
+
+Opening gate ONYX
+
+N O A
+P Y V
+K R X
+
+Note that NYX is counted only once.
+
+
+Your task:
+
+You don’t need to read input or print anything. 
+
+Your task is to complete the function openGates() 
+which takes the gate_names contaning n 
+space-separated strings and r*c map as input 
+parameters and returns a list of gate names 
+that can be opened
+
+
+Expected Time Complexity: O(4^(N^2))
+Expected Auxiliary Space: O(N^2)
+
+
+Constraints:
+
+1 ≤ n ≤ 15
+1 ≤ r, c ≤ 50
+1 ≤ length of each gate name ≤ 60
+
+All words of gate_names and all characters 
+of map are uppercase letters from 'A' to 'Z'
