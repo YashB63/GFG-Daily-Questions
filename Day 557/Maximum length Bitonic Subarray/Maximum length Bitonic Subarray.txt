@@ -1,0 +1,40 @@
+Given an array arr[] containing 
+positive integers, a subarray 
+arr[i … j] is bitonic if there is 
+a k with i <= k <= j such that 
+arr[i] <= arr[i+1] <= ... <= arr[k] 
+>= arr[k+1] >= ... arr[j – 1] >= 
+arr[j]. 
+
+Return the maximum length 
+of the bitonic subarray.
+
+
+Examples:
+
+Input: arr[] = [12, 4, 78, 90, 45, 23]
+
+Output: 5
+
+Explanation: In the given array, 
+bitonic subarray is 4 <= 78 <= 90 
+>= 45 >= 23.
+
+
+Input: arr[] = [10, 20, 30, 40]
+
+Output: 4
+
+Explanation: In the given array, 
+bitonic subarray is 10 <= 20 <= 
+30 <= 40.
+
+
+Expected Time Complexity: O(n)
+Expected Auxiliary Space: O(1)
+
+
+Constraints:
+
+1 ≤ arr.size() ≤ 10^6
+1 ≤ arr[i] ≤ 10^6
