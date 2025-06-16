@@ -1,0 +1,57 @@
+You are given time for insertion, 
+deletion and copying, the task is 
+to calculate the minimum time to 
+write N characters on the screen 
+using these operations. 
+
+Each time you can insert a character, 
+delete the last character and copy and 
+paste all written characters i.e. after 
+copy operation count of total written 
+character will become twice.
+
+
+Example 1:
+
+Input: N = 9, I = 1, D = 2, C = 1  
+
+Output: 5
+
+Explanation: N characters can be written
+on screen in 5 time units as shown below,
+insert a character    
+characters = 1,  total time = 1
+again insert character      
+characters = 2,  total time = 2
+copy characters             
+characters = 4,  total time = 3
+copy characters             
+characters = 8,  total time = 4
+insert character           
+characters = 9,  total time = 5
+
+
+Example 2:
+
+Input: N = 1, I = 10, D = 1, C = 5
+
+Output: 10
+
+Explanation: Insert one character
+
+
+Your Task:  
+
+You don't need to read input or print anything. 
+
+Complete the function minTimeForWritingChars() 
+which takes N, I, D and C as input parameters 
+and returns the integer value
+
+
+Expected Time Complexity: O(N)
+Expected Auxiliary Space: O(N)
+
+
+Constraints:
+1 ≤ N ≤ 10^6
