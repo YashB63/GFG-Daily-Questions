@@ -1,0 +1,56 @@
+Given an array s containing n strings, 
+find the max length of the string 
+obtained by combining the strings. 
+
+Two strings can be combined only if the 
+last character of the first string and 
+the first character of the second 
+string are the same.
+
+Note: If no two strings can 
+be combined then return 0.
+
+
+Example 1:
+
+Input:
+n = 3
+s[] = {"RBR", "BBR", "RRR"}
+
+Output: 9
+
+Explanation: Combined string can 
+             be: BBR + RBR + RRR
+
+
+Example 2:
+
+Input:
+n = 2
+s[] = {"RRR", "BBB"}
+
+Output: 0
+
+Explanation: Since combining condition
+             isn't fulfilled answer is 0.
+
+
+Your Task:
+
+Your task is to complete the function combine() 
+which takes 2 arguments(integer n and array of 
+n strings) and returns the maximum length of 
+combined strings possible. 
+
+If no 2 strings can be combined return 0. 
+
+
+Expected Time Complexity: O(n).
+Expected Auxiliary Space: O(1).
+
+
+Constraints:
+
+2<=n<=10^4
+1<=|si|<=100, where 0<=i<n
+s will only contain {R,B}
