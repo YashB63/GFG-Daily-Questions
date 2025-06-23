@@ -1,0 +1,27 @@
+Given a singly linked list L0 -> L1 -> … -> Ln-1 -> Ln. 
+
+Rearrange the nodes in the list so that the 
+newly formed list is: L0 -> Ln -> L1 -> Ln-1 
+-> L2 -> Ln-2.
+
+
+Examples :
+
+Input: LinkedList : 1->2->3->4
+
+Output: 1->4->2->3
+
+Explanation: After rearranging the linked 
+list as required, we have 1, 4, 2 and 3 
+as the elements of the linked list.
+
+
+Input: LinkedList : 1->2->3->4->5
+
+Output: 1->5->2->4->3
+
+
+Constraints:
+
+1 <= number of nodes <= 10^5
+1 <= node->data <= 10^3
