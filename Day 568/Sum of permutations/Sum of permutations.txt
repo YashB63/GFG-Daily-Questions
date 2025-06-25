@@ -1,0 +1,38 @@
+Given distinct digits in an array arr[] 
+(from 1 to 9), Your task is to complete 
+the function getSum which finds the sum 
+of all n-digit numbers that can be 
+formed using these digits. 
+
+Note: Since the output can be 
+large take modulo 1000000007
+
+
+Input: arr[] = [1, 2, 3]
+
+Output: 1332 
+
+Explanation: The possible permutations are 
+123, 132, 213, 231, 312, and 321. 
+Hence,sum = 123 + 132 + 312 + 
+213 + 231 + 321 = 1332.
+
+
+Input: arr[] = [1, 2]
+
+Output: 33
+
+Explanation: The possible permutations 
+are 12,21. 
+
+Hence,sum = 12+21 = 33.
+
+
+Expected Time Complexity: O(n)
+Expected Auxiliary Space: O(1)
+
+
+Constraints:
+
+1<=arr.size()<=9
+1<=arr[i]<=9
