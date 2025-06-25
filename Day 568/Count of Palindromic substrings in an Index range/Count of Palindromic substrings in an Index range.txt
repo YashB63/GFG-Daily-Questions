@@ -1,0 +1,57 @@
+Given a string S of lowercase english alphabetic 
+characters and a substring range starting from 
+q1 and ending at q2, the task is to find out the 
+count of palindromic substrings in the given 
+substring range.
+
+
+Example 1:
+
+Input:
+N = 7 
+S = "xyaabax"
+q1 = 3
+q2 = 5
+
+Output: 4
+
+Explanation: The substring in the given range 
+is "aba". Hence, the palindromic substrings are:
+"a", "b", "a" and "aba".
+
+
+Example 2:
+
+Input: 
+N = 7
+S = "xyaabax" 
+q1 = 2 
+q2 = 3. 
+
+Output: 3
+
+Explanation: The substring in the given range
+is "aa". Hence, the palindromic substrings are: 
+"a", "a" and "aa".
+
+
+Your Task:
+
+You don't need to read input or print anything. 
+
+Your task is to complete the function 
+countPalinInRange() which takes the 
+string S, its length N and the range 
+variables q1 and q2 as input parameters 
+and returns the count of the Palindromic 
+substrings in the given substring range.
+
+
+Expected Time Complexity: O(|S|2).
+Expected Auxiliary Space: O(1).
+
+
+Constraints:
+
+1 ≤ |S| ≤ 1000
+0 ≤ q1, q2 < |S|
