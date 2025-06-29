@@ -1,0 +1,37 @@
+Given an array arr[] of integers, the task is 
+to find the maximum sum of a bitonic subarray. 
+
+A bitonic subarray is one in which the elements 
+first increase, may stay the same, and then 
+decrease. 
+
+A strictly increasing or strictly decreasing 
+subarray is also considered a bitonic subarray.
+
+
+Examples:
+
+Input: arr[] = [5, 3, 9, 2, 7, 6, 4]
+
+Output: 19
+
+Explanation: The subarray with the maximum 
+sum is [2, 7, 6, 4] with a sum of 19.
+
+
+Input: arr[] = [5, 4, 3, 2, 1, 10, 6]
+
+Output: 17
+
+Explanation: The subarray with the maximum 
+sum is [10, 6], with a sum of 17.
+
+
+Expected Time Complexity: O(n)
+Expected Auxiliary Space: O(1)
+
+
+Constraints:
+
+1 ≤ arr.size() ≤ 10^6
+1 ≤ arr[i] ≤ 10^5
