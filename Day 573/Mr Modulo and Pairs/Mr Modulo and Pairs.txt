@@ -1,0 +1,36 @@
+Mr. Modulo comes up with another problem related 
+to modulo and this time he has an array of 
+integers arr[] and an integer k, he is interested 
+in finding all the possible pairs arr[i] and arr[j] 
+in the array arr[] such that arr[i] % arr[j] = k. 
+
+The array given will have distinct elements.
+
+You are required to return the number of such pairs.
+
+
+Examples:
+
+Input: arr[] = [2, 3, 5, 4, 7], k = 3
+
+Output: 4
+
+Explanation: The pairs which give remainder 
+3 : {7, 4}, {3, 4}, {3, 5}, {3, 7}.
+
+
+Input: arr[] = [1, 2], k = 3
+
+Output: 0
+
+Explanation: No pairs give remainder 3.
+
+
+Expected Time Complexity:  O(n*sqrt(max(arr[i]))) 
+Expected Auxiliary Space: O(n).
+
+
+Constraints:
+
+1 ≤ arr.size() ≤ 10^5
+1 ≤ arr[i] ≤ 10^6
