@@ -1,0 +1,51 @@
+Given an array of numbers of size N. 
+
+It is also given that the array elements 
+are in range from 0 to N2 – 1. 
+
+Sort the given array in linear time.
+
+
+Example 1:
+
+Input:
+N = 7
+arr[] = {40, 12, 45, 32, 33, 1, 22}
+
+Output: 1 12 22 32 33 40 45
+
+Explanation: Output is the sorted version of the
+given array.
+
+
+Example 2:
+
+Input: 
+N = 5
+arr[] = {24, 12, 0, 15, 8}
+
+Output: 0 8 12 15 24
+
+Explanation: Output is the sorted version of the
+given array.
+
+
+Your Task:
+
+You don't need to read input or print anything. 
+
+Your task is to complete the function sort () 
+which takes an array arr[] and its size N as 
+inputs and sorts the array in non-decreasing 
+order. 
+
+Note: You have to modify the input array such 
+that it becomes sorted in non-decreasing order.
+
+
+Expected Time Complexity: O(N). 
+Expected Auxiliary Space: O(N).
+
+
+Constraints:
+1 <= N <= 10^4
