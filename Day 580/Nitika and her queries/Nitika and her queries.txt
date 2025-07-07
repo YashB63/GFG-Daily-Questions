@@ -1,0 +1,66 @@
+Nitika recently read about XOR operation 
+and she got obssessed with it. 
+
+She has an array a containing N Positive 
+integers.
+
+She wants to perform Q queries on the array.
+
+In a query She gives two integers L and R.
+(1 based indexing).
+
+Now, she asks what is the xor of all the 
+elements of the array after not including 
+the subarray ranging from L to R 
+(both inclusive).
+
+Nitika guarantees that in each query, 
+The resulting array is non empty. 
+
+The queries are given in a 2D matrix 
+query having L and R for each entry. 
+
+
+Example 1:
+
+Input: N = 10, Q = 3
+a = {4, 7, 8, 5, 9, 6, 1, 0, 20, 10}
+query = {{3, 8},{1, 6},{2, 3}}
+
+Output: 
+29
+31
+17
+
+Explaination: For the first query: 
+The resulting array is: (4 ,7 ,20, 10).
+
+Their Xor will be: 29. 
+
+For the Second query: The resulting 
+array is: (1, 0, 20, 10). Their Xor 
+will be: 31. 
+
+For the Third query:  The resulting 
+array is: (4, 5, 9, 6, 1,0 ,20, 10). 
+Their Xor will be: 17.
+
+
+Your Task:
+
+you do not need to read input or print anything. 
+
+Your task is to complete the function specialXor() 
+which takes N, Q, a[] and query as input parameters 
+and returns a list containing answer for each query.
+
+
+Expected Time Complexity: O(N+Q*logN)
+Expected Auxiliary Space: O(N+Q)
+
+
+Constraints:
+
+1 ≤ N, Q ≤ 10^5
+1 ≤ A[i] ≤ 10^9
+1 ≤ L, R ≤ N  
