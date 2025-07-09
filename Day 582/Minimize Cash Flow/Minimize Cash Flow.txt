@@ -1,0 +1,62 @@
+Given a number of friends who have to give or 
+take some amount of money from one another. 
+
+Design an algorithm by which the total cash 
+flow among all the friends is minimized. 
+
+
+Example 1:
+
+Input:
+N=3
+transaction [][]={{0,100,0}, {0,0,100}, {100,0,0}}
+
+Output:
+transaction [][]={{0,0,0},{0,0,0},{0,0,0}}
+
+Explanation:
+Since friend one has to give friend two which has 
+to give friend three and which in turn has to give 
+one. 
+
+So it is better than no one will do anything to anyone.
+
+
+Example 2:
+
+Input:
+N=3
+transaction [][]={{0,100,0},{0,0,200},{0,0,0}}
+
+Output:
+transaction [][]={0,0,100},{0,0,100},{0,0,0}
+
+Explanation:
+The net flow is minimized.
+ 
+
+Your Task:  
+
+You don't need to read input or print anything. 
+
+Your task is to complete the function minCashFlow() 
+which takes the transaction array and number of 
+friends as input parameters and returns the new 
+transaction array as output;. 
+
+Please note there can be multiple solutions possible, 
+and the solution will be judged according to its net 
+flow, and if it correctly follows the cash flow. 
+
+If, you're solution returns -1, this means the cash 
+flow is not following the actual flow of cash.
+
+
+Expected Time Complexity: O(N*N)
+Expected Auxiliary Space: O(N*N)
+ 
+
+Constraints:
+
+1 <= N <= 1000
+0 <= transaction[i][j] <= 1000
