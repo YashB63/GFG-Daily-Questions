@@ -1,0 +1,45 @@
+Given a string S, consisting of 
+lowercase Latin characters [a-z]. 
+
+Find out all the possible palindromes that 
+can be generated using the letters of the 
+string and print them in lexicographical 
+order.
+
+
+Example 1:
+
+Input: S = abbab
+
+Output:{ abbba babab }
+
+Explanation: abbba and babab are two
+possible string that are palindrome.
+
+
+Example 2:
+
+Input: S = abc
+
+Output: {}
+
+Explanation: No permutation is palindromic.
+ 
+
+Your Task:
+
+You don't need to read or print anything. 
+
+Your task is to complete the function 
+all_palindromes() which takes string 
+S as the input parameter and returns 
+a list of strings that are palindrome 
+in lexicographical order.
+ 
+
+Expected Time Complexity: O(2^n)
+Expected Space Complexity: O(2^n)
+ 
+
+Constraints:
+1 <= Length of string <= 20
