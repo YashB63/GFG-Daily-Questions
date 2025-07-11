@@ -1,0 +1,50 @@
+Given a bracket sequence or in other 
+words a string S of length N and 
+queries Q, consisting of characters 
+‘(‘ and ‘)’. 
+
+Find the length of the maximum correct 
+bracket subsequence of sequence for a 
+given query range from L to R(L and R 
+inclusive).
+
+Note: A correct bracket sequence is the
+one that has matched bracket pairs or 
+which contains another nested correct 
+bracket sequence.
+
+
+Example 1:
+
+Input:
+S = ())(())(())( , Q = 2
+Queries = {(3,6), (0,11)}
+
+Output:
+4
+10
+
+Explanation: For query 1, Longest Correct
+Bracket Subsequence is (()).Hence length=4
+For query 2, Longest Correct Bracket
+Subsequence is ()(())(()). Hence length=10
+
+
+Your Task:
+
+Complete getLongestSequence() function and 
+return the maximum length of the correct 
+bracket subsequence of the sequence. 
+
+The segment tree array has been prebuilt 
+and provided to you.
+
+
+Expected Time Complexity: O(Q*Log(N)).
+Expected Auxiliary Space: O(1).
+
+
+Constraints:
+
+1 <= N, Q <= 10^4
+0 <= L <= R <= N-1
