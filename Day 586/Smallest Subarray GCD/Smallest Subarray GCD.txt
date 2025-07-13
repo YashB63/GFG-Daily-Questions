@@ -1,0 +1,41 @@
+Givenn an array arr[] and an integer k , 
+find the length of the minimum subarray 
+whose Greatest Common Divisor equals k.
+
+Note: If no such subarray exists, return -1.
+
+
+Examples:
+
+Input: arr[] = [6, 9, 7, 10, 12, 24, 36, 27], k = 3
+
+Output: 2
+
+Explanation: GCD of subarray {6,9} is 3. 
+
+GCD of subarray {24, 36, 27} is also 3,
+but {6, 9} is the smallest.
+
+
+Input: arr[] = [9, 12, 15, 24, 36, 27], k = 2
+
+Output: -1
+
+Explanation: GCD 2 is not possible from 
+any subarray from the given array.
+
+
+Input: arr[] = [1, 2, 4, 8], k = 1
+
+Output: 1
+
+
+Expected Time Complexity: O(n * (logn)2)
+Expected Auxiliary Space: O(n * logn) 
+
+
+Constraints:
+
+1 <= arr.size() <= 10^5
+1 <= arr[i] <= 10^5
+1 <= k <= 100
