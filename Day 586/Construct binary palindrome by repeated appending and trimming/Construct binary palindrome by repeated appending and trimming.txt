@@ -1,0 +1,53 @@
+You are given two integers n and k. 
+
+Your task is to create a palindrome of 
+length n using binary numbers (0s and 1s) 
+of length k that starts with 1. 
+
+You can repeat the binary number as many 
+times as you need, and you are allowed to 
+remove any zeros from the end of the final 
+palindrome.
+
+The palindrome must always start with 1 and 
+should have as many zeros as possible. 
+
+If it is not possible to create such a 
+palindrome of length n using any binary 
+number of length k, return -1.
+
+
+Examples:
+
+Input: n = 5, k = 3
+
+Output: 11011
+
+Explanation: Since only length of 3 binary 
+digits are allowed, so the possible binary 
+representations are 100, 110, 111, 101. 
+
+Out of these, If we take the binary 
+representation of 6(110), combine it 
+twice & trim a zero the final output 
+will be 11011, which satisfy all the 
+conditions
+
+
+Input: n = 6, k = 1
+
+Output: 111111
+
+Explanation: 
+The binary representation of 1 is 1 of 
+length 1, it is combined six times to 
+produce 111111.
+
+
+Expected Time Complexity: O(n).
+Expected Auxiliary Space: O(1).
+
+
+Constraints:
+1 ≤ n, k ≤ 10^6
+
