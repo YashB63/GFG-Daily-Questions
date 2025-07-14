@@ -1,0 +1,36 @@
+Given an array arr[] of integers, 
+find the maximum and minimum 
+possible product among all subsets 
+of the array.
+
+
+Examples:
+
+Input: arr[] = [1, 2, 3]
+
+Output: [6, 1]
+
+Explanation: Maximum product is 6 
+obtained by multiplying 2 and 3. 
+
+Minimum product is 1 obtained by 
+selecting only 1.
+
+
+Input: arr[] = [4, -2, 5]
+
+Output: [20, -40]
+
+Explanation: Maximum product is 20 obtained 
+by multiplying 4 and 5. Minimum product is 
+-40 obtained by multiplying 4, -2, and 5.
+
+
+Expected Time Complexity: O(n)
+Expected Auxiliary Space: O(1)
+
+
+Constraints:
+
+1 ≤ arr.size() ≤ 10^6
+-10^5 ≤ arr[i] ≤ 10^5
