@@ -1,0 +1,43 @@
+Given an array arr[] consisting of non-negative 
+integers, your task is to find the minimum sum 
+of the array such that take one of the elements 
+from the first 3 consecutive elements and then 
+from the ith position where the previous element 
+was taken, do the same operation for the next 
+three from ith position and so on.
+
+Note: You have to take one element 
+from 3 consecutive elements.
+
+
+Examples:
+
+Input: arr[] = [1, 2, 3, 6, 7, 1]
+
+Output: 4
+
+Explanation: Moving from left to right 3+1. 
+
+When 3 is added next 3 consecutive elements 
+be 6, 7 and 1, from which we take 1. 
+
+Which covers all subarray of lenght 3 
+(3+1=4).
+
+
+Input: arr[]=[3,2]
+
+Output: 0
+
+Explanation: We won't take any element 
+as the array length is less than 3.
+
+
+Expected Time Complexity: O(n)
+Expected Auxiliary Space: O(n)
+
+
+Constraints:
+
+1 ≤ arr.size() ≤ 10^6
+1 ≤ arr[i] ≤ 10^6
