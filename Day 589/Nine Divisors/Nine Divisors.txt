@@ -1,0 +1,25 @@
+Given a positive integer n, you need to 
+count the numbers less than or equal to 
+n having exactly 9 divisors.
+
+
+Examples :
+
+Input: n = 100
+
+Output: 2
+
+Explanation: Numbers which have exactly 
+9 divisors are 36 and 100.
+
+
+Input: n = 200
+
+Output: 3
+
+Explanation: Numbers which have exactly 
+9 divisors are 36, 100, 196. 
+
+
+Constraints:
+1 ≤ n ≤ 10^9
