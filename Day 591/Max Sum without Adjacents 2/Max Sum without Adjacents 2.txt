@@ -1,0 +1,37 @@
+Given an array arr containing positive integers. 
+
+Find the maximum sum that can be formed which 
+has no three consecutive elements present from 
+the array.
+
+
+Examples:
+
+Input: arr[] = [1, 2, 3]
+
+Output: 5
+
+Explanation: All three element present in 
+the array is consecutive, hence we have to 
+consider just two element sum having maximum,
+which is 2+3 = 5
+
+
+Input: arr[] = [3000, 2000, 1000, 3, 10]
+
+Output: 5013
+
+Explanation: 3000 + 2000 + 3 + 10 = 5013. 
+
+Here no three elements is consecutive 
+in that subsequence.
+
+
+Expected Time Complexity: O(n)
+Expected Auxiliary Space: O(n)
+
+
+Constraints:
+
+1 ≤ arr.size() ≤ 10^6
+1 ≤ arr[i] ≤ 10^5
