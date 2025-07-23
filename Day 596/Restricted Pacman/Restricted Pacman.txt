@@ -1,0 +1,61 @@
+In the game of Restricted Pacman, 
+an infinite linear path is given. 
+
+Pacman has to start at position 0 and 
+eat as many candies as possible. 
+
+In one move he can only jump 
+a distance of either m or n.  
+
+If m and n are coprime numbers, find how many 
+candies will be left on the board after the 
+game is over.
+
+Note: The result is always finite as after a point 
+x every index in the infinite path can be visited. 
+
+
+Examples:
+
+Input: m= 2, n= 5
+
+Output: 2
+
+Explanation: From index 0, the indices that can be visited are
+0 + 2 = 2
+0 + 2 + 2 = 4
+0 + 5 = 5
+0 + 2 + 2 + 2 = 6
+0 + 2 + 5 = 7
+0 + 2 + 2 + 2 + 2 = 8
+0 + 2 + 2 + 5 = 9
+0 + 5 + 5 = 10
+and so on.
+
+1 and 3 are the only indices that cannot be visited. 
+
+Therefore the candies at these two positions will 
+be left on the board. 
+
+
+Input: m = 2, n = 7
+
+Output: 3 
+
+Explanation : From index 0,the indices that can be visited are 
+0 + 2 = 2
+0 + 2 + 2 = 4
+0 + 2 + 2 + 2 =6
+0 + 7 = 7
+0 + 2 + 2 + 2 + 2 = 8
+0 + 2 + 7 = 9
+and so on.
+
+1 ,3 and 5 are the only indices that cannot be visited.
+
+Therefore the candies at these two postions will be 
+left on the board 
+
+
+Constraints:
+1 < m, n ≤ 500
