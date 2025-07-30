@@ -1,0 +1,32 @@
+Sort the given doubly linked list using quicksort. 
+
+Just complete the partition function using the 
+quicksort technique.
+
+
+Example:
+
+Input: LinkedList: 4->2->9
+
+Output: 2->4->9
+
+Explaination: After sorting output will look like this.
+
+
+Input:
+
+LinkedList: 1->4->9->2
+
+Output: 1->2->4->9
+
+Explaination: After sorting output will look like this.
+ 
+
+Expected Time Complexity: O(nlogn)
+Expected Auxilliary Space: O(1)
+
+
+Constraints:
+
+1 <= no. of nodes <= 10^6
+1 <= node->data <= 10^6
