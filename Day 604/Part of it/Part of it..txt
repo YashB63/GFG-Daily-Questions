@@ -1,0 +1,43 @@
+A given series 3, 5, 9, 11, 15, 17, 21, 27, 29, ... and so on. 
+
+You need to identify the pattern and determine 
+whether the input number ( n ) is a part of 
+the given series or not. 
+
+If yes then return "Yes", otherwise "No".
+
+
+Example 1:
+
+Input: n = 9
+
+Output: Yes
+
+Explanation: 9 is the part of
+the sequence.
+
+
+Example 2:
+
+Input: n = 8
+
+Output: No
+
+Explanation: 8 is not the part
+of the sequence
+
+
+Your Task:  
+
+You don't need to read input or print anything. 
+
+Your task is to complete the function isPart() 
+which takes n as inputs and returns the answer.
+
+
+Expected Time Complexity: O(sqrt(n))
+Expected Auxiliary Space: O(1)
+
+
+Constraints:
+1 ≤ n ≤ 10^6
