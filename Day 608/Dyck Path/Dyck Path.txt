@@ -1,0 +1,52 @@
+Consider a N x N grid with indexes of top left corner as (0, 0). 
+
+Dyck path is a staircase walk from bottom left, i.e., (N-1, 0) 
+to top right, i.e., (0, N-1) that lies above the diagonal cells 
+(or cells on line from bottom left to top right).
+
+The task is to count the number of Dyck 
+Paths from (N-1, 0) to (0, N-1).
+
+Here are the some of the possible paths 
+for different N.
+
+
+Example 1:
+
+Input:
+N = 4
+
+Output:
+14 
+
+Explanation:
+Refer to the diagram above.
+
+
+Example 2:
+
+Input:
+N = 3
+
+Output:
+5
+
+Explanation:
+Refer to the diagram above.
+ 
+
+Your Task:
+
+You don't need to read input or print anything. 
+
+Your task is to complete the function dyckPaths() 
+which takes an Integer N as input and returns the 
+answer.
+
+
+Expected Time Complexity: O(N)
+Expected Auxiliary Space: O(1)
+
+ 
+Constraints:
+1 <= N <= 30
