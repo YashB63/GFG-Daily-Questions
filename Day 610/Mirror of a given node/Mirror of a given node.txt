@@ -1,0 +1,56 @@
+Given a Binary tree, the problem 
+is to find mirror of a given node. 
+
+The mirror of a node is a node which 
+exist at the mirror position of node 
+in opposite subtree at the root.
+
+
+Examples:
+
+Input: root = [1, 2, 3, 4, 5, 6, 7], target = 4
+          1        
+        /   \       
+       2     3     
+      / \     / \    
+     4  5   6  7   
+
+Output: 7
+
+Explanation: You can see below that the mirror node of 4 is 7.
+          1       |       1
+        /   \      |      /   \
+       2     3    |    3     2
+      / \     / \   |   / \    /  \
+     4   5 6   7 |  7  6  5   4
+
+
+Input: root = [1, 2, 3, 4, 5], target = 4
+        1
+      /   \
+     2     3
+    / \
+   4   5
+
+Output: -1
+
+Explanation: There is no mirror element present of 4.
+
+
+Input: root = [1, 2, 3, 4, 5], target = 2
+        1
+      /   \
+     2     3
+    / \
+   4   5
+
+Output: 3
+
+Explanation: There is mirror element present of 2.
+
+
+Constraints:
+
+1<=number of nodes<=10^4
+1<=data of node<=10^4
+1<=target<=10^4
