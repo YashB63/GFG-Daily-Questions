@@ -1,0 +1,29 @@
+Given an unsorted array, arr[] of 
+positive numbers that contains 
+even number of occurrences for all 
+numbers except two numbers. 
+
+Return that two numbers in decreasing 
+order which has odd occurrences.
+
+
+Examples:
+
+Input: arr = [4, 2, 4, 5, 2, 3, 3, 1]
+
+Output: [5, 1] 
+
+Explanation: 5 and 1 have odd occurrences.
+
+
+Input: arr[] = [1, 7, 5, 7, 5, 4, 7, 4]
+
+Output: [7, 1]
+
+Explanation: 7 and 1 have odd occurrences.
+
+
+Constraints:
+
+2 ≤ arr.size() ≤ 10^6
+1 ≤ arr[i]≤ 10^7
