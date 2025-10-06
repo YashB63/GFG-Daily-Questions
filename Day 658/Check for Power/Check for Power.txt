@@ -1,0 +1,28 @@
+Given two positive integers x and y, 
+determine if y is a power of x. 
+
+If y is a power of x, return True. 
+
+Otherwise, return False.
+
+
+Examples:
+
+Input: x = 2, y = 8
+
+Output: True 
+
+Explanation: 23 is equal to 8.
+
+
+Input: x = 1, y = 8
+
+Output: False
+
+Explanation: Any power of 1 is not equal to 8.
+
+
+Constraints: 
+
+1 <= x <= 10^3
+1 <= y <= 10^8
