@@ -1,0 +1,61 @@
+Given a binary tree (having distinct node values)
+root and two node values. 
+
+Check whether or not the two nodes with values 
+a and b are cousins.
+
+Note: Two nodes of a binary tree are cousins if 
+they have the same depth with different parents.
+
+
+Examples:
+
+Input:
+      1
+    /   \
+   2     3
+a = 2, b = 3
+
+Output: false
+
+Explanation: Here, nodes 2 and 3 are at the 
+same level but have same parent nodes.
+
+
+Input:
+       1
+     /   \ 
+    2     3
+   /       \
+  5         4 
+a = 5, b = 4
+
+Output: True
+
+Explanation: Here, nodes 5 and 4 are at the 
+same level and have different parent nodes. 
+
+Hence, they both are cousins. 
+
+
+Input:
+          10
+        /    \
+      5       15
+     / \     /  \
+    3   7   12   20
+a = 7, b = 12
+
+Output: True
+
+Explanation: Here, nodes 7 and 12 are at the 
+same level and have different parent nodes. 
+
+Hence, they both are cousins. 
+
+
+Constraints:
+
+1 <= number of nodes <= 10^5
+1 <= node->data <= 10^5
+1 <= a, b <= 10^5
