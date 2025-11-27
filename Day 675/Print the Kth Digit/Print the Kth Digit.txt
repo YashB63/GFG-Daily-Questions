@@ -1,0 +1,24 @@
+Given two numbers a and b, find 
+k^th digit from right of a^b.
+
+
+Example 1:
+
+Input: a = 3, b = 3, k = 1
+
+Output: 7
+
+Explanation: 3^3 = 27 and 1st digit from right is 7
+
+
+Input: a = 5, b = 2, k = 2
+
+Output: 2
+
+Explanation: 5^2 = 25 and second digit from right is 2.
+
+
+Constraints:
+
+1 <= a,b <= 15
+1 <= k <= digits in a^b
