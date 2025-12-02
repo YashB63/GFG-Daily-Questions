@@ -1,0 +1,61 @@
+You are given a string s, and a list of jumps[][] 
+of size n, where each jumps[i] = [s1, s2] denotes 
+that you are allowed to jump from character s1 to 
+s2 in the forward direction.
+
+Additionally, you are allowed to jump 
+forward from a character to any other 
+occurrence of the same character 
+within the string.
+
+You start at index 0 of the string. 
+
+After every valid jump from index i to 
+index j, where s[i] = s1 and s[j] = s2, 
+you earn a score equal to the sum of 
+ASCII values of all characters between 
+the jump except for the characters 
+equals s2, i.e.
+
+score(i, j) = sum(ascii(s[k]) for i ≤ k < j 
+and s[k] != s[j]).
+
+Determine the maximum score that can be achieved by 
+performing a sequence of valid jumps starting from 
+index 0.
+
+
+Examples:
+
+Input: s = "forgfg", jumps[][] = [['f', 'r'], ['r', 'g']]
+
+Output: 429
+
+Explanation: We can jump from 'f' to 'r' at 
+index 2, this will gives a score equals to 
+sum of ASCII value of 'f', 'o' i.e. 213.
+
+Now we can jump from 'r' to 'g' at index 5, 
+this will gives a score equals to sum of 
+ASCII value of 'r', 'f' i.e. 216.
+
+Hence maximum total score obtain will be 429. 
+
+
+Input: s = "abcda", jumps[][] = [[b, d]]
+
+Output: 297
+
+Explanation: We can jump from 'a' to 'a'
+(as both are same character) at index 4, 
+this will gives a score equals to sum of 
+ASCII value of 'b', 'c', 'd' i.e. 297.
+
+Hence maximum total score obtain will be 297. 
+
+
+Constraints:
+
+1 ≤ |s| ≤ 2 * 10^5
+1 ≤ jumps.size() ≤ 676
+There are atleast two distinct characters in s.
