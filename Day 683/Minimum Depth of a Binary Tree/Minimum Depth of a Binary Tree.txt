@@ -1,0 +1,29 @@
+Given a binary tree, find its minimum depth.
+
+
+Examples:
+
+Input: root = [1, 3, 2, 4]
+
+Output: 2
+
+Explanation: Minimum depth is between nodes 1 and 2 
+since minimum depth is defined as the number of 
+nodes along the shortest path from the root node down 
+to the nearest leaf node.
+
+
+Input: root = [10, 20, 30, N, 40, N, 60, N, N, 2]
+ 
+Output: 3 
+
+Explanation: Minimum depth is between nodes 10,20 and 40. 
+
+
+Expected Time Complexity: O(n)
+Expected Auxiliary Space: O(height of the tree)
+
+
+Constraints:
+1 ≤ number of nodes ≤ 10^5
+
