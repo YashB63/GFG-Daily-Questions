@@ -1,0 +1,76 @@
+You are familiar with most of the properties of 
+dictionaries in Python. 
+
+Let's get this into head by solving a problem.
+
+You are given a list of student names (keys) 
+and their corresponding marks (values). 
+
+The task is to do operations as described below:
+
+k key, v value: Insert given key k and value v in 
+the dictionary, print 'Inserted' after inserting.
+
+d key: Delete the entry for a given key d and print 'Deleted' 
+if the key to be deleted is present, else print '-1'.
+
+p key: Print marks of given key p in statement 
+as "Marks of {student_name} is : {marks}". 
+
+If key is not present print '-1'.
+
+Note: Avoid using F-string in your 
+python solution code. 
+
+Use normal string concatenation instead.
+
+
+Examples:
+
+Input:
+dhi ankit
+100 200
+harsh 300
+harsh
+harsh
+
+Output:
+Inserted
+Deleted
+-1
+
+Explanation: First two lines take my_dict input as key and values. 
+
+Then, insert and del operation happens, 
+correspondingly Inserted and Deleted is 
+printed. 
+
+For last query, harsh key is not present 
+so -1 is printed.
+
+
+Input:
+harsh ghutra mith
+100 200 300
+ankit 400
+mith
+ankit
+
+Output:
+Inserted
+Deleted
+Marks of ankit is 400
+
+Explanation: First two lines take 
+my_dict input as key and values. 
+
+Then, insert and del operation happens, 
+correspondingly Inserted and Deleted is 
+printed. 
+
+For last query, Marks of ankit is 400 is printed.
+
+
+Constraints:
+1 <= | key | <= 20
+1 <= marks <= 10^5
