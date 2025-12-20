@@ -1,0 +1,39 @@
+Given a binary tree, a target node in the binary tree, 
+and an integer value k, find all the nodes that are at 
+a distance k from the given target node. 
+
+No parent pointers are available.
+
+
+Note:
+
+You have to return the list in sorted order.
+
+The tree will not contain duplicate values.
+
+
+Examples:
+
+Input: root = [1, 2, 3, 4, 5], target = 2, k = 2   
+
+Output: [3]
+
+Explanation: Nodes at a distance 2 from 
+the given node 2 is 3.
+
+
+Input: root = [1, 2, 3, 4, 5, 6, 7], 
+target = 3, k = 1
+
+Output: [1, 6, 7]
+
+Explanation: Nodes at a distance 1 from the 
+given target node 3 are 1, 6 & 7.
+
+
+Constraints:
+
+1 ≤ number of nodes ≤ 10^6
+1 ≤  node->data ≤ 10^9
+1 ≤ target ≤ 10^9
+1 ≤ k ≤ 20
