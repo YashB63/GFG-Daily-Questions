@@ -7135,7 +7135,7 @@ Day 202:
     If no such number exists, return -1.
     
     Note: Numbers and words are separated by spaces only.
-
+    
     It is guaranteed that there are no leading zeroes in the answer.
 
 Day 203:
@@ -7163,7 +7163,6 @@ Day 203:
     end of the array starting from the first element. 
     
     If an element is 0, then you cannot move through that element.
-    
     Note: Return -1 if you can't reach the end of the array.
 
   Q3: Sort 0s, 1s and 2s:
