@@ -1,0 +1,35 @@
+Given two matrices mat1[][] and mat2[][] of size (4x4). 
+
+Find whether the resultant res[][] matrix is equal to 
+the multiplication of both the matrices.
+
+
+Examples :
+
+Input: mat1[][]= [[1, 2, 3, 4], [0, 1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]],
+       mat2[][]= [[1, 0, 0, 0], [0, 1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]],
+       res[][]= [[1, 2, 3, 4], [0, 1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]
+
+Output: true
+
+Explanation: Matrices are of size 4x4 and 4x4 
+which results in 4x4 matrix with elements as:
+
+res[][] = [[1, 2, 3, 4], [0, 1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]
+
+
+Input: mat1[][]= [[1, 2, 3, 4], [5, 6, 7, 8], [9, 10, 11, 12], [1, 2, 3, 4]],
+       mat2[][]= [[1, 0, 0, 1], [0, 1, 1, 0], [1, 0, 0, 1], [0, 1, 1, 0]],
+       res[][]= [[0, 1, 4, 4], [12, 5, 14, 12], [20, 20, 21, 20], [1, 6, 8, 9]]
+
+Output: false
+
+Explanation: Matrices are of size 4x4 and 4x4 
+which results in 4x4 matrix with elements as:
+
+res[][] = [[4, 6, 6, 4], [12, 14, 14, 12], 
+[20, 22, 22, 20], [4, 6, 6, 4]]
+
+
+Constraints:
+0 <= mat1[i], mat2[i] <= 100
