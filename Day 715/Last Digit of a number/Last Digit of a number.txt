@@ -1,0 +1,20 @@
+Given an integer n. 
+
+Write a program to return the 
+last digit of the number.
+
+
+Examples:
+
+Input: n = 10
+
+Output: 0
+
+
+Input: n = 9768
+
+Output: 8
+
+
+Constraints:
+-10^9 ≤ n ≤ 10^9
