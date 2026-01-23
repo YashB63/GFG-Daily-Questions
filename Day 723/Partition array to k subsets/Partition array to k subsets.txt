@@ -1,0 +1,31 @@
+Given an integer array arr[ ] and an integer k, 
+the task is to check if the array arr[ ] could 
+be divided into k non-empty subsets with equal 
+sum of elements.
+
+Note: All elements of this array should 
+be part of exactly one partition.
+
+
+Examples:
+
+Input: arr[] = [2, 1, 4, 5, 6], k = 3
+
+Output: true
+
+Explanation: We can divide above array into 3 
+parts with equal sum as (2, 4), (1, 5), (6)
+
+
+Input: arr[] = [2, 1, 5, 5, 6], k = 3
+
+Output: false
+
+Explanation: It is not possible to divide 
+above array into 3 parts with equal sum.
+
+
+Constraints:
+
+1 ≤ k ≤ arr.size() ≤ 10
+1 ≤ arr[i] ≤ 100
