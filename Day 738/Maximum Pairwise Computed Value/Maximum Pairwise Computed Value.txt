@@ -1,0 +1,41 @@
+Given an even sized array arr[], where each consecutive pair of 
+elements represents a height with two fields: feet and inches. 
+
+Find the maximum height, where the height is calculated by 
+converting feet to inches and adding the inches.
+
+
+Examples:
+
+Input: arr[] = [1, 2, 2, 1] 
+
+Output: 25
+
+Explanation: (1, 2) and (2, 1) are respective given heights. 
+
+After converting both heigths in to inches, we get 14 and 25 
+as respective heights. 
+
+So, 25 is the maximum height.
+
+
+Input: arr[] = [3, 2, 2, 3, 1, 2]
+
+Output: 38
+
+Explanation: (3, 2), (2,3) and (1, 2) are respective given heights. 
+
+After converting both heigths in to inches, we get 38, 27 and 14 
+as respective heights. 
+
+So, 38 is the maximum height.
+
+
+Expected Time Complexity: O(n)
+Expected Auxiliary Space: O(1)
+
+
+Constraints:
+
+2 <= arr.size() <= 10^5
+1 <= arr[i] <= 10^5
