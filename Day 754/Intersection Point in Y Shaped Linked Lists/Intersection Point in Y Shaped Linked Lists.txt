@@ -1,0 +1,34 @@
+Given two singly linked lists, write a program to get 
+the point where two linked lists intersect each other. 
+
+If the linked list does not merge at any point, it 
+should return NULL.
+
+
+Examples:
+
+Input: LinkedList1: 3->6->9->common, LinkedList2: 10->common, 
+common: 15->30->NULL
+
+Output: 15
+
+Explanation:
+
+
+Input: LinkedList1: 4->1->common, LinkedList2: 5->6->1->common, 
+common: 8->4->5->NULL
+
+Output: 8
+
+Explanation: 
+Expected Time Complexity: O(n+m)
+Expected Space Complexity: O(n)
+
+
+Constraints:
+
+Length of Both LinkedList before the intersection(if any) is greater than 0.
+1 ≤ no. of nodes in LinkedList1, LinkedList2 ≤ 10^5
+-1000 ≤ node->data ≤ 1000
+
+Challenge: Try to solve the problem without using any extra space.
