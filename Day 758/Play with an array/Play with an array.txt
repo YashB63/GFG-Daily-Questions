@@ -1,0 +1,32 @@
+You are given an array arr[] of positive integers. 
+
+You have to rearrange the array elements such that the 
+number at the odd index is strictly greater than the 
+number at the previous even index.
+
+If the array can be rearranged according to condition, 
+then return true otherwise return false.
+
+
+Examples:
+
+Input: arr[] = [5, 4, 3, 2, 1]
+
+Output: true
+
+Explanation: The given array after modification 
+will be as such: [4, 5, 2, 3, 1,].
+
+
+Input: arr[] = [4, 3, 1, 1]
+
+Output: true
+
+Explanation: The given array after modification 
+will be as such: [4, 5, 2, 3, 1,].
+
+
+Constraints:
+
+1 ≤ arr.size() ≤ 10^5
+1 ≤ arr[i] ≤ 10^6
