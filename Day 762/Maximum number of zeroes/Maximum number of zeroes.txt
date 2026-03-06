@@ -1,0 +1,33 @@
+Given an array arr[] of integers, the task is to find the 
+number that has the maximum number of zeroes. 
+
+If there are no zeroes then print -1.
+
+Note: If there are multiple numbers with the same (max) 
+number of zeroes then print the Maximum number among them.
+
+
+Examples:
+
+Input: arr[] = [10, 20, 3000, 9999, 200]
+
+Output: 3000
+
+Explanation: 3000 contains 3 zero's in it.
+
+
+Input: arr[] = [1, 2, 3, 4]
+
+Output: -1
+
+Explanation: No zero is present.
+
+
+Expected Time Complexity: O(n*log10(max(arr[i])). 
+Expected Auxiliary Space: O(1).
+
+
+Constraints:
+
+1 ≤ arr.size() ≤ 10^5
+1 < arr[i] < 10^100
