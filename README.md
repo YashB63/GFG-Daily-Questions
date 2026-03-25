@@ -7163,7 +7163,6 @@ Day 203:
     end of the array starting from the first element. 
     
     If an element is 0, then you cannot move through that element.
-    
     Note: Return -1 if you can't reach the end of the array.
 
   Q3: Sort 0s, 1s and 2s:
